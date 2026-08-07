@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABD Ekonomik Takvimi</title>
+<style>
+  /* Stablex marka paleti (stablex.com.tr'den olculdu) */
+  :root {
+    --bg: #f9fafb;
+    --panel: #ffffff;
+    --panel-2: #f3f4f6;
+    --border: #e5e7eb;
+    --text: #000000;
+    --text-dim: #6a7282;
+    --text-mid: #364153;
+    --accent: #dc0005;
+    --accent-dim: #fde8e8;
+    --high: #fb2c36;
+    --medium: #f0a500;
+    --low: #9aa3af;
+    --green: #00c758;
+    --red: #fb2c36;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    padding: 24px;
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 4px;
+  }
+  .subtitle {
+    color: var(--text-dim);
+    font-size: 13px;
+    margin-bottom: 20px;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  /* Ana sekmeler */
+  .main-tabs {
+    display: flex;
+    gap: 4px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 16px;
+  }
+  .main-tab {
+    padding: 10px 18px;
+    background: transparent;
+    border: none;
+    color: var(--text-dim);
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: color .15s, border-color .15s;
+  }
+  .main-tab:hover { color: var(--text); }
+  .main-tab.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  /* Alt sekmeler */
+  .sub-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 16px;
+  }
+  .sub-tab {
+    padding: 6px 14px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--text-dim);
+    font-size: 13px;
+    cursor: pointer;
+    transition: background .15s, color .15s, border-color .15s;
+  }
+  .sub-tab:hover { border-color: var(--accent-dim); color: var(--text); }
+  .sub-tab.active {
+    background: var(--accent-dim);
+    border-color: var(--accent);
+    color: var(--text);
+  }
+  /* Tablo */
+  .table-wrap {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  thead th {
+    text-align: left;
+    padding: 10px 14px;
+    background: var(--panel-2);
+    color: var(--text-dim);
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+  }
+  tbody td {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover { background: var(--panel-2); }
+  .date-heading td {
+    background: var(--panel-2);
+    color: var(--accent);
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+  }
+  .impact-dots { display: inline-flex; gap: 3px; }
+  .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--border);
+  }
+  .dot.filled.impact-1 { background: var(--low); }
+  .dot.filled.impact-2 { background: var(--medium); }
+  .dot.filled.impact-3 { background: var(--high); }
+  .event-name { font-weight: 500; }
+  .val-actual { color: var(--green); font-weight: 600; }
+  .val-forecast, .val-previous { color: var(--text-dim); }
+  .empty-state {
+    padding: 40px 20px;
+    text-align: center;
+    color: var(--text-dim);
+    font-size: 14px;
+  }
+  .meta {
+    color: var(--text-dim);
+    font-size: 12px;
+    margin-top: 12px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>ABD Ekonomik Takvimi</h1>
+  <div class="subtitle" id="generatedAt">Veri yükleniyor…</div>
+
+  <div class="main-tabs" id="mainTabs"></div>
+  <div class="sub-tabs" id="subTabs"></div>
+  <div class="table-wrap">
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th style="width:80px">Saat</th>
+          <th style="width:70px">Etki</th>
+          <th>Etkinlik</th>
+          <th style="width:100px">Açıklanan</th>
+          <th style="width:100px">Beklenti</th>
+          <th style="width:100px">Önceki</th>
+        </tr>
+      </thead>
+      <tbody id="dataBody"></tbody>
+    </table>
+  </div>
+  <div class="meta" id="rowCount"></div>
+</div>
+
+<script>
+// Cache-busting: GitHub Pages/tarayici JSON'u agresif cache'leyebilir,
+// her yuklemede taze veri gelsin diye zaman damgasi ekleniyor.
+const DATA_URL = "data/economic_calendar.json?t=" + Date.now();
+
+const MAIN_TABS = [
+  { key: "past_months",          label: "Geçmiş Aylar" },
+  { key: "current_month",        label: "Bu Ay (Tümü)" },
+  { key: "current_month_weekly", label: "Bu Ay (Haftalık)" },
+];
+
+let dataset = null;
+let activeMain = "current_month";
+let activeSub = null;
+
+async function loadData() {
+  try {
+    const res = await fetch(DATA_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    dataset = await res.json();
+  } catch (err) {
+    document.getElementById("generatedAt").textContent =
+      `Veri yüklenemedi: ${err.message}`;
+    return;
+  }
+  document.getElementById("generatedAt").textContent =
+    `${dataset.country} · Son güncelleme: ${dataset.generated_at}`;
+  renderMainTabs();
+  setActiveMain(pickDefaultMain());
+}
+
+function pickDefaultMain() {
+  if (dataset.current_month && Object.keys(dataset.current_month).length) return "current_month";
+  if (dataset.current_month_weekly && Object.keys(dataset.current_month_weekly).length) return "current_month_weekly";
+  return "past_months";
+}
+
+function renderMainTabs() {
+  const wrap = document.getElementById("mainTabs");
+  wrap.innerHTML = "";
+  MAIN_TABS.forEach(tab => {
+    const btn = document.createElement("button");
+    btn.className = "main-tab" + (tab.key === activeMain ? " active" : "");
+    btn.textContent = tab.label;
+    btn.onclick = () => setActiveMain(tab.key);
+    wrap.appendChild(btn);
+  });
+}
+
+function setActiveMain(key) {
+  activeMain = key;
+  renderMainTabs();
+  renderSubTabs();
+}
+
+function getSubKeysForMain() {
+  if (activeMain === "current_month") {
+    return Object.keys(dataset.current_month || {}).sort();
+  }
+  if (activeMain === "past_months") {
+    return Object.keys(dataset.past_months || {}).sort().reverse();
+  }
+  if (activeMain === "current_month_weekly") {
+    return Object.keys(dataset.current_month_weekly || {})
+      .sort((a, b) => {
+        const na = parseInt(a.replace("week_", ""), 10);
+        const nb = parseInt(b.replace("week_", ""), 10);
+        return na - nb;
+      });
+  }
+  return [];
+}
+
+function subTabLabel(key) {
+  if (activeMain === "current_month_weekly") {
+    return dataset.current_month_weekly[key]?.label || key;
+  }
+  return key; // "YYYY-MM"
+}
+
+function renderSubTabs() {
+  const wrap = document.getElementById("subTabs");
+  wrap.innerHTML = "";
+  const keys = getSubKeysForMain();
+
+  if (!keys.length) {
+    wrap.innerHTML = "";
+    renderTable([]);
+    return;
+  }
+
+  if (!keys.includes(activeSub)) {
+    activeSub = keys[0];
+  }
+
+  keys.forEach(key => {
+    const btn = document.createElement("button");
+    btn.className = "sub-tab" + (key === activeSub ? " active" : "");
+    btn.textContent = subTabLabel(key);
+    btn.onclick = () => {
+      activeSub = key;
+      renderSubTabs();
+    };
+    wrap.appendChild(btn);
+  });
+
+  renderTable(getEventsForActiveSub());
+}
+
+function getEventsForActiveSub() {
+  if (!activeSub) return [];
+  if (activeMain === "current_month") return dataset.current_month[activeSub] || [];
+  if (activeMain === "past_months") return dataset.past_months[activeSub] || [];
+  if (activeMain === "current_month_weekly") {
+    return dataset.current_month_weekly[activeSub]?.events || [];
+  }
+  return [];
+}
+
+function impactDots(level) {
+  let html = '<span class="impact-dots">';
+  for (let i = 1; i <= 3; i++) {
+    const filled = i <= level ? `filled impact-${level}` : "";
+    html += `<span class="dot ${filled}"></span>`;
+  }
+  html += "</span>";
+  return html;
+}
+
+function renderTable(events) {
+  const tbody = document.getElementById("dataBody");
+  const countEl = document.getElementById("rowCount");
+  tbody.innerHTML = "";
+
+  if (!events.length) {
+    tbody.innerHTML = `<tr><td colspan="6" class="empty-state">Bu aralık için veri bulunamadı.</td></tr>`;
+    countEl.textContent = "";
+    return;
+  }
+
+  let lastDate = null;
+  events.forEach(ev => {
+    if (ev.date !== lastDate) {
+      lastDate = ev.date;
+      const trHead = document.createElement("tr");
+      trHead.className = "date-heading";
+      trHead.innerHTML = `<td colspan="6">${ev.date}</td>`;
+      tbody.appendChild(trHead);
+    }
+    const tr = document.createElement("tr");
+    tr.innerHTML = `
+      <td>${ev.time || "—"}</td>
+      <td>${impactDots(ev.impact || 0)}</td>
+      <td class="event-name">${escapeHtml(ev.event)}</td>
+      <td class="val-actual">${escapeHtml(ev.actual) || "—"}</td>
+      <td class="val-forecast">${escapeHtml(ev.forecast) || "—"}</td>
+      <td class="val-previous">${escapeHtml(ev.previous) || "—"}</td>
+    `;
+    tbody.appendChild(tr);
+  });
+
+  countEl.textContent = `${events.length} etkinlik listeleniyor`;
+}
+
+function escapeHtml(str) {
+  if (!str) return "";
+  const div = document.createElement("div");
+  div.textContent = str;
+  return div.innerHTML;
+}
+
+loadData();
+</script>
+</body>
+</html>
