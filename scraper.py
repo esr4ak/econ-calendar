@@ -137,11 +137,18 @@ def transform(raw_events: list[dict]) -> list[CalendarEvent]:
 
 
 def fetch_range(start: date, end: date, country: str = "US", retries: int = 3) -> list[dict]:
-    """[start, end] (dahil) tarih araligi icin TradingView'den ham
-    etkinlik listesini ceker. API 'to' parametresini gun sonuna kadar
-    dahil etmesi icin bir sonraki gunun 00:00'ina kadar istiyoruz."""
-    from_iso = datetime.combine(start, datetime.min.time(), tzinfo=timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
-    to_dt = datetime.combine(end + timedelta(days=1), datetime.min.time(), tzinfo=timezone.utc)
+    """[start, end] (dahil, ABD Dogu saatiyle) tarih araligi icin
+    TradingView'den ham etkinlik listesini ceker. API sorgusu UTC
+    bekliyor ama gosterim DISPLAY_TZ'de (America/New_York) yapiliyor;
+    UTC ile Dogu saati arasindaki 4-5 saatlik farktan dolayi ayin/
+    haftanin son gunundeki gec saatli bir etkinlik (orn. 23:00 Dogu
+    saati = ertesi gun ~03:00 UTC) tam sinirda sorgulanirsa disarida
+    kalabilirdi. Bunu onlemek icin UTC sorgu penceresini her iki
+    yonden 1'er gun genisletiyoruz; sonuc listesi zaten Dogu saatine
+    cevrilip transform() icinde dogru tarihe atanacagi icin fazladan
+    gelen komsu gun etkinlikleri scrape_range() tarafinda filtrelenir."""
+    from_iso = datetime.combine(start - timedelta(days=1), datetime.min.time(), tzinfo=timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+    to_dt = datetime.combine(end + timedelta(days=2), datetime.min.time(), tzinfo=timezone.utc)
     to_iso = to_dt.strftime("%Y-%m-%dT%H:%M:%S.000Z")
 
     label = f"{start.isoformat()} -> {end.isoformat()}"
@@ -166,8 +173,15 @@ def fetch_range(start: date, end: date, country: str = "US", retries: int = 3) -
 
 
 def scrape_range(start: date, end: date) -> list[dict]:
+    """fetch_range UTC sinirinda tasma payi biraktigi icin (bkz. o
+    fonksiyonun docstring'i) donen etkinlikler DISPLAY_TZ'deki yerel
+    tarihe gore [start, end] disina tasabilir - burada kesin olarak
+    filtreleniyor, boylece bir ayin/haftanin verisi komsu ayin/haftanin
+    etkinliklerini icermez."""
     raw_events = fetch_range(start, end)
-    return [asdict(e) for e in transform(raw_events)]
+    events = transform(raw_events)
+    in_range = [e for e in events if start.isoformat() <= e.date <= end.isoformat()]
+    return [asdict(e) for e in in_range]
 
 
 # ---------------------------------------------------------------------------
