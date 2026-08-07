@@ -230,6 +230,19 @@ def previous_months(reference: date, count: int) -> list[tuple[int, int]]:
     return results
 
 
+TR_MONTH_ABBR = {
+    1: "Oca", 2: "Şub", 3: "Mar", 4: "Nis", 5: "May", 6: "Haz",
+    7: "Tem", 8: "Ağu", 9: "Eyl", 10: "Eki", 11: "Kas", 12: "Ara",
+}
+
+
+def tr_day_month(d: date) -> str:
+    """'%d %b' locale'e bagli oldugu icin (sunucu locale'i genelde C/
+    POSIX, Ingilizce ay kisaltmasi doner) - sabit bir TR kisaltma
+    tablosuyla locale'den bagimsiz Turkce bicimlendirme yapar."""
+    return f"{d.day:02d} {TR_MONTH_ABBR[d.month]}"
+
+
 # ---------------------------------------------------------------------------
 # Veri seti insasi
 # ---------------------------------------------------------------------------
@@ -249,7 +262,7 @@ def build_dataset(today: date, past_months_count: int = 2) -> dict:
     for idx, (w_start, w_end) in enumerate(week_chunks(cur_start, cur_end), start=1):
         week_key = f"week_{idx}"
         dataset["current_month_weekly"][week_key] = {
-            "label": f"{idx}. Hafta ({w_start.strftime('%d %b')} - {w_end.strftime('%d %b')})",
+            "label": f"{idx}. Hafta ({tr_day_month(w_start)} - {tr_day_month(w_end)})",
             "start": w_start.isoformat(),
             "end": w_end.isoformat(),
             "events": scrape_range(w_start, w_end),
