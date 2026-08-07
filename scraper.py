@@ -53,6 +53,8 @@ from zoneinfo import ZoneInfo
 
 import requests
 
+from translations import translate_title
+
 API_URL = "https://economic-calendar.tradingview.com/events"
 OUTPUT_PATH = Path(__file__).parent / "data" / "economic_calendar.json"
 
@@ -124,7 +126,7 @@ def transform(raw_events: list[dict]) -> list[CalendarEvent]:
                 time=dt_local.strftime("%H:%M"),
                 impact=impact,
                 impact_label=IMPACT_LABELS.get(impact, "Unknown"),
-                event=ev.get("title") or "",
+                event=translate_title(ev.get("title") or ""),
                 actual=format_value(ev.get("actual"), unit, scale),
                 forecast=format_value(ev.get("forecast"), unit, scale),
                 previous=format_value(ev.get("previous"), unit, scale),
