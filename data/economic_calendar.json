@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-08",
+  "generated_at": "2026-08-09",
   "country": "United States",
   "current_month": {
     "2026-08": [
@@ -946,7 +946,7 @@
         "impact_label": "Low",
         "event": "NFIB İş Dünyası İyimserlik Endeksi",
         "actual": "",
-        "forecast": "97.1",
+        "forecast": "97.8",
         "previous": "97.4"
       },
       {
@@ -1309,7 +1309,7 @@
         "impact_label": "Medium",
         "event": "Aylık Bütçe Dengesi",
         "actual": "",
-        "forecast": "",
+        "forecast": "-294.6B",
         "previous": "-120B"
       },
       {
@@ -1562,7 +1562,7 @@
         "impact_label": "High",
         "event": "Perakende Satışlar (Aylık)",
         "actual": "",
-        "forecast": "0.2%",
+        "forecast": "0.1%",
         "previous": "0.2%"
       },
       {
@@ -4327,7 +4327,7 @@
           "impact_label": "Low",
           "event": "NFIB İş Dünyası İyimserlik Endeksi",
           "actual": "",
-          "forecast": "97.1",
+          "forecast": "97.8",
           "previous": "97.4"
         },
         {
@@ -4690,7 +4690,7 @@
           "impact_label": "Medium",
           "event": "Aylık Bütçe Dengesi",
           "actual": "",
-          "forecast": "",
+          "forecast": "-294.6B",
           "previous": "-120B"
         },
         {
@@ -4943,7 +4943,7 @@
           "impact_label": "High",
           "event": "Perakende Satışlar (Aylık)",
           "actual": "",
-          "forecast": "0.2%",
+          "forecast": "0.1%",
           "previous": "0.2%"
         },
         {
