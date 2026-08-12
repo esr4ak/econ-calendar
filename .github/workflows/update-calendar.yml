@@ -2,8 +2,9 @@ name: Ekonomik takvimi guncelle
 
 on:
   schedule:
-    # Her gun 06:00 UTC (TR saatiyle 09:00) - piyasa acilisindan once
-    - cron: "0 6 * * *"
+    # Turkiye UTC+3'te sabit (DST yok) - TR saatiyle 12:00, 17:00 ve
+    # gece yarisi (00:00) calisir. UTC karsiliklari: 09:00, 14:00, 21:00.
+    - cron: "0 9,14,21 * * *"
   workflow_dispatch: {}   # Actions sekmesinden elle de tetiklenebilir
 
 permissions:

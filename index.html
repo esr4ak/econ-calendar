@@ -3,182 +3,301 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ABD Ekonomik Takvimi</title>
+<title>ABD Ekonomik Takvimi — Stablex</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
-  /* Stablex marka paleti (stablex.com.tr'den olculdu) */
   :root {
     --bg: #f9fafb;
     --panel: #ffffff;
-    --panel-2: #f3f4f6;
+    --panel-2: #f9fafb;
     --border: #e5e7eb;
     --text: #000000;
     --text-dim: #6a7282;
     --text-mid: #364153;
     --accent: #dc0005;
     --accent-dim: #fde8e8;
-    --high: #fb2c36;
-    --medium: #f0a500;
-    --low: #9aa3af;
     --green: #00c758;
-    --red: #fb2c36;
+    --shadow-card: 0 1px 2px rgba(16,24,40,.04), 0 4px 16px -4px rgba(16,24,40,.06);
+    --shadow-card-hover: 0 2px 4px rgba(16,24,40,.06), 0 12px 28px -8px rgba(16,24,40,.10);
   }
   * { box-sizing: border-box; }
   body {
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: "Nunito Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     background: var(--bg);
     color: var(--text);
-    padding: 24px;
+  }
+
+  /* ---- Stablex header (stablex.com.tr ile ayni logo blogu) ---- */
+  .site-header {
+    background: #000;
+    padding: 18px 24px;
+  }
+  .site-header .inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .logo-block {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+  }
+  .logo-block .word {
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    color: #fff;
+  }
+  .logo-block .sub {
+    font-size: 11px;
+    font-weight: 600;
+    color: #9aa1ad;
+    margin-top: 2px;
+  }
+  .header-badge {
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background: var(--accent);
+    border-radius: 999px;
+    padding: 7px 16px;
+    white-space: nowrap;
+  }
+
+  /* ---- Breadcrumb (tool sayfalarindaki gibi) ---- */
+  .breadcrumb {
+    background: var(--panel);
+    border-bottom: 1px solid var(--border);
+    padding: 14px 24px;
+  }
+  .breadcrumb .inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--text-dim);
+  }
+  .breadcrumb .inner .current { color: var(--text); }
+
+  .page {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 32px 24px 64px;
+  }
+
+  /* ---- Kart ---- */
+  .card {
+    background: var(--panel);
+    border-radius: 20px;
+    box-shadow: var(--shadow-card);
+    overflow: hidden;
+  }
+  .card-header {
+    padding: 24px 28px 0;
   }
   h1 {
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: -0.01em;
     margin: 0 0 4px;
   }
   .subtitle {
     color: var(--text-dim);
     font-size: 13px;
-    margin-bottom: 20px;
+    font-weight: 600;
+    margin-bottom: 22px;
   }
-  .container {
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-  /* Ana sekmeler */
+
+  /* ---- Sekmeler: dolu-hap stili (sidebar aktif ogesiyle tutarli) ---- */
   .main-tabs {
     display: flex;
-    gap: 4px;
-    border-bottom: 1px solid var(--border);
-    margin-bottom: 16px;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 0 28px 18px;
   }
   .main-tab {
-    padding: 10px 18px;
+    padding: 9px 16px;
     background: transparent;
     border: none;
     color: var(--text-dim);
-    font-size: 14px;
-    font-weight: 500;
+    font-size: 13.5px;
+    font-weight: 700;
+    font-family: inherit;
+    border-radius: 10px;
     cursor: pointer;
-    border-bottom: 2px solid transparent;
-    transition: color .15s, border-color .15s;
+    transition: background .15s, color .15s;
   }
-  .main-tab:hover { color: var(--text); }
-  .main-tab.active {
-    color: var(--accent);
-    border-bottom-color: var(--accent);
-  }
-  /* Alt sekmeler */
+  .main-tab:hover { background: var(--panel-2); color: var(--text); }
+  .main-tab.active { color: #fff; background: var(--accent); }
+
   .sub-tabs {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 16px;
+    gap: 7px;
+    padding: 0 28px 20px;
   }
   .sub-tab {
-    padding: 6px 14px;
-    background: var(--panel);
+    padding: 6px 13px;
+    background: var(--panel-2);
     border: 1px solid var(--border);
     border-radius: 999px;
     color: var(--text-dim);
-    font-size: 13px;
+    font-size: 12.5px;
+    font-weight: 600;
+    font-family: inherit;
     cursor: pointer;
     transition: background .15s, color .15s, border-color .15s;
   }
-  .sub-tab:hover { border-color: var(--accent-dim); color: var(--text); }
-  .sub-tab.active {
-    background: var(--accent-dim);
-    border-color: var(--accent);
-    color: var(--text);
-  }
-  /* Tablo */
-  .table-wrap {
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    font-size: 13px;
-  }
+  .sub-tab:hover { border-color: var(--accent); color: var(--text); }
+  .sub-tab.active { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); }
+
+  /* ---- Tablo ---- */
+  .table-scroll { overflow-x: auto; border-top: 1px solid var(--border); }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 620px; }
   thead th {
     text-align: left;
-    padding: 10px 14px;
+    padding: 12px 28px;
     background: var(--panel-2);
     color: var(--text-dim);
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 700;
+    font-size: 11px;
     text-transform: uppercase;
-    letter-spacing: .04em;
+    letter-spacing: .05em;
     border-bottom: 1px solid var(--border);
-    position: sticky;
-    top: 0;
+    white-space: nowrap;
   }
-  tbody td {
-    padding: 10px 14px;
-    border-bottom: 1px solid var(--border);
-    vertical-align: middle;
-  }
+  thead th:first-child, tbody td:first-child { padding-left: 28px; }
+  thead th:last-child, tbody td:last-child { padding-right: 28px; }
+  tbody td { padding: 12px 14px; border-bottom: 1px solid var(--border); vertical-align: middle; }
   tbody tr:last-child td { border-bottom: none; }
-  tbody tr:hover { background: var(--panel-2); }
+  tbody tr.event-row:hover td { background: var(--panel-2); }
   .date-heading td {
     background: var(--panel-2);
     color: var(--accent);
-    font-weight: 600;
-    font-size: 12px;
+    font-weight: 800;
+    font-size: 11.5px;
     text-transform: uppercase;
-    letter-spacing: .03em;
+    letter-spacing: .04em;
   }
-  .impact-dots { display: inline-flex; gap: 3px; }
-  .dot {
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    background: var(--border);
+  .col-time, .col-actual, .col-forecast, .col-previous { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .impact-badge {
+    display: inline-block;
+    font-size: 10.5px;
+    font-weight: 800;
+    color: var(--accent);
+    background: var(--accent-dim);
+    border-radius: 999px;
+    padding: 3px 9px;
+    white-space: nowrap;
   }
-  .dot.filled.impact-1 { background: var(--low); }
-  .dot.filled.impact-2 { background: var(--medium); }
-  .dot.filled.impact-3 { background: var(--high); }
-  .event-name { font-weight: 500; }
-  .val-actual { color: var(--green); font-weight: 600; }
-  .val-forecast, .val-previous { color: var(--text-dim); }
-  .empty-state {
-    padding: 40px 20px;
-    text-align: center;
-    color: var(--text-dim);
-    font-size: 14px;
-  }
-  .meta {
-    color: var(--text-dim);
-    font-size: 12px;
-    margin-top: 12px;
+  .event-name { font-weight: 700; }
+  .val-actual { color: var(--green); font-weight: 800; }
+  .val-forecast, .val-previous { color: var(--text-dim); font-weight: 600; }
+  .empty-state { padding: 48px 20px; text-align: center; color: var(--text-dim); font-size: 13.5px; font-weight: 600; }
+  .meta { color: var(--text-dim); font-size: 12px; font-weight: 600; padding: 14px 28px 24px; }
+
+  /* ---- Mobil: tabloyu yatay kaydirmak yerine kart listesine
+     cevirir - 6 sutunlu tablo kucuk ekranda kullanilamaz olurdu. ---- */
+  @media (max-width: 640px) {
+    .page { padding: 20px 12px 48px; }
+    .card { border-radius: 16px; }
+    .card-header { padding: 20px 18px 0; }
+    h1 { font-size: 19px; }
+    .main-tabs, .sub-tabs { padding-left: 18px; padding-right: 18px; }
+    .main-tab { padding: 8px 12px; font-size: 12.5px; }
+
+    .table-scroll { overflow-x: visible; }
+    table { min-width: 0; }
+    thead { display: none; }
+    tbody tr.date-heading {
+      display: block;
+      padding: 10px 18px;
+    }
+    tbody tr.event-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      border: none;
+      border-bottom: 1px solid var(--border);
+      margin: 0 18px;
+      padding: 12px 0;
+    }
+    tbody tr.event-row:last-child { border-bottom: none; }
+    tbody tr.event-row td { border: none; padding: 0; }
+    tbody tr.event-row td.col-time { order: 1; font-size: 11.5px; font-weight: 700; color: var(--text-dim); }
+    tbody tr.event-row td:nth-child(2) { display: none; } /* Etki sutunu: her satirda ayni (Yuksek Etki), sayfa altbasliginda zaten belirtiliyor */
+    tbody tr.event-row td.event-name { order: 2; width: 100%; margin: 4px 0 10px; font-size: 14.5px; }
+    tbody tr.event-row td.col-actual,
+    tbody tr.event-row td.col-forecast,
+    tbody tr.event-row td.col-previous {
+      order: 3;
+      flex: 1 1 0;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+    tbody tr.event-row td.col-actual::before,
+    tbody tr.event-row td.col-forecast::before,
+    tbody tr.event-row td.col-previous::before {
+      content: attr(data-label);
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+      color: var(--text-dim);
+    }
+    .meta { padding: 14px 18px 20px; }
   }
 </style>
 </head>
 <body>
-<div class="container">
-  <h1>ABD Ekonomik Takvimi</h1>
-  <div class="subtitle" id="generatedAt">Veri yükleniyor…</div>
 
-  <div class="main-tabs" id="mainTabs"></div>
-  <div class="sub-tabs" id="subTabs"></div>
-  <div class="table-wrap">
-    <table id="dataTable">
-      <thead>
-        <tr>
-          <th style="width:80px">Saat</th>
-          <th style="width:70px">Etki</th>
-          <th>Etkinlik</th>
-          <th style="width:100px">Açıklanan</th>
-          <th style="width:100px">Beklenti</th>
-          <th style="width:100px">Önceki</th>
-        </tr>
-      </thead>
-      <tbody id="dataBody"></tbody>
-    </table>
+<header class="site-header">
+  <div class="inner">
+    <div class="logo-block">
+      <span class="word">STABLEX</span>
+      <span class="sub">Akbank Kuruluşu</span>
+    </div>
+    <span class="header-badge">Yüksek Etkili Takvim</span>
   </div>
-  <div class="meta" id="rowCount"></div>
+</header>
+
+<div class="breadcrumb">
+  <div class="inner">Stablex / <span class="current">Ekonomik Takvim</span></div>
+</div>
+
+<div class="page">
+  <div class="card">
+    <div class="card-header">
+      <h1>ABD Ekonomik Takvimi</h1>
+      <div class="subtitle" id="generatedAt">Veri yükleniyor…</div>
+    </div>
+
+    <div class="main-tabs" id="mainTabs"></div>
+    <div class="sub-tabs" id="subTabs"></div>
+    <div class="table-scroll">
+      <table id="dataTable">
+        <thead>
+          <tr>
+            <th style="width:70px">Saat</th>
+            <th style="width:110px">Etki</th>
+            <th>Etkinlik</th>
+            <th style="width:96px">Açıklanan</th>
+            <th style="width:96px">Beklenti</th>
+            <th style="width:96px">Önceki</th>
+          </tr>
+        </thead>
+        <tbody id="dataBody"></tbody>
+      </table>
+    </div>
+    <div class="meta" id="rowCount"></div>
+  </div>
 </div>
 
 <script>
@@ -207,7 +326,7 @@ async function loadData() {
     return;
   }
   document.getElementById("generatedAt").textContent =
-    `${dataset.country} · Son güncelleme: ${dataset.generated_at}`;
+    `${dataset.country} · Yalnızca yüksek etkili (3/3) etkinlikler · Son güncelleme: ${dataset.generated_at}`;
   renderMainTabs();
   setActiveMain(pickDefaultMain());
 }
@@ -300,23 +419,13 @@ function getEventsForActiveSub() {
   return [];
 }
 
-function impactDots(level) {
-  let html = '<span class="impact-dots">';
-  for (let i = 1; i <= 3; i++) {
-    const filled = i <= level ? `filled impact-${level}` : "";
-    html += `<span class="dot ${filled}"></span>`;
-  }
-  html += "</span>";
-  return html;
-}
-
 function renderTable(events) {
   const tbody = document.getElementById("dataBody");
   const countEl = document.getElementById("rowCount");
   tbody.innerHTML = "";
 
   if (!events.length) {
-    tbody.innerHTML = `<tr><td colspan="6" class="empty-state">Bu aralık için veri bulunamadı.</td></tr>`;
+    tbody.innerHTML = `<tr><td colspan="6" class="empty-state">Bu aralık için yüksek etkili etkinlik bulunamadı.</td></tr>`;
     countEl.textContent = "";
     return;
   }
@@ -331,18 +440,19 @@ function renderTable(events) {
       tbody.appendChild(trHead);
     }
     const tr = document.createElement("tr");
+    tr.className = "event-row";
     tr.innerHTML = `
-      <td>${ev.time || "—"}</td>
-      <td>${impactDots(ev.impact || 0)}</td>
+      <td class="col-time">${ev.time || "—"}</td>
+      <td><span class="impact-badge">Yüksek Etki</span></td>
       <td class="event-name">${escapeHtml(ev.event)}</td>
-      <td class="val-actual">${escapeHtml(ev.actual) || "—"}</td>
-      <td class="val-forecast">${escapeHtml(ev.forecast) || "—"}</td>
-      <td class="val-previous">${escapeHtml(ev.previous) || "—"}</td>
+      <td class="col-actual val-actual" data-label="Açıklanan">${escapeHtml(ev.actual) || "—"}</td>
+      <td class="col-forecast val-forecast" data-label="Beklenti">${escapeHtml(ev.forecast) || "—"}</td>
+      <td class="col-previous val-previous" data-label="Önceki">${escapeHtml(ev.previous) || "—"}</td>
     `;
     tbody.appendChild(tr);
   });
 
-  countEl.textContent = `${events.length} etkinlik listeleniyor`;
+  countEl.textContent = `${events.length} yüksek etkili etkinlik listeleniyor`;
 }
 
 function escapeHtml(str) {

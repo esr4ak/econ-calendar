@@ -172,15 +172,25 @@ def fetch_range(start: date, end: date, country: str = "US", retries: int = 3) -
     return []
 
 
+# Sadece en yuksek onem derecesindeki (3/3 kirmizi) etkinlikler
+# gosteriliyor - Stablex ekibinin talebi uzerine. Degistirmek icin
+# bu sabiti guncelleyin (1=Low, 2=Medium, 3=High).
+MIN_IMPACT = 3
+
+
 def scrape_range(start: date, end: date) -> list[dict]:
     """fetch_range UTC sinirinda tasma payi biraktigi icin (bkz. o
     fonksiyonun docstring'i) donen etkinlikler DISPLAY_TZ'deki yerel
     tarihe gore [start, end] disina tasabilir - burada kesin olarak
     filtreleniyor, boylece bir ayin/haftanin verisi komsu ayin/haftanin
-    etkinliklerini icermez."""
+    etkinliklerini icermez. Ayrica MIN_IMPACT altindaki etkinlikler
+    burada elenir."""
     raw_events = fetch_range(start, end)
     events = transform(raw_events)
-    in_range = [e for e in events if start.isoformat() <= e.date <= end.isoformat()]
+    in_range = [
+        e for e in events
+        if start.isoformat() <= e.date <= end.isoformat() and e.impact >= MIN_IMPACT
+    ]
     return [asdict(e) for e in in_range]
 
 
