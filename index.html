@@ -344,7 +344,7 @@ function renderCards(events) {
     card.innerHTML = `
       <div class="card-top">
         <div>
-          <span class="time-badge">${ev.time || "—"} (ET)</span>
+          <span class="time-badge">${ev.time || "—"}</span>
           <h2 class="event-title">${escapeHtml(ev.event)}</h2>
         </div>
         <span class="status-badge ${isReleased ? "released" : "pending"}">${isReleased ? "Açıklandı" : "Bekleniyor"}</span>
