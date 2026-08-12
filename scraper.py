@@ -54,6 +54,7 @@ from zoneinfo import ZoneInfo
 import requests
 
 from translations import translate_title
+from event_info import generate_summary, get_market_impact, get_meaning
 
 API_URL = "https://economic-calendar.tradingview.com/events"
 OUTPUT_PATH = Path(__file__).parent / "data" / "economic_calendar.json"
@@ -87,6 +88,9 @@ class CalendarEvent:
     actual: str
     forecast: str
     previous: str
+    meaning: str
+    market_impact: str
+    summary: str
 
 
 def log(msg: str) -> None:
@@ -119,6 +123,14 @@ def transform(raw_events: list[dict]) -> list[CalendarEvent]:
         impact = IMPORTANCE_TO_IMPACT.get(importance, 2)
         unit = ev.get("unit")
         scale = ev.get("scale")
+        title_tr = translate_title(ev.get("title") or "")
+        # ONEMLI: ozet, format_value() ile stringe cevrilmeden ONCE ham
+        # (float) actual/forecast/previous degerleriyle hesaplanmali -
+        # "7.359M" gibi birim ekli bir string sayisal karsilastirma
+        # yapamaz ve generate_summary() sessizce bos doner.
+        summary = generate_summary(
+            title_tr, ev.get("actual"), ev.get("forecast"), ev.get("previous")
+        )
         events.append(
             CalendarEvent(
                 datetime_raw=dt_local.strftime("%A, %B %d, %Y %H:%M"),
@@ -126,10 +138,13 @@ def transform(raw_events: list[dict]) -> list[CalendarEvent]:
                 time=dt_local.strftime("%H:%M"),
                 impact=impact,
                 impact_label=IMPACT_LABELS.get(impact, "Unknown"),
-                event=translate_title(ev.get("title") or ""),
+                event=title_tr,
                 actual=format_value(ev.get("actual"), unit, scale),
                 forecast=format_value(ev.get("forecast"), unit, scale),
                 previous=format_value(ev.get("previous"), unit, scale),
+                meaning=get_meaning(title_tr),
+                market_impact=get_market_impact(title_tr),
+                summary=summary,
             )
         )
     events.sort(key=lambda e: (e.date, e.time))

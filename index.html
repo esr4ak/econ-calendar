@@ -11,7 +11,7 @@
   :root {
     --bg: #f9fafb;
     --panel: #ffffff;
-    --panel-2: #f9fafb;
+    --panel-2: #f3f4f6;
     --border: #e5e7eb;
     --text: #000000;
     --text-dim: #6a7282;
@@ -19,6 +19,9 @@
     --accent: #dc0005;
     --accent-dim: #fde8e8;
     --green: #00c758;
+    --green-dim: #e6f9ef;
+    --amber: #f0a500;
+    --amber-dim: #fdf3e0;
     --shadow-card: 0 1px 2px rgba(16,24,40,.04), 0 4px 16px -4px rgba(16,24,40,.06);
     --shadow-card-hover: 0 2px 4px rgba(16,24,40,.06), 0 12px 28px -8px rgba(16,24,40,.10);
   }
@@ -30,229 +33,132 @@
     color: var(--text);
   }
 
-  /* ---- Stablex header (stablex.com.tr ile ayni logo blogu) ---- */
-  .site-header {
-    background: #000;
-    padding: 18px 24px;
-  }
+  /* ---- Stablex header ---- */
+  .site-header { background: #000; padding: 18px 24px; }
   .site-header .inner {
-    max-width: 1080px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 16px;
+    max-width: 1000px; margin: 0 auto;
+    display: flex; align-items: center; justify-content: space-between; gap: 16px;
   }
-  .logo-block {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.1;
-  }
-  .logo-block .word {
-    font-size: 22px;
-    font-weight: 800;
-    letter-spacing: -0.01em;
-    color: #fff;
-  }
-  .logo-block .sub {
-    font-size: 11px;
-    font-weight: 600;
-    color: #9aa1ad;
-    margin-top: 2px;
-  }
+  .logo-block { display: flex; flex-direction: column; line-height: 1.1; }
+  .logo-block .word { font-size: 22px; font-weight: 800; letter-spacing: -0.01em; color: #fff; }
+  .logo-block .sub { font-size: 11px; font-weight: 600; color: #9aa1ad; margin-top: 2px; }
   .header-badge {
-    font-size: 12px;
-    font-weight: 700;
-    color: #fff;
-    background: var(--accent);
-    border-radius: 999px;
-    padding: 7px 16px;
-    white-space: nowrap;
+    font-size: 12px; font-weight: 700; color: #fff; background: var(--accent);
+    border-radius: 999px; padding: 7px 16px; white-space: nowrap;
   }
 
-  /* ---- Breadcrumb (tool sayfalarindaki gibi) ---- */
-  .breadcrumb {
-    background: var(--panel);
-    border-bottom: 1px solid var(--border);
-    padding: 14px 24px;
-  }
-  .breadcrumb .inner {
-    max-width: 1080px;
-    margin: 0 auto;
-    font-size: 13px;
-    font-weight: 600;
-    color: var(--text-dim);
-  }
+  .breadcrumb { background: var(--panel); border-bottom: 1px solid var(--border); padding: 14px 24px; }
+  .breadcrumb .inner { max-width: 1000px; margin: 0 auto; font-size: 13px; font-weight: 600; color: var(--text-dim); }
   .breadcrumb .inner .current { color: var(--text); }
 
-  .page {
-    max-width: 1080px;
-    margin: 0 auto;
-    padding: 32px 24px 64px;
-  }
+  .page { max-width: 1000px; margin: 0 auto; padding: 32px 24px 64px; }
 
-  /* ---- Kart ---- */
-  .card {
-    background: var(--panel);
-    border-radius: 20px;
-    box-shadow: var(--shadow-card);
-    overflow: hidden;
-  }
-  .card-header {
-    padding: 24px 28px 0;
-  }
-  h1 {
-    font-size: 22px;
-    font-weight: 800;
-    letter-spacing: -0.01em;
-    margin: 0 0 4px;
-  }
-  .subtitle {
-    color: var(--text-dim);
-    font-size: 13px;
-    font-weight: 600;
-    margin-bottom: 22px;
-  }
+  .page-head { margin-bottom: 22px; }
+  h1 { font-size: 24px; font-weight: 800; letter-spacing: -0.01em; margin: 0 0 4px; }
+  .subtitle { color: var(--text-dim); font-size: 13px; font-weight: 600; }
 
-  /* ---- Sekmeler: dolu-hap stili (sidebar aktif ogesiyle tutarli) ---- */
+  /* ---- Sekmeler ---- */
   .main-tabs {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    padding: 0 28px 18px;
+    display: flex; flex-wrap: wrap; gap: 6px;
+    background: var(--panel); border-radius: 14px; padding: 6px;
+    box-shadow: var(--shadow-card); margin-bottom: 14px; width: fit-content;
   }
   .main-tab {
-    padding: 9px 16px;
-    background: transparent;
-    border: none;
-    color: var(--text-dim);
-    font-size: 13.5px;
-    font-weight: 700;
-    font-family: inherit;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background .15s, color .15s;
+    padding: 9px 16px; background: transparent; border: none; color: var(--text-dim);
+    font-size: 13.5px; font-weight: 700; font-family: inherit; border-radius: 10px;
+    cursor: pointer; transition: background .15s, color .15s;
   }
   .main-tab:hover { background: var(--panel-2); color: var(--text); }
   .main-tab.active { color: #fff; background: var(--accent); }
 
-  .sub-tabs {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 7px;
-    padding: 0 28px 20px;
-  }
+  .sub-tabs { display: flex; flex-wrap: wrap; gap: 7px; margin-bottom: 22px; }
   .sub-tab {
-    padding: 6px 13px;
-    background: var(--panel-2);
-    border: 1px solid var(--border);
-    border-radius: 999px;
-    color: var(--text-dim);
-    font-size: 12.5px;
-    font-weight: 600;
-    font-family: inherit;
-    cursor: pointer;
-    transition: background .15s, color .15s, border-color .15s;
+    padding: 7px 14px; background: var(--panel); border: 1px solid var(--border);
+    border-radius: 999px; color: var(--text-dim); font-size: 12.5px; font-weight: 600;
+    font-family: inherit; cursor: pointer; transition: background .15s, color .15s, border-color .15s;
   }
   .sub-tab:hover { border-color: var(--accent); color: var(--text); }
   .sub-tab.active { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); }
 
-  /* ---- Tablo ---- */
-  .table-scroll { overflow-x: auto; border-top: 1px solid var(--border); }
-  table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 620px; }
-  thead th {
-    text-align: left;
-    padding: 12px 28px;
-    background: var(--panel-2);
-    color: var(--text-dim);
-    font-weight: 700;
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: .05em;
-    border-bottom: 1px solid var(--border);
-    white-space: nowrap;
-  }
-  thead th:first-child, tbody td:first-child { padding-left: 28px; }
-  thead th:last-child, tbody td:last-child { padding-right: 28px; }
-  tbody td { padding: 12px 14px; border-bottom: 1px solid var(--border); vertical-align: middle; }
-  tbody tr:last-child td { border-bottom: none; }
-  tbody tr.event-row:hover td { background: var(--panel-2); }
-  .date-heading td {
-    background: var(--panel-2);
-    color: var(--accent);
-    font-weight: 800;
-    font-size: 11.5px;
-    text-transform: uppercase;
-    letter-spacing: .04em;
-  }
-  .col-time, .col-actual, .col-forecast, .col-previous { font-variant-numeric: tabular-nums; white-space: nowrap; }
-  .impact-badge {
-    display: inline-block;
-    font-size: 10.5px;
-    font-weight: 800;
-    color: var(--accent);
-    background: var(--accent-dim);
-    border-radius: 999px;
-    padding: 3px 9px;
-    white-space: nowrap;
-  }
-  .event-name { font-weight: 700; }
-  .val-actual { color: var(--green); font-weight: 800; }
-  .val-forecast, .val-previous { color: var(--text-dim); font-weight: 600; }
-  .empty-state { padding: 48px 20px; text-align: center; color: var(--text-dim); font-size: 13.5px; font-weight: 600; }
-  .meta { color: var(--text-dim); font-size: 12px; font-weight: 600; padding: 14px 28px 24px; }
+  /* ---- Etkinlik kartlari ---- */
+  #cardList { display: flex; flex-direction: column; gap: 14px; }
 
-  /* ---- Mobil: tabloyu yatay kaydirmak yerine kart listesine
-     cevirir - 6 sutunlu tablo kucuk ekranda kullanilamaz olurdu. ---- */
+  .date-divider {
+    display: flex; align-items: center; gap: 10px;
+    margin: 22px 0 2px; color: var(--accent); font-weight: 800;
+    font-size: 12px; text-transform: uppercase; letter-spacing: .05em;
+  }
+  .date-divider:first-child { margin-top: 0; }
+  .date-divider::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+
+  .event-card {
+    background: var(--panel); border-radius: 18px; border: 1px solid var(--border);
+    box-shadow: var(--shadow-card); padding: 20px 22px; transition: box-shadow .2s;
+  }
+  .event-card:hover { box-shadow: var(--shadow-card-hover); }
+
+  .card-top {
+    display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between;
+    gap: 12px; margin-bottom: 16px;
+  }
+  .time-badge {
+    display: inline-block; font-size: 11.5px; font-weight: 700; color: var(--accent);
+    background: var(--accent-dim); border-radius: 999px; padding: 4px 11px; margin-bottom: 8px;
+  }
+  .event-title { font-size: 17px; font-weight: 800; line-height: 1.3; margin: 0; }
+  .status-badge {
+    font-size: 10.5px; font-weight: 800; letter-spacing: .04em; text-transform: uppercase;
+    border-radius: 999px; padding: 5px 12px; white-space: nowrap; flex-shrink: 0;
+  }
+  .status-badge.released { color: var(--green); background: var(--green-dim); }
+  .status-badge.pending { color: var(--amber); background: var(--amber-dim); }
+
+  .info-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px; }
+  .info-box { background: var(--panel-2); border-radius: 12px; padding: 13px 15px; }
+  .info-box h3 {
+    font-size: 11px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em;
+    color: var(--text-mid); margin: 0 0 6px;
+  }
+  .info-box p { font-size: 12.5px; color: var(--text-mid); line-height: 1.5; margin: 0; }
+
+  .stats-row {
+    display: flex; gap: 20px; padding-top: 14px; border-top: 1px solid var(--border);
+    flex-wrap: wrap;
+  }
+  .stat { flex: 1; min-width: 80px; }
+  .stat .stat-label {
+    font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em;
+    color: var(--text-dim); margin-bottom: 3px;
+  }
+  .stat .stat-value { font-size: 16px; font-weight: 700; color: var(--text-mid); font-variant-numeric: tabular-nums; }
+  .stat.stat-actual .stat-label { color: var(--accent); }
+  .stat.stat-actual .stat-value { font-size: 19px; font-weight: 800; color: var(--green); }
+  .stat.stat-actual .stat-value.stat-empty { color: var(--border); font-weight: 700; }
+
+  .summary-box {
+    margin-top: 16px; padding: 13px 16px; border-radius: 12px;
+    background: var(--accent-dim); border: 1px solid #f6c6c7;
+    display: flex; align-items: flex-start; gap: 10px;
+  }
+  .summary-box .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--accent); margin-top: 6px; flex-shrink: 0; }
+  .summary-box .summary-label {
+    font-size: 10px; font-weight: 800; text-transform: uppercase; letter-spacing: .04em;
+    color: var(--accent); margin: 0 0 3px;
+  }
+  .summary-box p.summary-text { font-size: 12.5px; color: #7a1013; line-height: 1.5; margin: 0; }
+
+  .empty-state {
+    background: var(--panel); border-radius: 18px; border: 1px solid var(--border);
+    padding: 48px 20px; text-align: center; color: var(--text-dim); font-size: 13.5px; font-weight: 600;
+  }
+  .meta { color: var(--text-dim); font-size: 12px; font-weight: 600; margin-top: 18px; }
+
   @media (max-width: 640px) {
-    .page { padding: 20px 12px 48px; }
-    .card { border-radius: 16px; }
-    .card-header { padding: 20px 18px 0; }
-    h1 { font-size: 19px; }
-    .main-tabs, .sub-tabs { padding-left: 18px; padding-right: 18px; }
-    .main-tab { padding: 8px 12px; font-size: 12.5px; }
-
-    .table-scroll { overflow-x: visible; }
-    table { min-width: 0; }
-    thead { display: none; }
-    tbody tr.date-heading {
-      display: block;
-      padding: 10px 18px;
-    }
-    tbody tr.event-row {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: baseline;
-      border: none;
-      border-bottom: 1px solid var(--border);
-      margin: 0 18px;
-      padding: 12px 0;
-    }
-    tbody tr.event-row:last-child { border-bottom: none; }
-    tbody tr.event-row td { border: none; padding: 0; }
-    tbody tr.event-row td.col-time { order: 1; font-size: 11.5px; font-weight: 700; color: var(--text-dim); }
-    tbody tr.event-row td:nth-child(2) { display: none; } /* Etki sutunu: her satirda ayni (Yuksek Etki), sayfa altbasliginda zaten belirtiliyor */
-    tbody tr.event-row td.event-name { order: 2; width: 100%; margin: 4px 0 10px; font-size: 14.5px; }
-    tbody tr.event-row td.col-actual,
-    tbody tr.event-row td.col-forecast,
-    tbody tr.event-row td.col-previous {
-      order: 3;
-      flex: 1 1 0;
-      display: flex;
-      flex-direction: column;
-      gap: 3px;
-    }
-    tbody tr.event-row td.col-actual::before,
-    tbody tr.event-row td.col-forecast::before,
-    tbody tr.event-row td.col-previous::before {
-      content: attr(data-label);
-      font-size: 10px;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: .04em;
-      color: var(--text-dim);
-    }
-    .meta { padding: 14px 18px 20px; }
+    .page { padding: 20px 14px 48px; }
+    h1 { font-size: 20px; }
+    .info-grid { grid-template-columns: 1fr; }
+    .event-card { padding: 16px 16px; border-radius: 14px; }
+    .stats-row { gap: 14px; }
   }
 </style>
 </head>
@@ -273,31 +179,15 @@
 </div>
 
 <div class="page">
-  <div class="card">
-    <div class="card-header">
-      <h1>ABD Ekonomik Takvimi</h1>
-      <div class="subtitle" id="generatedAt">Veri yükleniyor…</div>
-    </div>
-
-    <div class="main-tabs" id="mainTabs"></div>
-    <div class="sub-tabs" id="subTabs"></div>
-    <div class="table-scroll">
-      <table id="dataTable">
-        <thead>
-          <tr>
-            <th style="width:70px">Saat</th>
-            <th style="width:110px">Etki</th>
-            <th>Etkinlik</th>
-            <th style="width:96px">Açıklanan</th>
-            <th style="width:96px">Beklenti</th>
-            <th style="width:96px">Önceki</th>
-          </tr>
-        </thead>
-        <tbody id="dataBody"></tbody>
-      </table>
-    </div>
-    <div class="meta" id="rowCount"></div>
+  <div class="page-head">
+    <h1>ABD Ekonomik Takvimi</h1>
+    <div class="subtitle" id="generatedAt">Veri yükleniyor…</div>
   </div>
+
+  <div class="main-tabs" id="mainTabs"></div>
+  <div class="sub-tabs" id="subTabs"></div>
+  <div id="cardList"></div>
+  <div class="meta" id="rowCount"></div>
 </div>
 
 <script>
@@ -311,6 +201,8 @@ const MAIN_TABS = [
   { key: "current_month_weekly", label: "Bu Ay (Haftalık)" },
 ];
 
+const MONTH_TR = ["Oca","Şub","Mar","Nis","May","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara"];
+
 let dataset = null;
 let activeMain = "current_month";
 let activeSub = null;
@@ -321,8 +213,7 @@ async function loadData() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     dataset = await res.json();
   } catch (err) {
-    document.getElementById("generatedAt").textContent =
-      `Veri yüklenemedi: ${err.message}`;
+    document.getElementById("generatedAt").textContent = `Veri yüklenemedi: ${err.message}`;
     return;
   }
   document.getElementById("generatedAt").textContent =
@@ -356,28 +247,21 @@ function setActiveMain(key) {
 }
 
 function getSubKeysForMain() {
-  if (activeMain === "current_month") {
-    return Object.keys(dataset.current_month || {}).sort();
-  }
-  if (activeMain === "past_months") {
-    return Object.keys(dataset.past_months || {}).sort().reverse();
-  }
+  if (activeMain === "current_month") return Object.keys(dataset.current_month || {}).sort();
+  if (activeMain === "past_months") return Object.keys(dataset.past_months || {}).sort().reverse();
   if (activeMain === "current_month_weekly") {
-    return Object.keys(dataset.current_month_weekly || {})
-      .sort((a, b) => {
-        const na = parseInt(a.replace("week_", ""), 10);
-        const nb = parseInt(b.replace("week_", ""), 10);
-        return na - nb;
-      });
+    return Object.keys(dataset.current_month_weekly || {}).sort((a, b) => {
+      const na = parseInt(a.replace("week_", ""), 10);
+      const nb = parseInt(b.replace("week_", ""), 10);
+      return na - nb;
+    });
   }
   return [];
 }
 
 function subTabLabel(key) {
-  if (activeMain === "current_month_weekly") {
-    return dataset.current_month_weekly[key]?.label || key;
-  }
-  return key; // "YYYY-MM"
+  if (activeMain === "current_month_weekly") return dataset.current_month_weekly[key]?.label || key;
+  return key;
 }
 
 function renderSubTabs() {
@@ -386,46 +270,44 @@ function renderSubTabs() {
   const keys = getSubKeysForMain();
 
   if (!keys.length) {
-    wrap.innerHTML = "";
-    renderTable([]);
+    renderCards([]);
     return;
   }
-
-  if (!keys.includes(activeSub)) {
-    activeSub = keys[0];
-  }
+  if (!keys.includes(activeSub)) activeSub = keys[0];
 
   keys.forEach(key => {
     const btn = document.createElement("button");
     btn.className = "sub-tab" + (key === activeSub ? " active" : "");
     btn.textContent = subTabLabel(key);
-    btn.onclick = () => {
-      activeSub = key;
-      renderSubTabs();
-    };
+    btn.onclick = () => { activeSub = key; renderSubTabs(); };
     wrap.appendChild(btn);
   });
 
-  renderTable(getEventsForActiveSub());
+  renderCards(getEventsForActiveSub());
 }
 
 function getEventsForActiveSub() {
   if (!activeSub) return [];
   if (activeMain === "current_month") return dataset.current_month[activeSub] || [];
   if (activeMain === "past_months") return dataset.past_months[activeSub] || [];
-  if (activeMain === "current_month_weekly") {
-    return dataset.current_month_weekly[activeSub]?.events || [];
-  }
+  if (activeMain === "current_month_weekly") return dataset.current_month_weekly[activeSub]?.events || [];
   return [];
 }
 
-function renderTable(events) {
-  const tbody = document.getElementById("dataBody");
+function formatDateHeading(isoDate) {
+  const [y, m, d] = isoDate.split("-").map(Number);
+  const dt = new Date(Date.UTC(y, m - 1, d));
+  const weekday = ["Paz","Pzt","Sal","Çar","Per","Cum","Cmt"][dt.getUTCDay()];
+  return `${weekday}, ${d} ${MONTH_TR[m - 1]} ${y}`;
+}
+
+function renderCards(events) {
+  const list = document.getElementById("cardList");
   const countEl = document.getElementById("rowCount");
-  tbody.innerHTML = "";
+  list.innerHTML = "";
 
   if (!events.length) {
-    tbody.innerHTML = `<tr><td colspan="6" class="empty-state">Bu aralık için yüksek etkili etkinlik bulunamadı.</td></tr>`;
+    list.innerHTML = `<div class="empty-state">Bu aralık için yüksek etkili etkinlik bulunamadı.</div>`;
     countEl.textContent = "";
     return;
   }
@@ -434,22 +316,57 @@ function renderTable(events) {
   events.forEach(ev => {
     if (ev.date !== lastDate) {
       lastDate = ev.date;
-      const trHead = document.createElement("tr");
-      trHead.className = "date-heading";
-      trHead.innerHTML = `<td colspan="6">${ev.date}</td>`;
-      tbody.appendChild(trHead);
+      const divider = document.createElement("div");
+      divider.className = "date-divider";
+      divider.textContent = formatDateHeading(ev.date);
+      list.appendChild(divider);
     }
-    const tr = document.createElement("tr");
-    tr.className = "event-row";
-    tr.innerHTML = `
-      <td class="col-time">${ev.time || "—"}</td>
-      <td><span class="impact-badge">Yüksek Etki</span></td>
-      <td class="event-name">${escapeHtml(ev.event)}</td>
-      <td class="col-actual val-actual" data-label="Açıklanan">${escapeHtml(ev.actual) || "—"}</td>
-      <td class="col-forecast val-forecast" data-label="Beklenti">${escapeHtml(ev.forecast) || "—"}</td>
-      <td class="col-previous val-previous" data-label="Önceki">${escapeHtml(ev.previous) || "—"}</td>
+
+    const isReleased = !!ev.actual;
+    const card = document.createElement("div");
+    card.className = "event-card";
+
+    const infoGrid = (ev.meaning || ev.market_impact) ? `
+      <div class="info-grid">
+        ${ev.meaning ? `<div class="info-box"><h3>Ne Anlama Gelir?</h3><p>${escapeHtml(ev.meaning)}</p></div>` : ""}
+        ${ev.market_impact ? `<div class="info-box"><h3>Piyasa Etkisi</h3><p>${escapeHtml(ev.market_impact)}</p></div>` : ""}
+      </div>` : "";
+
+    const summaryBox = ev.summary ? `
+      <div class="summary-box">
+        <span class="dot"></span>
+        <div>
+          <p class="summary-label">Anlık Durum Özeti</p>
+          <p class="summary-text">${escapeHtml(ev.summary)}</p>
+        </div>
+      </div>` : "";
+
+    card.innerHTML = `
+      <div class="card-top">
+        <div>
+          <span class="time-badge">${ev.time || "—"} (ET)</span>
+          <h2 class="event-title">${escapeHtml(ev.event)}</h2>
+        </div>
+        <span class="status-badge ${isReleased ? "released" : "pending"}">${isReleased ? "Açıklandı" : "Bekleniyor"}</span>
+      </div>
+      ${infoGrid}
+      <div class="stats-row">
+        <div class="stat">
+          <div class="stat-label">Önceki</div>
+          <div class="stat-value">${escapeHtml(ev.previous) || "—"}</div>
+        </div>
+        <div class="stat">
+          <div class="stat-label">Beklenti</div>
+          <div class="stat-value">${escapeHtml(ev.forecast) || "—"}</div>
+        </div>
+        <div class="stat stat-actual">
+          <div class="stat-label">Açıklanan</div>
+          <div class="stat-value${isReleased ? "" : " stat-empty"}">${isReleased ? escapeHtml(ev.actual) : "—"}</div>
+        </div>
+      </div>
+      ${summaryBox}
     `;
-    tbody.appendChild(tr);
+    list.appendChild(card);
   });
 
   countEl.textContent = `${events.length} yüksek etkili etkinlik listeleniyor`;
