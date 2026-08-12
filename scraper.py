@@ -76,6 +76,18 @@ DISPLAY_TZ = ZoneInfo("America/New_York")  # ABD takvimi icin dogal secim
 IMPORTANCE_TO_IMPACT = {1: 3, 0: 2, -1: 1}
 IMPACT_LABELS = {0: "None", 1: "Low", 2: "Medium", 3: "High"}
 
+# Sadece en yuksek onem derecesindeki (3/3 kirmizi) etkinlikler
+# gosteriliyor - Stablex ekibinin talebi uzerine. Degistirmek icin
+# bu sabiti guncelleyin (1=Low, 2=Medium, 3=High).
+MIN_IMPACT = 3
+
+# Bu ana kadar EVENT_INFO'ya eklendigi dogrulanmis basliklar - yeni bir
+# yuksek etkili gosterge cikarsa (TradingView yeni bir tur eklerse) bu
+# sette olmayacagi icin asagida bir defaya mahsus uyari basilir (bkz.
+# transform()). Boylece 'Ne Anlama Gelir/Piyasa Etkisi' kutulari sessizce
+# bos kalmaz, GitHub Actions loglarinda fark edilir.
+_warned_missing_event_info: set[str] = set()
+
 
 @dataclass
 class CalendarEvent:
@@ -131,6 +143,13 @@ def transform(raw_events: list[dict]) -> list[CalendarEvent]:
         summary = generate_summary(
             title_tr, ev.get("actual"), ev.get("forecast"), ev.get("previous")
         )
+        meaning = get_meaning(title_tr)
+        if impact >= MIN_IMPACT and not meaning and title_tr not in _warned_missing_event_info:
+            _warned_missing_event_info.add(title_tr)
+            log(
+                f"UYARI: '{title_tr}' yuksek etkili ama event_info.py'de kaydi yok - "
+                f"kartinda 'Ne Anlama Gelir/Piyasa Etkisi' bos kalacak. EVENT_INFO'ya ekleyin."
+            )
         events.append(
             CalendarEvent(
                 datetime_raw=dt_local.strftime("%A, %B %d, %Y %H:%M"),
@@ -142,7 +161,7 @@ def transform(raw_events: list[dict]) -> list[CalendarEvent]:
                 actual=format_value(ev.get("actual"), unit, scale),
                 forecast=format_value(ev.get("forecast"), unit, scale),
                 previous=format_value(ev.get("previous"), unit, scale),
-                meaning=get_meaning(title_tr),
+                meaning=meaning,
                 market_impact=get_market_impact(title_tr),
                 summary=summary,
             )
@@ -185,12 +204,6 @@ def fetch_range(start: date, end: date, country: str = "US", retries: int = 3) -
             time.sleep(2 * attempt)
     log(f"vazgeciliyor: {label} icin veri cekilemedi")
     return []
-
-
-# Sadece en yuksek onem derecesindeki (3/3 kirmizi) etkinlikler
-# gosteriliyor - Stablex ekibinin talebi uzerine. Degistirmek icin
-# bu sabiti guncelleyin (1=Low, 2=Medium, 3=High).
-MIN_IMPACT = 3
 
 
 def scrape_range(start: date, end: date) -> list[dict]:
