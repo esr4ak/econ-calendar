@@ -150,12 +150,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "ÜFE (Aylık)",
-        "actual": "",
+        "actual": "0%",
         "forecast": "0.2%",
-        "previous": "-0.3%",
+        "previous": "-0.1%",
         "meaning": "Üreticilerin sattığı mal ve hizmetlerin toptan fiyatlarındaki aylık değişimi gösterir; tüketici enflasyonuna (TÜFE) birkaç ay önden öncü bir sinyal olarak izlenir.",
         "market_impact": "Beklentinin üzerinde gelmesi üretici maliyetlerindeki artışın ileride tüketici fiyatlarına yansıyabileceğine işaret ederek enflasyon endişesini artırabilir; altında kalması tam tersi yönde rahatlatıcı olabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alandaki baskının öngörülenden zayıf olduğuna işaret etti; bu tür sürpriz düşük okumalar Fed'in gevşemeye daha yakın durabileceği ihtimalini güçlendirdiği için risk iştahını destekleyebilir."
       },
       {
         "datetime_raw": "Friday, August 14, 2026 08:30",
@@ -193,7 +193,7 @@
         "impact_label": "High",
         "event": "Konut Başlangıçları",
         "actual": "",
-        "forecast": "",
+        "forecast": "1.34M",
         "previous": "1.427M",
         "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
         "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
@@ -473,12 +473,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "ÜFE (Aylık)",
-          "actual": "",
+          "actual": "0%",
           "forecast": "0.2%",
-          "previous": "-0.3%",
+          "previous": "-0.1%",
           "meaning": "Üreticilerin sattığı mal ve hizmetlerin toptan fiyatlarındaki aylık değişimi gösterir; tüketici enflasyonuna (TÜFE) birkaç ay önden öncü bir sinyal olarak izlenir.",
           "market_impact": "Beklentinin üzerinde gelmesi üretici maliyetlerindeki artışın ileride tüketici fiyatlarına yansıyabileceğine işaret ederek enflasyon endişesini artırabilir; altında kalması tam tersi yönde rahatlatıcı olabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alandaki baskının öngörülenden zayıf olduğuna işaret etti; bu tür sürpriz düşük okumalar Fed'in gevşemeye daha yakın durabileceği ihtimalini güçlendirdiği için risk iştahını destekleyebilir."
         },
         {
           "datetime_raw": "Friday, August 14, 2026 08:30",
@@ -523,7 +523,7 @@
           "impact_label": "High",
           "event": "Konut Başlangıçları",
           "actual": "",
-          "forecast": "",
+          "forecast": "1.34M",
           "previous": "1.427M",
           "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
           "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
