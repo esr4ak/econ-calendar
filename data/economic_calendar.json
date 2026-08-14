@@ -164,12 +164,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Perakende Satışlar (Aylık)",
-        "actual": "",
+        "actual": "-0.6%",
         "forecast": "0.1%",
         "previous": "0.2%",
         "meaning": "Perakende mağazalardaki toplam satışların bir önceki aya göre yüzdesel değişimini gösterir; tüketici harcamalarının ve iç talebin en güncel göstergelerinden biridir.",
         "market_impact": "Beklentinin üzerinde gelmesi tüketici harcamalarının güçlü kaldığına işaret ederek riskli varlıkları ve doları destekleyebilir; beklentinin altında kalması tüketici talebinde yavaşlamaya işaret edebilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alanda öngörülenden zayıf bir görünüme işaret etti; bu durum Fed'in gevşek para politikasına yönelme ihtimalini güçlendirebileceği için riskli varlıkları destekleyebilirken doları baskılayabilir."
       },
       {
         "datetime_raw": "Friday, August 14, 2026 10:00",
@@ -178,12 +178,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Michigan Tüketici Güveni (Öncül)",
-        "actual": "",
+        "actual": "51",
         "forecast": "54.5",
         "previous": "55.2",
         "meaning": "Michigan Üniversitesi'nin tüketicilerin kişisel finansal durumları ve genel ekonomiye ilişkin algısını ölçen anketinin öncül (ay ortası) sonucudur.",
         "market_impact": "Beklentinin üzerinde gelmesi tüketici güveninin güçlendiğine ve harcama iştahının sürebileceğine işaret eder; zayıf gelmesi tüketici davranışında temkinliliğe işaret edebilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alanda öngörülenden zayıf bir görünüme işaret etti; bu durum Fed'in gevşek para politikasına yönelme ihtimalini güçlendirebileceği için riskli varlıkları destekleyebilirken doları baskılayabilir."
       },
       {
         "datetime_raw": "Tuesday, August 18, 2026 08:30",
@@ -207,7 +207,7 @@
         "impact_label": "High",
         "event": "İnşaat İzinleri (Öncül)",
         "actual": "",
-        "forecast": "",
+        "forecast": "1.39M",
         "previous": "1.374M",
         "meaning": "Gelecekte başlanacak konut inşaatları için alınan izin sayısının öncül verisini gösterir; konut başlangıçlarına göre birkaç ay önden öncü bir sinyaldir.",
         "market_impact": "Konut sektöründeki gelecek aktiviteye dair öncü bir gösterge olduğu için beklentiden sapmalar inşaat/emlak sektörüne yönelik beklentileri etkileyebilir; genel piyasa etkisi konut başlangıçlarına göre daha sınırlıdır.",
@@ -487,12 +487,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Perakende Satışlar (Aylık)",
-          "actual": "",
+          "actual": "-0.6%",
           "forecast": "0.1%",
           "previous": "0.2%",
           "meaning": "Perakende mağazalardaki toplam satışların bir önceki aya göre yüzdesel değişimini gösterir; tüketici harcamalarının ve iç talebin en güncel göstergelerinden biridir.",
           "market_impact": "Beklentinin üzerinde gelmesi tüketici harcamalarının güçlü kaldığına işaret ederek riskli varlıkları ve doları destekleyebilir; beklentinin altında kalması tüketici talebinde yavaşlamaya işaret edebilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alanda öngörülenden zayıf bir görünüme işaret etti; bu durum Fed'in gevşek para politikasına yönelme ihtimalini güçlendirebileceği için riskli varlıkları destekleyebilirken doları baskılayabilir."
         },
         {
           "datetime_raw": "Friday, August 14, 2026 10:00",
@@ -501,12 +501,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Michigan Tüketici Güveni (Öncül)",
-          "actual": "",
+          "actual": "51",
           "forecast": "54.5",
           "previous": "55.2",
           "meaning": "Michigan Üniversitesi'nin tüketicilerin kişisel finansal durumları ve genel ekonomiye ilişkin algısını ölçen anketinin öncül (ay ortası) sonucudur.",
           "market_impact": "Beklentinin üzerinde gelmesi tüketici güveninin güçlendiğine ve harcama iştahının sürebileceğine işaret eder; zayıf gelmesi tüketici davranışında temkinliliğe işaret edebilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alanda öngörülenden zayıf bir görünüme işaret etti; bu durum Fed'in gevşek para politikasına yönelme ihtimalini güçlendirebileceği için riskli varlıkları destekleyebilirken doları baskılayabilir."
         }
       ]
     },
@@ -537,7 +537,7 @@
           "impact_label": "High",
           "event": "İnşaat İzinleri (Öncül)",
           "actual": "",
-          "forecast": "",
+          "forecast": "1.39M",
           "previous": "1.374M",
           "meaning": "Gelecekte başlanacak konut inşaatları için alınan izin sayısının öncül verisini gösterir; konut başlangıçlarına göre birkaç ay önden öncü bir sinyaldir.",
           "market_impact": "Konut sektöründeki gelecek aktiviteye dair öncü bir gösterge olduğu için beklentiden sapmalar inşaat/emlak sektörüne yönelik beklentileri etkileyebilir; genel piyasa etkisi konut başlangıçlarına göre daha sınırlıdır.",
