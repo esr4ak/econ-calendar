@@ -192,12 +192,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Konut Başlangıçları",
-        "actual": "",
+        "actual": "1.239M",
         "forecast": "1.35M",
-        "previous": "1.427M",
+        "previous": "1.415M",
         "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
         "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alanda öngörülenden zayıf bir görünüme işaret etti; bu durum Fed'in gevşek para politikasına yönelme ihtimalini güçlendirebileceği için riskli varlıkları destekleyebilirken doları baskılayabilir."
       },
       {
         "datetime_raw": "Tuesday, August 18, 2026 08:30",
@@ -206,12 +206,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "İnşaat İzinleri (Öncül)",
-        "actual": "",
+        "actual": "1.443M",
         "forecast": "1.37M",
         "previous": "1.374M",
         "meaning": "Gelecekte başlanacak konut inşaatları için alınan izin sayısının öncül verisini gösterir; konut başlangıçlarına göre birkaç ay önden öncü bir sinyaldir.",
         "market_impact": "Konut sektöründeki gelecek aktiviteye dair öncü bir gösterge olduğu için beklentiden sapmalar inşaat/emlak sektörüne yönelik beklentileri etkileyebilir; genel piyasa etkisi konut başlangıçlarına göre daha sınırlıdır.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
       },
       {
         "datetime_raw": "Wednesday, August 19, 2026 14:00",
@@ -522,12 +522,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Konut Başlangıçları",
-          "actual": "",
+          "actual": "1.239M",
           "forecast": "1.35M",
-          "previous": "1.427M",
+          "previous": "1.415M",
           "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
           "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alanda öngörülenden zayıf bir görünüme işaret etti; bu durum Fed'in gevşek para politikasına yönelme ihtimalini güçlendirebileceği için riskli varlıkları destekleyebilirken doları baskılayabilir."
         },
         {
           "datetime_raw": "Tuesday, August 18, 2026 08:30",
@@ -536,12 +536,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "İnşaat İzinleri (Öncül)",
-          "actual": "",
+          "actual": "1.443M",
           "forecast": "1.37M",
           "previous": "1.374M",
           "meaning": "Gelecekte başlanacak konut inşaatları için alınan izin sayısının öncül verisini gösterir; konut başlangıçlarına göre birkaç ay önden öncü bir sinyaldir.",
           "market_impact": "Konut sektöründeki gelecek aktiviteye dair öncü bir gösterge olduğu için beklentiden sapmalar inşaat/emlak sektörüne yönelik beklentileri etkileyebilir; genel piyasa etkisi konut başlangıçlarına göre daha sınırlıdır.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
         },
         {
           "datetime_raw": "Wednesday, August 19, 2026 14:00",
