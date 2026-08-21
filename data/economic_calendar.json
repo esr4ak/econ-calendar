@@ -303,6 +303,20 @@
         "time": "10:00",
         "impact": 3,
         "impact_label": "High",
+        "event": "Fed Başkanı Warsh Konuşması",
+        "actual": "",
+        "forecast": "",
+        "previous": "",
+        "meaning": "Fed Başkanı'nın para politikasına, enflasyona veya ekonomik görünüme dair yaptığı planlı bir konuşmadır.",
+        "market_impact": "Konuşmanın şahin ya da güvercin tonu, özellikle faiz patikasına dair yeni bir sinyal içeriyorsa piyasalarda ani hareketlere yol açabilir.",
+        "summary": ""
+      },
+      {
+        "datetime_raw": "Friday, August 28, 2026 10:00",
+        "date": "2026-08-28",
+        "time": "10:00",
+        "impact": 3,
+        "impact_label": "High",
         "event": "Tarım Dışı İstihdam Yıllık Revizyon (Öncül)",
         "actual": "",
         "forecast": "",
@@ -632,6 +646,20 @@
           "previous": "0.1%",
           "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
           "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
+          "summary": ""
+        },
+        {
+          "datetime_raw": "Friday, August 28, 2026 10:00",
+          "date": "2026-08-28",
+          "time": "10:00",
+          "impact": 3,
+          "impact_label": "High",
+          "event": "Fed Başkanı Warsh Konuşması",
+          "actual": "",
+          "forecast": "",
+          "previous": "",
+          "meaning": "Fed Başkanı'nın para politikasına, enflasyona veya ekonomik görünüme dair yaptığı planlı bir konuşmadır.",
+          "market_impact": "Konuşmanın şahin ya da güvercin tonu, özellikle faiz patikasına dair yeni bir sinyal içeriyorsa piyasalarda ani hareketlere yol açabilir.",
           "summary": ""
         },
         {
