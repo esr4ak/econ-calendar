@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20",
+  "generated_at": "2026-08-21",
   "country": "United States",
   "current_month": {
     "2026-08": [
@@ -261,6 +261,20 @@
         "time": "08:30",
         "impact": 3,
         "impact_label": "High",
+        "event": "GSYH Büyümesi (Çeyreklik, 2. Tahmin)",
+        "actual": "",
+        "forecast": "1.5%",
+        "previous": "2.1%",
+        "meaning": "Öncül tahminden sonra daha kapsamlı verilerle güncellenen ikinci GSYH büyüme tahminidir; genellikle piyasa etkisi öncül veriden daha sınırlıdır.",
+        "market_impact": "Öncül tahminden belirgin sapma olmadıkça piyasa tepkisi sınırlı kalır; büyük bir revizyon büyüme görünümüne dair beklentileri yeniden fiyatlayabilir.",
+        "summary": ""
+      },
+      {
+        "datetime_raw": "Wednesday, August 26, 2026 08:30",
+        "date": "2026-08-26",
+        "time": "08:30",
+        "impact": 3,
+        "impact_label": "High",
         "event": "Dayanıklı Mal Siparişleri (Aylık)",
         "actual": "",
         "forecast": "0.7%",
@@ -281,20 +295,6 @@
         "previous": "0.1%",
         "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
         "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
-        "summary": ""
-      },
-      {
-        "datetime_raw": "Wednesday, August 26, 2026 08:30",
-        "date": "2026-08-26",
-        "time": "08:30",
-        "impact": 3,
-        "impact_label": "High",
-        "event": "GSYH Büyümesi (Çeyreklik, 2. Tahmin)",
-        "actual": "",
-        "forecast": "1.5%",
-        "previous": "2.1%",
-        "meaning": "Öncül tahminden sonra daha kapsamlı verilerle güncellenen ikinci GSYH büyüme tahminidir; genellikle piyasa etkisi öncül veriden daha sınırlıdır.",
-        "market_impact": "Öncül tahminden belirgin sapma olmadıkça piyasa tepkisi sınırlı kalır; büyük bir revizyon büyüme görünümüne dair beklentileri yeniden fiyatlayabilir.",
         "summary": ""
       },
       {
@@ -598,6 +598,20 @@
           "time": "08:30",
           "impact": 3,
           "impact_label": "High",
+          "event": "GSYH Büyümesi (Çeyreklik, 2. Tahmin)",
+          "actual": "",
+          "forecast": "1.5%",
+          "previous": "2.1%",
+          "meaning": "Öncül tahminden sonra daha kapsamlı verilerle güncellenen ikinci GSYH büyüme tahminidir; genellikle piyasa etkisi öncül veriden daha sınırlıdır.",
+          "market_impact": "Öncül tahminden belirgin sapma olmadıkça piyasa tepkisi sınırlı kalır; büyük bir revizyon büyüme görünümüne dair beklentileri yeniden fiyatlayabilir.",
+          "summary": ""
+        },
+        {
+          "datetime_raw": "Wednesday, August 26, 2026 08:30",
+          "date": "2026-08-26",
+          "time": "08:30",
+          "impact": 3,
+          "impact_label": "High",
           "event": "Dayanıklı Mal Siparişleri (Aylık)",
           "actual": "",
           "forecast": "0.7%",
@@ -618,20 +632,6 @@
           "previous": "0.1%",
           "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
           "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
-          "summary": ""
-        },
-        {
-          "datetime_raw": "Wednesday, August 26, 2026 08:30",
-          "date": "2026-08-26",
-          "time": "08:30",
-          "impact": 3,
-          "impact_label": "High",
-          "event": "GSYH Büyümesi (Çeyreklik, 2. Tahmin)",
-          "actual": "",
-          "forecast": "1.5%",
-          "previous": "2.1%",
-          "meaning": "Öncül tahminden sonra daha kapsamlı verilerle güncellenen ikinci GSYH büyüme tahminidir; genellikle piyasa etkisi öncül veriden daha sınırlıdır.",
-          "market_impact": "Öncül tahminden belirgin sapma olmadıkça piyasa tepkisi sınırlı kalır; büyük bir revizyon büyüme görünümüne dair beklentileri yeniden fiyatlayabilir.",
           "summary": ""
         },
         {
