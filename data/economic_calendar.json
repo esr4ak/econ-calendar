@@ -303,13 +303,13 @@
         "time": "10:00",
         "impact": 3,
         "impact_label": "High",
-        "event": "Fed Başkanı Warsh Konuşması",
-        "actual": "",
+        "event": "Tarım Dışı İstihdam Yıllık Revizyon (Öncül)",
+        "actual": "-79K",
         "forecast": "",
-        "previous": "",
-        "meaning": "Fed Başkanı'nın para politikasına, enflasyona veya ekonomik görünüme dair yaptığı planlı bir konuşmadır.",
-        "market_impact": "Konuşmanın şahin ya da güvercin tonu, özellikle faiz patikasına dair yeni bir sinyal içeriyorsa piyasalarda ani hareketlere yol açabilir.",
-        "summary": ""
+        "previous": "-911K",
+        "meaning": "ABD İşgücü İstatistikleri Bürosu'nun (BLS) önceki 12 aylık tarım dışı istihdam verilerine yaptığı yıllık öncül revizyonu gösterir; gerçek istihdam tablosunun aylık verilerle ne ölçüde uyumlu olduğunu ortaya koyar.",
+        "market_impact": "Aşağı yönlü büyük bir revizyon, işgücü piyasasının önceden düşünülenden daha zayıf olduğunu ortaya koyduğu için Fed'in gevşeme ihtimalini artırabilir; yukarı yönlü revizyon tam tersi etki yapabilir.",
+        "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
       },
       {
         "datetime_raw": "Friday, August 28, 2026 10:00",
@@ -317,12 +317,12 @@
         "time": "10:00",
         "impact": 3,
         "impact_label": "High",
-        "event": "Tarım Dışı İstihdam Yıllık Revizyon (Öncül)",
+        "event": "Fed Başkanı Warsh Konuşması",
         "actual": "",
         "forecast": "",
-        "previous": "-911K",
-        "meaning": "ABD İşgücü İstatistikleri Bürosu'nun (BLS) önceki 12 aylık tarım dışı istihdam verilerine yaptığı yıllık öncül revizyonu gösterir; gerçek istihdam tablosunun aylık verilerle ne ölçüde uyumlu olduğunu ortaya koyar.",
-        "market_impact": "Aşağı yönlü büyük bir revizyon, işgücü piyasasının önceden düşünülenden daha zayıf olduğunu ortaya koyduğu için Fed'in gevşeme ihtimalini artırabilir; yukarı yönlü revizyon tam tersi etki yapabilir.",
+        "previous": "",
+        "meaning": "Fed Başkanı'nın para politikasına, enflasyona veya ekonomik görünüme dair yaptığı planlı bir konuşmadır.",
+        "market_impact": "Konuşmanın şahin ya da güvercin tonu, özellikle faiz patikasına dair yeni bir sinyal içeriyorsa piyasalarda ani hareketlere yol açabilir.",
         "summary": ""
       }
     ]
@@ -654,13 +654,13 @@
           "time": "10:00",
           "impact": 3,
           "impact_label": "High",
-          "event": "Fed Başkanı Warsh Konuşması",
-          "actual": "",
+          "event": "Tarım Dışı İstihdam Yıllık Revizyon (Öncül)",
+          "actual": "-79K",
           "forecast": "",
-          "previous": "",
-          "meaning": "Fed Başkanı'nın para politikasına, enflasyona veya ekonomik görünüme dair yaptığı planlı bir konuşmadır.",
-          "market_impact": "Konuşmanın şahin ya da güvercin tonu, özellikle faiz patikasına dair yeni bir sinyal içeriyorsa piyasalarda ani hareketlere yol açabilir.",
-          "summary": ""
+          "previous": "-911K",
+          "meaning": "ABD İşgücü İstatistikleri Bürosu'nun (BLS) önceki 12 aylık tarım dışı istihdam verilerine yaptığı yıllık öncül revizyonu gösterir; gerçek istihdam tablosunun aylık verilerle ne ölçüde uyumlu olduğunu ortaya koyar.",
+          "market_impact": "Aşağı yönlü büyük bir revizyon, işgücü piyasasının önceden düşünülenden daha zayıf olduğunu ortaya koyduğu için Fed'in gevşeme ihtimalini artırabilir; yukarı yönlü revizyon tam tersi etki yapabilir.",
+          "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
         },
         {
           "datetime_raw": "Friday, August 28, 2026 10:00",
@@ -668,12 +668,12 @@
           "time": "10:00",
           "impact": 3,
           "impact_label": "High",
-          "event": "Tarım Dışı İstihdam Yıllık Revizyon (Öncül)",
+          "event": "Fed Başkanı Warsh Konuşması",
           "actual": "",
           "forecast": "",
-          "previous": "-911K",
-          "meaning": "ABD İşgücü İstatistikleri Bürosu'nun (BLS) önceki 12 aylık tarım dışı istihdam verilerine yaptığı yıllık öncül revizyonu gösterir; gerçek istihdam tablosunun aylık verilerle ne ölçüde uyumlu olduğunu ortaya koyar.",
-          "market_impact": "Aşağı yönlü büyük bir revizyon, işgücü piyasasının önceden düşünülenden daha zayıf olduğunu ortaya koyduğu için Fed'in gevşeme ihtimalini artırabilir; yukarı yönlü revizyon tam tersi etki yapabilir.",
+          "previous": "",
+          "meaning": "Fed Başkanı'nın para politikasına, enflasyona veya ekonomik görünüme dair yaptığı planlı bir konuşmadır.",
+          "market_impact": "Konuşmanın şahin ya da güvercin tonu, özellikle faiz patikasına dair yeni bir sinyal içeriyorsa piyasalarda ani hareketlere yol açabilir.",
           "summary": ""
         }
       ]
