@@ -10,12 +10,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "JOLTs Açık İş Sayısı",
-        "actual": "",
+        "actual": "7.271M",
         "forecast": "7.3M",
-        "previous": "7.359M",
+        "previous": "7.182M",
         "meaning": "ABD'de ay sonu itibarıyla doldurulmayı bekleyen açık iş pozisyonu sayısını gösterir; işgücü talebinin ve piyasadaki gerginliğin öncü bir göstergesidir.",
         "market_impact": "Beklentinin üzerinde gelmesi işgücü talebinin güçlü kaldığına işaret eder ve genellikle doları destekler; belirgin düşüş işgücü piyasasının soğuduğuna işaret ederek Fed'in gevşeme ihtimalini artırabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
         "datetime_raw": "Tuesday, September 01, 2026 10:00",
@@ -24,12 +24,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "ISM İmalat PMI",
-        "actual": "",
+        "actual": "54.6",
         "forecast": "55.2",
         "previous": "55.6",
         "meaning": "İmalat sektöründeki satın alma yöneticilerine yapılan ankete dayanır; 50 üzeri sektörde büyümeye, 50 altı daralmaya işaret eder.",
         "market_impact": "50 eşiğinin üzerinde ve beklentiyi aşan bir okuma imalat sektöründe toparlanmaya işaret ederek riskli varlıkları destekleyebilir; 50 altına düşen veya beklentinin belirgin altında kalan bir okuma resesyon endişesi yaratabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
         "datetime_raw": "Thursday, September 03, 2026 10:00",
@@ -278,7 +278,7 @@
         "event": "JOLTs Açık İş Sayısı",
         "actual": "",
         "forecast": "",
-        "previous": "",
+        "previous": "7.271",
         "meaning": "ABD'de ay sonu itibarıyla doldurulmayı bekleyen açık iş pozisyonu sayısını gösterir; işgücü talebinin ve piyasadaki gerginliğin öncü bir göstergesidir.",
         "market_impact": "Beklentinin üzerinde gelmesi işgücü talebinin güçlü kaldığına işaret eder ve genellikle doları destekler; belirgin düşüş işgücü piyasasının soğuduğuna işaret ederek Fed'in gevşeme ihtimalini artırabilir.",
         "summary": ""
@@ -354,12 +354,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "JOLTs Açık İş Sayısı",
-          "actual": "",
+          "actual": "7.271M",
           "forecast": "7.3M",
-          "previous": "7.359M",
+          "previous": "7.182M",
           "meaning": "ABD'de ay sonu itibarıyla doldurulmayı bekleyen açık iş pozisyonu sayısını gösterir; işgücü talebinin ve piyasadaki gerginliğin öncü bir göstergesidir.",
           "market_impact": "Beklentinin üzerinde gelmesi işgücü talebinin güçlü kaldığına işaret eder ve genellikle doları destekler; belirgin düşüş işgücü piyasasının soğuduğuna işaret ederek Fed'in gevşeme ihtimalini artırabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         },
         {
           "datetime_raw": "Tuesday, September 01, 2026 10:00",
@@ -368,12 +368,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "ISM İmalat PMI",
-          "actual": "",
+          "actual": "54.6",
           "forecast": "55.2",
           "previous": "55.6",
           "meaning": "İmalat sektöründeki satın alma yöneticilerine yapılan ankete dayanır; 50 üzeri sektörde büyümeye, 50 altı daralmaya işaret eder.",
           "market_impact": "50 eşiğinin üzerinde ve beklentiyi aşan bir okuma imalat sektöründe toparlanmaya işaret ederek riskli varlıkları destekleyebilir; 50 altına düşen veya beklentinin belirgin altında kalan bir okuma resesyon endişesi yaratabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         },
         {
           "datetime_raw": "Thursday, September 03, 2026 10:00",
@@ -643,7 +643,7 @@
           "event": "JOLTs Açık İş Sayısı",
           "actual": "",
           "forecast": "",
-          "previous": "",
+          "previous": "7.271",
           "meaning": "ABD'de ay sonu itibarıyla doldurulmayı bekleyen açık iş pozisyonu sayısını gösterir; işgücü talebinin ve piyasadaki gerginliğin öncü bir göstergesidir.",
           "market_impact": "Beklentinin üzerinde gelmesi işgücü talebinin güçlü kaldığına işaret eder ve genellikle doları destekler; belirgin düşüş işgücü piyasasının soğuduğuna işaret ederek Fed'in gevşeme ihtimalini artırabilir.",
           "summary": ""
