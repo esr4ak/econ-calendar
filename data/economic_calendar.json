@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-01",
+  "generated_at": "2026-09-02",
   "country": "United States",
   "current_month": {
     "2026-09": [
@@ -124,7 +124,7 @@
         "event": "TÜFE (Yıllık)",
         "actual": "",
         "forecast": "",
-        "previous": "3.4",
+        "previous": "3.4%",
         "meaning": "Tüketici fiyatlarının bir önceki yılın aynı dönemine göre yüzdesel değişimini gösterir; Fed'in enflasyon hedefiyle (%2) karşılaştırdığı temel yıllık göstergedir.",
         "market_impact": "Beklentinin üzerinde gelmesi enflasyonun hedeften uzaklaştığına işaret ederek Fed'in sıkı duruşunu koruma ihtimalini artırır; beklentinin altında kalması Fed'in gevşeme alanını genişletebileceği için risk iştahını destekleyebilir.",
         "summary": ""
@@ -138,7 +138,7 @@
         "event": "TÜFE (Aylık)",
         "actual": "",
         "forecast": "",
-        "previous": "0.1",
+        "previous": "0.1%",
         "meaning": "Tüketicilerin satın aldığı mal ve hizmet sepetinin fiyatındaki bir önceki aya göre yüzdesel değişimi gösterir; enflasyonun aylık hızını ölçen temel göstergedir.",
         "market_impact": "Beklentinin üzerinde (daha sıcak) gelmesi enflasyonun öngörülenden inatçı olduğuna işaret ederek Fed'in şahin duruşunu sürdürme ihtimalini artırır ve riskli varlıklar üzerinde baskı yaratabilir; beklentinin altında kalması faiz indirimi beklentilerini güçlendirerek risk iştahını destekleyebilir.",
         "summary": ""
@@ -152,7 +152,7 @@
         "event": "Çekirdek TÜFE (Yıllık)",
         "actual": "",
         "forecast": "",
-        "previous": "2.5",
+        "previous": "2.5%",
         "meaning": "Gıda ve enerji hariç tutularak hesaplanan TÜFE'nin yıllık değişimini gösterir; Fed'in politika kararlarında en çok referans aldığı enflasyon ölçütlerinden biridir.",
         "market_impact": "Beklentinin üzerinde gelmesi çekirdek enflasyonun inatçı kaldığına işaret ederek Fed'in şahin duruşunu destekler; beklentinin altında kalması gevşeme ihtimalini güçlendirebilir.",
         "summary": ""
@@ -475,7 +475,7 @@
           "event": "TÜFE (Yıllık)",
           "actual": "",
           "forecast": "",
-          "previous": "3.4",
+          "previous": "3.4%",
           "meaning": "Tüketici fiyatlarının bir önceki yılın aynı dönemine göre yüzdesel değişimini gösterir; Fed'in enflasyon hedefiyle (%2) karşılaştırdığı temel yıllık göstergedir.",
           "market_impact": "Beklentinin üzerinde gelmesi enflasyonun hedeften uzaklaştığına işaret ederek Fed'in sıkı duruşunu koruma ihtimalini artırır; beklentinin altında kalması Fed'in gevşeme alanını genişletebileceği için risk iştahını destekleyebilir.",
           "summary": ""
@@ -489,7 +489,7 @@
           "event": "TÜFE (Aylık)",
           "actual": "",
           "forecast": "",
-          "previous": "0.1",
+          "previous": "0.1%",
           "meaning": "Tüketicilerin satın aldığı mal ve hizmet sepetinin fiyatındaki bir önceki aya göre yüzdesel değişimi gösterir; enflasyonun aylık hızını ölçen temel göstergedir.",
           "market_impact": "Beklentinin üzerinde (daha sıcak) gelmesi enflasyonun öngörülenden inatçı olduğuna işaret ederek Fed'in şahin duruşunu sürdürme ihtimalini artırır ve riskli varlıklar üzerinde baskı yaratabilir; beklentinin altında kalması faiz indirimi beklentilerini güçlendirerek risk iştahını destekleyebilir.",
           "summary": ""
@@ -503,7 +503,7 @@
           "event": "Çekirdek TÜFE (Yıllık)",
           "actual": "",
           "forecast": "",
-          "previous": "2.5",
+          "previous": "2.5%",
           "meaning": "Gıda ve enerji hariç tutularak hesaplanan TÜFE'nin yıllık değişimini gösterir; Fed'in politika kararlarında en çok referans aldığı enflasyon ölçütlerinden biridir.",
           "market_impact": "Beklentinin üzerinde gelmesi çekirdek enflasyonun inatçı kaldığına işaret ederek Fed'in şahin duruşunu destekler; beklentinin altında kalması gevşeme ihtimalini güçlendirebilir.",
           "summary": ""
