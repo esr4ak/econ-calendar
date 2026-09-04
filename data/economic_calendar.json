@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03",
+  "generated_at": "2026-09-04",
   "country": "United States",
   "current_month": {
     "2026-09": [
@@ -52,12 +52,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Tarım Dışı İstihdam",
-        "actual": "",
+        "actual": "162K",
         "forecast": "56K",
-        "previous": "-23K",
+        "previous": "21K",
         "meaning": "ABD'de tarım sektörü dışındaki işyerlerinde bir ay içinde eklenen net istihdam sayısını gösterir; ABD Çalışma Bakanlığı tarafından her ayın ilk Cuma günü yayınlanır ve işgücü piyasasının en çok izlenen göstergesidir.",
         "market_impact": "Beklentinin belirgin üzerinde gelmesi güçlü istihdam piyasasına işaret eder ve genellikle doları destekler; beklentinin altında kalması Fed'in faiz indirimine gidebileceği ihtimalini güçlendirdiği için riskli varlıkları (kripto, hisse senedi) destekleyebilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
       },
       {
         "datetime_raw": "Friday, September 04, 2026 08:30",
@@ -66,12 +66,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "İşsizlik Oranı",
-        "actual": "",
+        "actual": "4.1%",
         "forecast": "4.1%",
         "previous": "4.1%",
         "meaning": "İşgücüne dahil olup aktif olarak iş arayan ancak istihdam edilemeyen kişilerin toplam işgücüne oranını gösterir; işgücü piyasasının genel sağlığının temel göstergesidir.",
         "market_impact": "Beklentinin üzerinde (daha yüksek) gelmesi işgücü piyasasında zayıflamaya işaret eder ve Fed'in faiz indirimine daha yakın durabileceği düşüncesiyle riskli varlıkları destekleyebilirken doları baskılayabilir; beklentinin altında kalması tam tersi yönde çalışabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
         "datetime_raw": "Thursday, September 10, 2026 08:30",
@@ -396,12 +396,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Tarım Dışı İstihdam",
-          "actual": "",
+          "actual": "162K",
           "forecast": "56K",
-          "previous": "-23K",
+          "previous": "21K",
           "meaning": "ABD'de tarım sektörü dışındaki işyerlerinde bir ay içinde eklenen net istihdam sayısını gösterir; ABD Çalışma Bakanlığı tarafından her ayın ilk Cuma günü yayınlanır ve işgücü piyasasının en çok izlenen göstergesidir.",
           "market_impact": "Beklentinin belirgin üzerinde gelmesi güçlü istihdam piyasasına işaret eder ve genellikle doları destekler; beklentinin altında kalması Fed'in faiz indirimine gidebileceği ihtimalini güçlendirdiği için riskli varlıkları (kripto, hisse senedi) destekleyebilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
         },
         {
           "datetime_raw": "Friday, September 04, 2026 08:30",
@@ -410,12 +410,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "İşsizlik Oranı",
-          "actual": "",
+          "actual": "4.1%",
           "forecast": "4.1%",
           "previous": "4.1%",
           "meaning": "İşgücüne dahil olup aktif olarak iş arayan ancak istihdam edilemeyen kişilerin toplam işgücüne oranını gösterir; işgücü piyasasının genel sağlığının temel göstergesidir.",
           "market_impact": "Beklentinin üzerinde (daha yüksek) gelmesi işgücü piyasasında zayıflamaya işaret eder ve Fed'in faiz indirimine daha yakın durabileceği düşüncesiyle riskli varlıkları destekleyebilirken doları baskılayabilir; beklentinin altında kalması tam tersi yönde çalışabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         }
       ]
     },
