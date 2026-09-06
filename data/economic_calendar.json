@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05",
+  "generated_at": "2026-09-06",
   "country": "United States",
   "current_month": {
     "2026-09": [
@@ -121,12 +121,12 @@
         "time": "08:30",
         "impact": 3,
         "impact_label": "High",
-        "event": "TÜFE (Yıllık)",
+        "event": "TÜFE (Aylık)",
         "actual": "",
-        "forecast": "3.4%",
-        "previous": "3.4%",
-        "meaning": "Tüketici fiyatlarının bir önceki yılın aynı dönemine göre yüzdesel değişimini gösterir; Fed'in enflasyon hedefiyle (%2) karşılaştırdığı temel yıllık göstergedir.",
-        "market_impact": "Beklentinin üzerinde gelmesi enflasyonun hedeften uzaklaştığına işaret ederek Fed'in sıkı duruşunu koruma ihtimalini artırır; beklentinin altında kalması Fed'in gevşeme alanını genişletebileceği için risk iştahını destekleyebilir.",
+        "forecast": "0.4%",
+        "previous": "0.1%",
+        "meaning": "Tüketicilerin satın aldığı mal ve hizmet sepetinin fiyatındaki bir önceki aya göre yüzdesel değişimi gösterir; enflasyonun aylık hızını ölçen temel göstergedir.",
+        "market_impact": "Beklentinin üzerinde (daha sıcak) gelmesi enflasyonun öngörülenden inatçı olduğuna işaret ederek Fed'in şahin duruşunu sürdürme ihtimalini artırır ve riskli varlıklar üzerinde baskı yaratabilir; beklentinin altında kalması faiz indirimi beklentilerini güçlendirerek risk iştahını destekleyebilir.",
         "summary": ""
       },
       {
@@ -135,12 +135,12 @@
         "time": "08:30",
         "impact": 3,
         "impact_label": "High",
-        "event": "TÜFE (Aylık)",
+        "event": "TÜFE (Yıllık)",
         "actual": "",
-        "forecast": "0.4%",
-        "previous": "0.1%",
-        "meaning": "Tüketicilerin satın aldığı mal ve hizmet sepetinin fiyatındaki bir önceki aya göre yüzdesel değişimi gösterir; enflasyonun aylık hızını ölçen temel göstergedir.",
-        "market_impact": "Beklentinin üzerinde (daha sıcak) gelmesi enflasyonun öngörülenden inatçı olduğuna işaret ederek Fed'in şahin duruşunu sürdürme ihtimalini artırır ve riskli varlıklar üzerinde baskı yaratabilir; beklentinin altında kalması faiz indirimi beklentilerini güçlendirerek risk iştahını destekleyebilir.",
+        "forecast": "3.4%",
+        "previous": "3.4%",
+        "meaning": "Tüketici fiyatlarının bir önceki yılın aynı dönemine göre yüzdesel değişimini gösterir; Fed'in enflasyon hedefiyle (%2) karşılaştırdığı temel yıllık göstergedir.",
+        "market_impact": "Beklentinin üzerinde gelmesi enflasyonun hedeften uzaklaştığına işaret ederek Fed'in sıkı duruşunu koruma ihtimalini artırır; beklentinin altında kalması Fed'in gevşeme alanını genişletebileceği için risk iştahını destekleyebilir.",
         "summary": ""
       },
       {
@@ -472,12 +472,12 @@
           "time": "08:30",
           "impact": 3,
           "impact_label": "High",
-          "event": "TÜFE (Yıllık)",
+          "event": "TÜFE (Aylık)",
           "actual": "",
-          "forecast": "3.4%",
-          "previous": "3.4%",
-          "meaning": "Tüketici fiyatlarının bir önceki yılın aynı dönemine göre yüzdesel değişimini gösterir; Fed'in enflasyon hedefiyle (%2) karşılaştırdığı temel yıllık göstergedir.",
-          "market_impact": "Beklentinin üzerinde gelmesi enflasyonun hedeften uzaklaştığına işaret ederek Fed'in sıkı duruşunu koruma ihtimalini artırır; beklentinin altında kalması Fed'in gevşeme alanını genişletebileceği için risk iştahını destekleyebilir.",
+          "forecast": "0.4%",
+          "previous": "0.1%",
+          "meaning": "Tüketicilerin satın aldığı mal ve hizmet sepetinin fiyatındaki bir önceki aya göre yüzdesel değişimi gösterir; enflasyonun aylık hızını ölçen temel göstergedir.",
+          "market_impact": "Beklentinin üzerinde (daha sıcak) gelmesi enflasyonun öngörülenden inatçı olduğuna işaret ederek Fed'in şahin duruşunu sürdürme ihtimalini artırır ve riskli varlıklar üzerinde baskı yaratabilir; beklentinin altında kalması faiz indirimi beklentilerini güçlendirerek risk iştahını destekleyebilir.",
           "summary": ""
         },
         {
@@ -486,12 +486,12 @@
           "time": "08:30",
           "impact": 3,
           "impact_label": "High",
-          "event": "TÜFE (Aylık)",
+          "event": "TÜFE (Yıllık)",
           "actual": "",
-          "forecast": "0.4%",
-          "previous": "0.1%",
-          "meaning": "Tüketicilerin satın aldığı mal ve hizmet sepetinin fiyatındaki bir önceki aya göre yüzdesel değişimi gösterir; enflasyonun aylık hızını ölçen temel göstergedir.",
-          "market_impact": "Beklentinin üzerinde (daha sıcak) gelmesi enflasyonun öngörülenden inatçı olduğuna işaret ederek Fed'in şahin duruşunu sürdürme ihtimalini artırır ve riskli varlıklar üzerinde baskı yaratabilir; beklentinin altında kalması faiz indirimi beklentilerini güçlendirerek risk iştahını destekleyebilir.",
+          "forecast": "3.4%",
+          "previous": "3.4%",
+          "meaning": "Tüketici fiyatlarının bir önceki yılın aynı dönemine göre yüzdesel değişimini gösterir; Fed'in enflasyon hedefiyle (%2) karşılaştırdığı temel yıllık göstergedir.",
+          "market_impact": "Beklentinin üzerinde gelmesi enflasyonun hedeften uzaklaştığına işaret ederek Fed'in sıkı duruşunu koruma ihtimalini artırır; beklentinin altında kalması Fed'in gevşeme alanını genişletebileceği için risk iştahını destekleyebilir.",
           "summary": ""
         },
         {
