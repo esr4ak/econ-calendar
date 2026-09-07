@@ -278,7 +278,7 @@
         "event": "JOLTs Açık İş Sayısı",
         "actual": "",
         "forecast": "",
-        "previous": "7.271",
+        "previous": "7.271M",
         "meaning": "ABD'de ay sonu itibarıyla doldurulmayı bekleyen açık iş pozisyonu sayısını gösterir; işgücü talebinin ve piyasadaki gerginliğin öncü bir göstergesidir.",
         "market_impact": "Beklentinin üzerinde gelmesi işgücü talebinin güçlü kaldığına işaret eder ve genellikle doları destekler; belirgin düşüş işgücü piyasasının soğuduğuna işaret ederek Fed'in gevşeme ihtimalini artırabilir.",
         "summary": ""
@@ -320,7 +320,7 @@
         "event": "Kişisel Harcamalar (Aylık)",
         "actual": "",
         "forecast": "",
-        "previous": "0.2",
+        "previous": "0.2%",
         "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
         "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
         "summary": ""
@@ -334,7 +334,7 @@
         "event": "Kişisel Gelir (Aylık)",
         "actual": "",
         "forecast": "",
-        "previous": "0.4",
+        "previous": "0.4%",
         "meaning": "Hane halklarının bir ay içinde elde ettiği toplam gelirdeki yüzdesel değişimi gösterir; tüketici harcama kapasitesinin öncü göstergelerinden biridir.",
         "market_impact": "Beklentinin üzerinde gelmesi hane halkı gelirlerinin güçlü seyrettiğine işaret ederek tüketim harcamaları açısından olumlu okunabilir; zayıf gelmesi tüketici talebinde yavaşlama endişesi yaratabilir.",
         "summary": ""
@@ -643,7 +643,7 @@
           "event": "JOLTs Açık İş Sayısı",
           "actual": "",
           "forecast": "",
-          "previous": "7.271",
+          "previous": "7.271M",
           "meaning": "ABD'de ay sonu itibarıyla doldurulmayı bekleyen açık iş pozisyonu sayısını gösterir; işgücü talebinin ve piyasadaki gerginliğin öncü bir göstergesidir.",
           "market_impact": "Beklentinin üzerinde gelmesi işgücü talebinin güçlü kaldığına işaret eder ve genellikle doları destekler; belirgin düşüş işgücü piyasasının soğuduğuna işaret ederek Fed'in gevşeme ihtimalini artırabilir.",
           "summary": ""
@@ -685,7 +685,7 @@
           "event": "Kişisel Harcamalar (Aylık)",
           "actual": "",
           "forecast": "",
-          "previous": "0.2",
+          "previous": "0.2%",
           "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
           "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
           "summary": ""
@@ -699,7 +699,7 @@
           "event": "Kişisel Gelir (Aylık)",
           "actual": "",
           "forecast": "",
-          "previous": "0.4",
+          "previous": "0.4%",
           "meaning": "Hane halklarının bir ay içinde elde ettiği toplam gelirdeki yüzdesel değişimi gösterir; tüketici harcama kapasitesinin öncü göstergelerinden biridir.",
           "market_impact": "Beklentinin üzerinde gelmesi hane halkı gelirlerinin güçlü seyrettiğine işaret ederek tüketim harcamaları açısından olumlu okunabilir; zayıf gelmesi tüketici talebinde yavaşlama endişesi yaratabilir.",
           "summary": ""
