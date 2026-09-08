@@ -180,7 +180,7 @@
         "event": "Perakende Satışlar (Aylık)",
         "actual": "",
         "forecast": "",
-        "previous": "-0.6",
+        "previous": "-0.6%",
         "meaning": "Perakende mağazalardaki toplam satışların bir önceki aya göre yüzdesel değişimini gösterir; tüketici harcamalarının ve iç talebin en güncel göstergelerinden biridir.",
         "market_impact": "Beklentinin üzerinde gelmesi tüketici harcamalarının güçlü kaldığına işaret ederek riskli varlıkları ve doları destekleyebilir; beklentinin altında kalması tüketici talebinde yavaşlamaya işaret edebilir.",
         "summary": ""
@@ -250,7 +250,7 @@
         "event": "Konut Başlangıçları",
         "actual": "",
         "forecast": "",
-        "previous": "1.239",
+        "previous": "1.239M",
         "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
         "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
         "summary": ""
@@ -538,7 +538,7 @@
           "event": "Perakende Satışlar (Aylık)",
           "actual": "",
           "forecast": "",
-          "previous": "-0.6",
+          "previous": "-0.6%",
           "meaning": "Perakende mağazalardaki toplam satışların bir önceki aya göre yüzdesel değişimini gösterir; tüketici harcamalarının ve iç talebin en güncel göstergelerinden biridir.",
           "market_impact": "Beklentinin üzerinde gelmesi tüketici harcamalarının güçlü kaldığına işaret ederek riskli varlıkları ve doları destekleyebilir; beklentinin altında kalması tüketici talebinde yavaşlamaya işaret edebilir.",
           "summary": ""
@@ -608,7 +608,7 @@
           "event": "Konut Başlangıçları",
           "actual": "",
           "forecast": "",
-          "previous": "1.239",
+          "previous": "1.239M",
           "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
           "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
           "summary": ""
