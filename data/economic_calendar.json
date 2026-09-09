@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08",
+  "generated_at": "2026-09-09",
   "country": "United States",
   "current_month": {
     "2026-09": [
@@ -95,7 +95,7 @@
         "impact_label": "High",
         "event": "İkinci El Konut Satışları",
         "actual": "",
-        "forecast": "3.99M",
+        "forecast": "3.98M",
         "previous": "4.06M",
         "meaning": "Bir ay içinde el değiştiren ikinci el konut sayısını gösterir; ABD konut piyasasının büyük bölümünü (yeni konutlardan çok daha fazlasını) oluşturur.",
         "market_impact": "Beklentinin üzerinde gelmesi konut piyasasında ve tüketici güveninde canlılığa işaret eder; mortgage faizlerine oldukça duyarlı olduğu için beklenenden zayıf veri yüksek faiz ortamının etkisini yansıtıyor olabilir.",
@@ -446,7 +446,7 @@
           "impact_label": "High",
           "event": "İkinci El Konut Satışları",
           "actual": "",
-          "forecast": "3.99M",
+          "forecast": "3.98M",
           "previous": "4.06M",
           "meaning": "Bir ay içinde el değiştiren ikinci el konut sayısını gösterir; ABD konut piyasasının büyük bölümünü (yeni konutlardan çok daha fazlasını) oluşturur.",
           "market_impact": "Beklentinin üzerinde gelmesi konut piyasasında ve tüketici güveninde canlılığa işaret eder; mortgage faizlerine oldukça duyarlı olduğu için beklenenden zayıf veri yüksek faiz ortamının etkisini yansıtıyor olabilir.",
