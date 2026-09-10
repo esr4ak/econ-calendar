@@ -1,22 +1,8 @@
 {
-  "generated_at": "2026-09-09",
+  "generated_at": "2026-09-10",
   "country": "United States",
   "current_month": {
     "2026-09": [
-      {
-        "datetime_raw": "Tuesday, September 01, 2026 10:00",
-        "date": "2026-09-01",
-        "time": "10:00",
-        "impact": 3,
-        "impact_label": "High",
-        "event": "JOLTs Açık İş Sayısı",
-        "actual": "7.271M",
-        "forecast": "7.3M",
-        "previous": "7.182M",
-        "meaning": "ABD'de ay sonu itibarıyla doldurulmayı bekleyen açık iş pozisyonu sayısını gösterir; işgücü talebinin ve piyasadaki gerginliğin öncü bir göstergesidir.",
-        "market_impact": "Beklentinin üzerinde gelmesi işgücü talebinin güçlü kaldığına işaret eder ve genellikle doları destekler; belirgin düşüş işgücü piyasasının soğuduğuna işaret ederek Fed'in gevşeme ihtimalini artırabilir.",
-        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
-      },
       {
         "datetime_raw": "Tuesday, September 01, 2026 10:00",
         "date": "2026-09-01",
@@ -29,6 +15,20 @@
         "previous": "55.6",
         "meaning": "İmalat sektöründeki satın alma yöneticilerine yapılan ankete dayanır; 50 üzeri sektörde büyümeye, 50 altı daralmaya işaret eder.",
         "market_impact": "50 eşiğinin üzerinde ve beklentiyi aşan bir okuma imalat sektöründe toparlanmaya işaret ederek riskli varlıkları destekleyebilir; 50 altına düşen veya beklentinin belirgin altında kalan bir okuma resesyon endişesi yaratabilir.",
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
+      },
+      {
+        "datetime_raw": "Tuesday, September 01, 2026 10:00",
+        "date": "2026-09-01",
+        "time": "10:00",
+        "impact": 3,
+        "impact_label": "High",
+        "event": "JOLTs Açık İş Sayısı",
+        "actual": "7.271M",
+        "forecast": "7.3M",
+        "previous": "7.182M",
+        "meaning": "ABD'de ay sonu itibarıyla doldurulmayı bekleyen açık iş pozisyonu sayısını gösterir; işgücü talebinin ve piyasadaki gerginliğin öncü bir göstergesidir.",
+        "market_impact": "Beklentinin üzerinde gelmesi işgücü talebinin güçlü kaldığına işaret eder ve genellikle doları destekler; belirgin düşüş işgücü piyasasının soğuduğuna işaret ederek Fed'in gevşeme ihtimalini artırabilir.",
         "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
@@ -80,12 +80,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "ÜFE (Aylık)",
-        "actual": "",
+        "actual": "0.4%",
         "forecast": "0.4%",
-        "previous": "0%",
+        "previous": "0.1%",
         "meaning": "Üreticilerin sattığı mal ve hizmetlerin toptan fiyatlarındaki aylık değişimi gösterir; tüketici enflasyonuna (TÜFE) birkaç ay önden öncü bir sinyal olarak izlenir.",
         "market_impact": "Beklentinin üzerinde gelmesi üretici maliyetlerindeki artışın ileride tüketici fiyatlarına yansıyabileceğine işaret ederek enflasyon endişesini artırabilir; altında kalması tam tersi yönde rahatlatıcı olabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
         "datetime_raw": "Thursday, September 10, 2026 10:00",
@@ -121,12 +121,12 @@
         "time": "08:30",
         "impact": 3,
         "impact_label": "High",
-        "event": "TÜFE (Aylık)",
+        "event": "TÜFE (Yıllık)",
         "actual": "",
-        "forecast": "0.4%",
-        "previous": "0.1%",
-        "meaning": "Tüketicilerin satın aldığı mal ve hizmet sepetinin fiyatındaki bir önceki aya göre yüzdesel değişimi gösterir; enflasyonun aylık hızını ölçen temel göstergedir.",
-        "market_impact": "Beklentinin üzerinde (daha sıcak) gelmesi enflasyonun öngörülenden inatçı olduğuna işaret ederek Fed'in şahin duruşunu sürdürme ihtimalini artırır ve riskli varlıklar üzerinde baskı yaratabilir; beklentinin altında kalması faiz indirimi beklentilerini güçlendirerek risk iştahını destekleyebilir.",
+        "forecast": "3.4%",
+        "previous": "3.4%",
+        "meaning": "Tüketici fiyatlarının bir önceki yılın aynı dönemine göre yüzdesel değişimini gösterir; Fed'in enflasyon hedefiyle (%2) karşılaştırdığı temel yıllık göstergedir.",
+        "market_impact": "Beklentinin üzerinde gelmesi enflasyonun hedeften uzaklaştığına işaret ederek Fed'in sıkı duruşunu koruma ihtimalini artırır; beklentinin altında kalması Fed'in gevşeme alanını genişletebileceği için risk iştahını destekleyebilir.",
         "summary": ""
       },
       {
@@ -135,12 +135,12 @@
         "time": "08:30",
         "impact": 3,
         "impact_label": "High",
-        "event": "TÜFE (Yıllık)",
+        "event": "TÜFE (Aylık)",
         "actual": "",
-        "forecast": "3.4%",
-        "previous": "3.4%",
-        "meaning": "Tüketici fiyatlarının bir önceki yılın aynı dönemine göre yüzdesel değişimini gösterir; Fed'in enflasyon hedefiyle (%2) karşılaştırdığı temel yıllık göstergedir.",
-        "market_impact": "Beklentinin üzerinde gelmesi enflasyonun hedeften uzaklaştığına işaret ederek Fed'in sıkı duruşunu koruma ihtimalini artırır; beklentinin altında kalması Fed'in gevşeme alanını genişletebileceği için risk iştahını destekleyebilir.",
+        "forecast": "0.4%",
+        "previous": "0.1%",
+        "meaning": "Tüketicilerin satın aldığı mal ve hizmet sepetinin fiyatındaki bir önceki aya göre yüzdesel değişimi gösterir; enflasyonun aylık hızını ölçen temel göstergedir.",
+        "market_impact": "Beklentinin üzerinde (daha sıcak) gelmesi enflasyonun öngörülenden inatçı olduğuna işaret ederek Fed'in şahin duruşunu sürdürme ihtimalini artırır ve riskli varlıklar üzerinde baskı yaratabilir; beklentinin altında kalması faiz indirimi beklentilerini güçlendirerek risk iştahını destekleyebilir.",
         "summary": ""
       },
       {
@@ -353,12 +353,12 @@
           "time": "10:00",
           "impact": 3,
           "impact_label": "High",
-          "event": "JOLTs Açık İş Sayısı",
-          "actual": "7.271M",
-          "forecast": "7.3M",
-          "previous": "7.182M",
-          "meaning": "ABD'de ay sonu itibarıyla doldurulmayı bekleyen açık iş pozisyonu sayısını gösterir; işgücü talebinin ve piyasadaki gerginliğin öncü bir göstergesidir.",
-          "market_impact": "Beklentinin üzerinde gelmesi işgücü talebinin güçlü kaldığına işaret eder ve genellikle doları destekler; belirgin düşüş işgücü piyasasının soğuduğuna işaret ederek Fed'in gevşeme ihtimalini artırabilir.",
+          "event": "ISM İmalat PMI",
+          "actual": "54.6",
+          "forecast": "55.2",
+          "previous": "55.6",
+          "meaning": "İmalat sektöründeki satın alma yöneticilerine yapılan ankete dayanır; 50 üzeri sektörde büyümeye, 50 altı daralmaya işaret eder.",
+          "market_impact": "50 eşiğinin üzerinde ve beklentiyi aşan bir okuma imalat sektöründe toparlanmaya işaret ederek riskli varlıkları destekleyebilir; 50 altına düşen veya beklentinin belirgin altında kalan bir okuma resesyon endişesi yaratabilir.",
           "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         },
         {
@@ -367,12 +367,12 @@
           "time": "10:00",
           "impact": 3,
           "impact_label": "High",
-          "event": "ISM İmalat PMI",
-          "actual": "54.6",
-          "forecast": "55.2",
-          "previous": "55.6",
-          "meaning": "İmalat sektöründeki satın alma yöneticilerine yapılan ankete dayanır; 50 üzeri sektörde büyümeye, 50 altı daralmaya işaret eder.",
-          "market_impact": "50 eşiğinin üzerinde ve beklentiyi aşan bir okuma imalat sektöründe toparlanmaya işaret ederek riskli varlıkları destekleyebilir; 50 altına düşen veya beklentinin belirgin altında kalan bir okuma resesyon endişesi yaratabilir.",
+          "event": "JOLTs Açık İş Sayısı",
+          "actual": "7.271M",
+          "forecast": "7.3M",
+          "previous": "7.182M",
+          "meaning": "ABD'de ay sonu itibarıyla doldurulmayı bekleyen açık iş pozisyonu sayısını gösterir; işgücü talebinin ve piyasadaki gerginliğin öncü bir göstergesidir.",
+          "market_impact": "Beklentinin üzerinde gelmesi işgücü talebinin güçlü kaldığına işaret eder ve genellikle doları destekler; belirgin düşüş işgücü piyasasının soğuduğuna işaret ederek Fed'in gevşeme ihtimalini artırabilir.",
           "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         },
         {
@@ -431,12 +431,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "ÜFE (Aylık)",
-          "actual": "",
+          "actual": "0.4%",
           "forecast": "0.4%",
-          "previous": "0%",
+          "previous": "0.1%",
           "meaning": "Üreticilerin sattığı mal ve hizmetlerin toptan fiyatlarındaki aylık değişimi gösterir; tüketici enflasyonuna (TÜFE) birkaç ay önden öncü bir sinyal olarak izlenir.",
           "market_impact": "Beklentinin üzerinde gelmesi üretici maliyetlerindeki artışın ileride tüketici fiyatlarına yansıyabileceğine işaret ederek enflasyon endişesini artırabilir; altında kalması tam tersi yönde rahatlatıcı olabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         },
         {
           "datetime_raw": "Thursday, September 10, 2026 10:00",
@@ -472,12 +472,12 @@
           "time": "08:30",
           "impact": 3,
           "impact_label": "High",
-          "event": "TÜFE (Aylık)",
+          "event": "TÜFE (Yıllık)",
           "actual": "",
-          "forecast": "0.4%",
-          "previous": "0.1%",
-          "meaning": "Tüketicilerin satın aldığı mal ve hizmet sepetinin fiyatındaki bir önceki aya göre yüzdesel değişimi gösterir; enflasyonun aylık hızını ölçen temel göstergedir.",
-          "market_impact": "Beklentinin üzerinde (daha sıcak) gelmesi enflasyonun öngörülenden inatçı olduğuna işaret ederek Fed'in şahin duruşunu sürdürme ihtimalini artırır ve riskli varlıklar üzerinde baskı yaratabilir; beklentinin altında kalması faiz indirimi beklentilerini güçlendirerek risk iştahını destekleyebilir.",
+          "forecast": "3.4%",
+          "previous": "3.4%",
+          "meaning": "Tüketici fiyatlarının bir önceki yılın aynı dönemine göre yüzdesel değişimini gösterir; Fed'in enflasyon hedefiyle (%2) karşılaştırdığı temel yıllık göstergedir.",
+          "market_impact": "Beklentinin üzerinde gelmesi enflasyonun hedeften uzaklaştığına işaret ederek Fed'in sıkı duruşunu koruma ihtimalini artırır; beklentinin altında kalması Fed'in gevşeme alanını genişletebileceği için risk iştahını destekleyebilir.",
           "summary": ""
         },
         {
@@ -486,12 +486,12 @@
           "time": "08:30",
           "impact": 3,
           "impact_label": "High",
-          "event": "TÜFE (Yıllık)",
+          "event": "TÜFE (Aylık)",
           "actual": "",
-          "forecast": "3.4%",
-          "previous": "3.4%",
-          "meaning": "Tüketici fiyatlarının bir önceki yılın aynı dönemine göre yüzdesel değişimini gösterir; Fed'in enflasyon hedefiyle (%2) karşılaştırdığı temel yıllık göstergedir.",
-          "market_impact": "Beklentinin üzerinde gelmesi enflasyonun hedeften uzaklaştığına işaret ederek Fed'in sıkı duruşunu koruma ihtimalini artırır; beklentinin altında kalması Fed'in gevşeme alanını genişletebileceği için risk iştahını destekleyebilir.",
+          "forecast": "0.4%",
+          "previous": "0.1%",
+          "meaning": "Tüketicilerin satın aldığı mal ve hizmet sepetinin fiyatındaki bir önceki aya göre yüzdesel değişimi gösterir; enflasyonun aylık hızını ölçen temel göstergedir.",
+          "market_impact": "Beklentinin üzerinde (daha sıcak) gelmesi enflasyonun öngörülenden inatçı olduğuna işaret ederek Fed'in şahin duruşunu sürdürme ihtimalini artırır ve riskli varlıklar üzerinde baskı yaratabilir; beklentinin altında kalması faiz indirimi beklentilerini güçlendirerek risk iştahını destekleyebilir.",
           "summary": ""
         },
         {
