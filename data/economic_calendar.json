@@ -94,12 +94,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "İkinci El Konut Satışları",
-        "actual": "",
+        "actual": "3.98M",
         "forecast": "3.98M",
         "previous": "4.06M",
         "meaning": "Bir ay içinde el değiştiren ikinci el konut sayısını gösterir; ABD konut piyasasının büyük bölümünü (yeni konutlardan çok daha fazlasını) oluşturur.",
         "market_impact": "Beklentinin üzerinde gelmesi konut piyasasında ve tüketici güveninde canlılığa işaret eder; mortgage faizlerine oldukça duyarlı olduğu için beklenenden zayıf veri yüksek faiz ortamının etkisini yansıtıyor olabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
         "datetime_raw": "Friday, September 11, 2026 08:30",
@@ -445,12 +445,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "İkinci El Konut Satışları",
-          "actual": "",
+          "actual": "3.98M",
           "forecast": "3.98M",
           "previous": "4.06M",
           "meaning": "Bir ay içinde el değiştiren ikinci el konut sayısını gösterir; ABD konut piyasasının büyük bölümünü (yeni konutlardan çok daha fazlasını) oluşturur.",
           "market_impact": "Beklentinin üzerinde gelmesi konut piyasasında ve tüketici güveninde canlılığa işaret eder; mortgage faizlerine oldukça duyarlı olduğu için beklenenden zayıf veri yüksek faiz ortamının etkisini yansıtıyor olabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         },
         {
           "datetime_raw": "Friday, September 11, 2026 08:30",
