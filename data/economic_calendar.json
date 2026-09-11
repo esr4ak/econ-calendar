@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10",
+  "generated_at": "2026-09-11",
   "country": "United States",
   "current_month": {
     "2026-09": [
@@ -108,26 +108,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Çekirdek TÜFE (Aylık)",
-        "actual": "",
+        "actual": "0.3%",
         "forecast": "0.2%",
         "previous": "0.2%",
         "meaning": "Gıda ve enerji gibi oynak kalemler hariç tutularak hesaplanan TÜFE'nin aylık değişimini gösterir; Fed tarafından çekirdek enflasyon trendini görmek için tercih edilir.",
         "market_impact": "Gıda/enerji dışı fiyat baskısının altında yatan trendi yansıttığı için TÜFE'den daha yakından izlenir; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunabilir.",
-        "summary": ""
-      },
-      {
-        "datetime_raw": "Friday, September 11, 2026 08:30",
-        "date": "2026-09-11",
-        "time": "08:30",
-        "impact": 3,
-        "impact_label": "High",
-        "event": "TÜFE (Aylık)",
-        "actual": "",
-        "forecast": "0.4%",
-        "previous": "0.1%",
-        "meaning": "Tüketicilerin satın aldığı mal ve hizmet sepetinin fiyatındaki bir önceki aya göre yüzdesel değişimi gösterir; enflasyonun aylık hızını ölçen temel göstergedir.",
-        "market_impact": "Beklentinin üzerinde (daha sıcak) gelmesi enflasyonun öngörülenden inatçı olduğuna işaret ederek Fed'in şahin duruşunu sürdürme ihtimalini artırır ve riskli varlıklar üzerinde baskı yaratabilir; beklentinin altında kalması faiz indirimi beklentilerini güçlendirerek risk iştahını destekleyebilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alandaki baskının öngörülenden güçlü olduğuna işaret etti; bu tür sürpriz yüksek okumalar Fed'in şahin duruşunu sürdürme ihtimalini artırdığı için riskli varlıklar üzerinde baskı yaratabilir."
       },
       {
         "datetime_raw": "Friday, September 11, 2026 08:30",
@@ -136,12 +122,26 @@
         "impact": 3,
         "impact_label": "High",
         "event": "TÜFE (Yıllık)",
-        "actual": "",
+        "actual": "3.4%",
         "forecast": "3.4%",
         "previous": "3.4%",
         "meaning": "Tüketici fiyatlarının bir önceki yılın aynı dönemine göre yüzdesel değişimini gösterir; Fed'in enflasyon hedefiyle (%2) karşılaştırdığı temel yıllık göstergedir.",
         "market_impact": "Beklentinin üzerinde gelmesi enflasyonun hedeften uzaklaştığına işaret ederek Fed'in sıkı duruşunu koruma ihtimalini artırır; beklentinin altında kalması Fed'in gevşeme alanını genişletebileceği için risk iştahını destekleyebilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
+      },
+      {
+        "datetime_raw": "Friday, September 11, 2026 08:30",
+        "date": "2026-09-11",
+        "time": "08:30",
+        "impact": 3,
+        "impact_label": "High",
+        "event": "TÜFE (Aylık)",
+        "actual": "0.4%",
+        "forecast": "0.4%",
+        "previous": "0.1%",
+        "meaning": "Tüketicilerin satın aldığı mal ve hizmet sepetinin fiyatındaki bir önceki aya göre yüzdesel değişimi gösterir; enflasyonun aylık hızını ölçen temel göstergedir.",
+        "market_impact": "Beklentinin üzerinde (daha sıcak) gelmesi enflasyonun öngörülenden inatçı olduğuna işaret ederek Fed'in şahin duruşunu sürdürme ihtimalini artırır ve riskli varlıklar üzerinde baskı yaratabilir; beklentinin altında kalması faiz indirimi beklentilerini güçlendirerek risk iştahını destekleyebilir.",
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
         "datetime_raw": "Friday, September 11, 2026 08:30",
@@ -150,12 +150,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Çekirdek TÜFE (Yıllık)",
-        "actual": "",
+        "actual": "2.4%",
         "forecast": "2.4%",
         "previous": "2.5%",
         "meaning": "Gıda ve enerji hariç tutularak hesaplanan TÜFE'nin yıllık değişimini gösterir; Fed'in politika kararlarında en çok referans aldığı enflasyon ölçütlerinden biridir.",
         "market_impact": "Beklentinin üzerinde gelmesi çekirdek enflasyonun inatçı kaldığına işaret ederek Fed'in şahin duruşunu destekler; beklentinin altında kalması gevşeme ihtimalini güçlendirebilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
         "datetime_raw": "Friday, September 11, 2026 10:00",
@@ -193,7 +193,7 @@
         "impact_label": "High",
         "event": "Fed Faiz Kararı",
         "actual": "",
-        "forecast": "",
+        "forecast": "4%",
         "previous": "3.75%",
         "meaning": "FOMC'nin (Federal Açık Piyasa Komitesi) belirlediği, bankalar arası gecelik borçlanma faizi olan federal fon oranı hedef aralığını gösterir; ABD para politikasının temel aracıdır.",
         "market_impact": "Faiz artışı genellikle doları destekleyip riskli varlıklar üzerinde baskı yaratırken, faiz indirimi tam tersi yönde etki edebilir; faizin sabit tutulduğu durumlarda piyasa odağı genellikle karar metnindeki dile ve basın toplantısına kayar.",
@@ -459,26 +459,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Çekirdek TÜFE (Aylık)",
-          "actual": "",
+          "actual": "0.3%",
           "forecast": "0.2%",
           "previous": "0.2%",
           "meaning": "Gıda ve enerji gibi oynak kalemler hariç tutularak hesaplanan TÜFE'nin aylık değişimini gösterir; Fed tarafından çekirdek enflasyon trendini görmek için tercih edilir.",
           "market_impact": "Gıda/enerji dışı fiyat baskısının altında yatan trendi yansıttığı için TÜFE'den daha yakından izlenir; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunabilir.",
-          "summary": ""
-        },
-        {
-          "datetime_raw": "Friday, September 11, 2026 08:30",
-          "date": "2026-09-11",
-          "time": "08:30",
-          "impact": 3,
-          "impact_label": "High",
-          "event": "TÜFE (Aylık)",
-          "actual": "",
-          "forecast": "0.4%",
-          "previous": "0.1%",
-          "meaning": "Tüketicilerin satın aldığı mal ve hizmet sepetinin fiyatındaki bir önceki aya göre yüzdesel değişimi gösterir; enflasyonun aylık hızını ölçen temel göstergedir.",
-          "market_impact": "Beklentinin üzerinde (daha sıcak) gelmesi enflasyonun öngörülenden inatçı olduğuna işaret ederek Fed'in şahin duruşunu sürdürme ihtimalini artırır ve riskli varlıklar üzerinde baskı yaratabilir; beklentinin altında kalması faiz indirimi beklentilerini güçlendirerek risk iştahını destekleyebilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alandaki baskının öngörülenden güçlü olduğuna işaret etti; bu tür sürpriz yüksek okumalar Fed'in şahin duruşunu sürdürme ihtimalini artırdığı için riskli varlıklar üzerinde baskı yaratabilir."
         },
         {
           "datetime_raw": "Friday, September 11, 2026 08:30",
@@ -487,12 +473,26 @@
           "impact": 3,
           "impact_label": "High",
           "event": "TÜFE (Yıllık)",
-          "actual": "",
+          "actual": "3.4%",
           "forecast": "3.4%",
           "previous": "3.4%",
           "meaning": "Tüketici fiyatlarının bir önceki yılın aynı dönemine göre yüzdesel değişimini gösterir; Fed'in enflasyon hedefiyle (%2) karşılaştırdığı temel yıllık göstergedir.",
           "market_impact": "Beklentinin üzerinde gelmesi enflasyonun hedeften uzaklaştığına işaret ederek Fed'in sıkı duruşunu koruma ihtimalini artırır; beklentinin altında kalması Fed'in gevşeme alanını genişletebileceği için risk iştahını destekleyebilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
+        },
+        {
+          "datetime_raw": "Friday, September 11, 2026 08:30",
+          "date": "2026-09-11",
+          "time": "08:30",
+          "impact": 3,
+          "impact_label": "High",
+          "event": "TÜFE (Aylık)",
+          "actual": "0.4%",
+          "forecast": "0.4%",
+          "previous": "0.1%",
+          "meaning": "Tüketicilerin satın aldığı mal ve hizmet sepetinin fiyatındaki bir önceki aya göre yüzdesel değişimi gösterir; enflasyonun aylık hızını ölçen temel göstergedir.",
+          "market_impact": "Beklentinin üzerinde (daha sıcak) gelmesi enflasyonun öngörülenden inatçı olduğuna işaret ederek Fed'in şahin duruşunu sürdürme ihtimalini artırır ve riskli varlıklar üzerinde baskı yaratabilir; beklentinin altında kalması faiz indirimi beklentilerini güçlendirerek risk iştahını destekleyebilir.",
+          "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         },
         {
           "datetime_raw": "Friday, September 11, 2026 08:30",
@@ -501,12 +501,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Çekirdek TÜFE (Yıllık)",
-          "actual": "",
+          "actual": "2.4%",
           "forecast": "2.4%",
           "previous": "2.5%",
           "meaning": "Gıda ve enerji hariç tutularak hesaplanan TÜFE'nin yıllık değişimini gösterir; Fed'in politika kararlarında en çok referans aldığı enflasyon ölçütlerinden biridir.",
           "market_impact": "Beklentinin üzerinde gelmesi çekirdek enflasyonun inatçı kaldığına işaret ederek Fed'in şahin duruşunu destekler; beklentinin altında kalması gevşeme ihtimalini güçlendirebilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         },
         {
           "datetime_raw": "Friday, September 11, 2026 10:00",
@@ -551,7 +551,7 @@
           "impact_label": "High",
           "event": "Fed Faiz Kararı",
           "actual": "",
-          "forecast": "",
+          "forecast": "4%",
           "previous": "3.75%",
           "meaning": "FOMC'nin (Federal Açık Piyasa Komitesi) belirlediği, bankalar arası gecelik borçlanma faizi olan federal fon oranı hedef aralığını gösterir; ABD para politikasının temel aracıdır.",
           "market_impact": "Faiz artışı genellikle doları destekleyip riskli varlıklar üzerinde baskı yaratırken, faiz indirimi tam tersi yönde etki edebilir; faizin sabit tutulduğu durumlarda piyasa odağı genellikle karar metnindeki dile ve basın toplantısına kayar.",
