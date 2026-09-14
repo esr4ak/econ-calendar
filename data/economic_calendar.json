@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13",
+  "generated_at": "2026-09-14",
   "country": "United States",
   "current_month": {
     "2026-09": [
@@ -233,12 +233,12 @@
         "time": "08:30",
         "impact": 3,
         "impact_label": "High",
-        "event": "İnşaat İzinleri (Öncül)",
+        "event": "Konut Başlangıçları",
         "actual": "",
-        "forecast": "1.41M",
-        "previous": "1.433M",
-        "meaning": "Gelecekte başlanacak konut inşaatları için alınan izin sayısının öncül verisini gösterir; konut başlangıçlarına göre birkaç ay önden öncü bir sinyaldir.",
-        "market_impact": "Konut sektöründeki gelecek aktiviteye dair öncü bir gösterge olduğu için beklentiden sapmalar inşaat/emlak sektörüne yönelik beklentileri etkileyebilir; genel piyasa etkisi konut başlangıçlarına göre daha sınırlıdır.",
+        "forecast": "1.31M",
+        "previous": "1.239M",
+        "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
+        "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
         "summary": ""
       },
       {
@@ -247,12 +247,12 @@
         "time": "08:30",
         "impact": 3,
         "impact_label": "High",
-        "event": "Konut Başlangıçları",
+        "event": "İnşaat İzinleri (Öncül)",
         "actual": "",
-        "forecast": "1.32M",
-        "previous": "1.239M",
-        "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
-        "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
+        "forecast": "1.41M",
+        "previous": "1.433M",
+        "meaning": "Gelecekte başlanacak konut inşaatları için alınan izin sayısının öncül verisini gösterir; konut başlangıçlarına göre birkaç ay önden öncü bir sinyaldir.",
+        "market_impact": "Konut sektöründeki gelecek aktiviteye dair öncü bir gösterge olduğu için beklentiden sapmalar inşaat/emlak sektörüne yönelik beklentileri etkileyebilir; genel piyasa etkisi konut başlangıçlarına göre daha sınırlıdır.",
         "summary": ""
       },
       {
@@ -591,12 +591,12 @@
           "time": "08:30",
           "impact": 3,
           "impact_label": "High",
-          "event": "İnşaat İzinleri (Öncül)",
+          "event": "Konut Başlangıçları",
           "actual": "",
-          "forecast": "1.41M",
-          "previous": "1.433M",
-          "meaning": "Gelecekte başlanacak konut inşaatları için alınan izin sayısının öncül verisini gösterir; konut başlangıçlarına göre birkaç ay önden öncü bir sinyaldir.",
-          "market_impact": "Konut sektöründeki gelecek aktiviteye dair öncü bir gösterge olduğu için beklentiden sapmalar inşaat/emlak sektörüne yönelik beklentileri etkileyebilir; genel piyasa etkisi konut başlangıçlarına göre daha sınırlıdır.",
+          "forecast": "1.31M",
+          "previous": "1.239M",
+          "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
+          "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
           "summary": ""
         },
         {
@@ -605,12 +605,12 @@
           "time": "08:30",
           "impact": 3,
           "impact_label": "High",
-          "event": "Konut Başlangıçları",
+          "event": "İnşaat İzinleri (Öncül)",
           "actual": "",
-          "forecast": "1.32M",
-          "previous": "1.239M",
-          "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
-          "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
+          "forecast": "1.41M",
+          "previous": "1.433M",
+          "meaning": "Gelecekte başlanacak konut inşaatları için alınan izin sayısının öncül verisini gösterir; konut başlangıçlarına göre birkaç ay önden öncü bir sinyaldir.",
+          "market_impact": "Konut sektöründeki gelecek aktiviteye dair öncü bir gösterge olduğu için beklentiden sapmalar inşaat/emlak sektörüne yönelik beklentileri etkileyebilir; genel piyasa etkisi konut başlangıçlarına göre daha sınırlıdır.",
           "summary": ""
         }
       ]
@@ -967,20 +967,6 @@
         "time": "08:30",
         "impact": 3,
         "impact_label": "High",
-        "event": "GSYH Büyümesi (Çeyreklik, 2. Tahmin)",
-        "actual": "1.5%",
-        "forecast": "1.5%",
-        "previous": "2.1%",
-        "meaning": "Öncül tahminden sonra daha kapsamlı verilerle güncellenen ikinci GSYH büyüme tahminidir; genellikle piyasa etkisi öncül veriden daha sınırlıdır.",
-        "market_impact": "Öncül tahminden belirgin sapma olmadıkça piyasa tepkisi sınırlı kalır; büyük bir revizyon büyüme görünümüne dair beklentileri yeniden fiyatlayabilir.",
-        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
-      },
-      {
-        "datetime_raw": "Wednesday, August 26, 2026 08:30",
-        "date": "2026-08-26",
-        "time": "08:30",
-        "impact": 3,
-        "impact_label": "High",
         "event": "Dayanıklı Mal Siparişleri (Aylık)",
         "actual": "1.1%",
         "forecast": "0.5%",
@@ -1001,6 +987,20 @@
         "previous": "0.1%",
         "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
         "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
+      },
+      {
+        "datetime_raw": "Wednesday, August 26, 2026 08:30",
+        "date": "2026-08-26",
+        "time": "08:30",
+        "impact": 3,
+        "impact_label": "High",
+        "event": "GSYH Büyümesi (Çeyreklik, 2. Tahmin)",
+        "actual": "1.5%",
+        "forecast": "1.5%",
+        "previous": "2.1%",
+        "meaning": "Öncül tahminden sonra daha kapsamlı verilerle güncellenen ikinci GSYH büyüme tahminidir; genellikle piyasa etkisi öncül veriden daha sınırlıdır.",
+        "market_impact": "Öncül tahminden belirgin sapma olmadıkça piyasa tepkisi sınırlı kalır; büyük bir revizyon büyüme görünümüne dair beklentileri yeniden fiyatlayabilir.",
         "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
