@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-15",
+  "generated_at": "2026-09-16",
   "country": "United States",
   "current_month": {
     "2026-09": [
@@ -178,12 +178,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Perakende Satışlar (Aylık)",
-        "actual": "",
+        "actual": "1.2%",
         "forecast": "0.8%",
-        "previous": "-0.6%",
+        "previous": "-0.5%",
         "meaning": "Perakende mağazalardaki toplam satışların bir önceki aya göre yüzdesel değişimini gösterir; tüketici harcamalarının ve iç talebin en güncel göstergelerinden biridir.",
         "market_impact": "Beklentinin üzerinde gelmesi tüketici harcamalarının güçlü kaldığına işaret ederek riskli varlıkları ve doları destekleyebilir; beklentinin altında kalması tüketici talebinde yavaşlamaya işaret edebilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
       },
       {
         "datetime_raw": "Wednesday, September 16, 2026 14:00",
@@ -264,7 +264,7 @@
         "event": "Dayanıklı Mal Siparişleri (Aylık)",
         "actual": "",
         "forecast": "",
-        "previous": "1.1",
+        "previous": "1.1%",
         "meaning": "Otomobil, uçak, makine gibi 3 yıldan uzun kullanım ömrüne sahip dayanıklı malların yeni siparişlerindeki aylık değişimi gösterir; iş dünyası yatırım iştahının öncü göstergesidir.",
         "market_impact": "Beklentinin üzerinde gelmesi işletmelerin yatırım iştahının güçlü kaldığına işaret eder; bu kalem genellikle uçak siparişleri gibi tekil büyük işlemlerden dolayı oynak olabileceği için piyasa genellikle 'ulaşım hariç' alt kalemine de bakar.",
         "summary": ""
@@ -281,20 +281,6 @@
         "previous": "7.271M",
         "meaning": "ABD'de ay sonu itibarıyla doldurulmayı bekleyen açık iş pozisyonu sayısını gösterir; işgücü talebinin ve piyasadaki gerginliğin öncü bir göstergesidir.",
         "market_impact": "Beklentinin üzerinde gelmesi işgücü talebinin güçlü kaldığına işaret eder ve genellikle doları destekler; belirgin düşüş işgücü piyasasının soğuduğuna işaret ederek Fed'in gevşeme ihtimalini artırabilir.",
-        "summary": ""
-      },
-      {
-        "datetime_raw": "Wednesday, September 30, 2026 08:30",
-        "date": "2026-09-30",
-        "time": "08:30",
-        "impact": 3,
-        "impact_label": "High",
-        "event": "Çekirdek PCE Fiyat Endeksi (Aylık)",
-        "actual": "",
-        "forecast": "",
-        "previous": "0.2",
-        "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
-        "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
         "summary": ""
       },
       {
@@ -323,6 +309,20 @@
         "previous": "0.2%",
         "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
         "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
+        "summary": ""
+      },
+      {
+        "datetime_raw": "Wednesday, September 30, 2026 08:30",
+        "date": "2026-09-30",
+        "time": "08:30",
+        "impact": 3,
+        "impact_label": "High",
+        "event": "Çekirdek PCE Fiyat Endeksi (Aylık)",
+        "actual": "",
+        "forecast": "",
+        "previous": "0.2",
+        "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
+        "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
         "summary": ""
       },
       {
@@ -536,12 +536,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Perakende Satışlar (Aylık)",
-          "actual": "",
+          "actual": "1.2%",
           "forecast": "0.8%",
-          "previous": "-0.6%",
+          "previous": "-0.5%",
           "meaning": "Perakende mağazalardaki toplam satışların bir önceki aya göre yüzdesel değişimini gösterir; tüketici harcamalarının ve iç talebin en güncel göstergelerinden biridir.",
           "market_impact": "Beklentinin üzerinde gelmesi tüketici harcamalarının güçlü kaldığına işaret ederek riskli varlıkları ve doları destekleyebilir; beklentinin altında kalması tüketici talebinde yavaşlamaya işaret edebilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
         },
         {
           "datetime_raw": "Wednesday, September 16, 2026 14:00",
@@ -629,7 +629,7 @@
           "event": "Dayanıklı Mal Siparişleri (Aylık)",
           "actual": "",
           "forecast": "",
-          "previous": "1.1",
+          "previous": "1.1%",
           "meaning": "Otomobil, uçak, makine gibi 3 yıldan uzun kullanım ömrüne sahip dayanıklı malların yeni siparişlerindeki aylık değişimi gösterir; iş dünyası yatırım iştahının öncü göstergesidir.",
           "market_impact": "Beklentinin üzerinde gelmesi işletmelerin yatırım iştahının güçlü kaldığına işaret eder; bu kalem genellikle uçak siparişleri gibi tekil büyük işlemlerden dolayı oynak olabileceği için piyasa genellikle 'ulaşım hariç' alt kalemine de bakar.",
           "summary": ""
@@ -646,20 +646,6 @@
           "previous": "7.271M",
           "meaning": "ABD'de ay sonu itibarıyla doldurulmayı bekleyen açık iş pozisyonu sayısını gösterir; işgücü talebinin ve piyasadaki gerginliğin öncü bir göstergesidir.",
           "market_impact": "Beklentinin üzerinde gelmesi işgücü talebinin güçlü kaldığına işaret eder ve genellikle doları destekler; belirgin düşüş işgücü piyasasının soğuduğuna işaret ederek Fed'in gevşeme ihtimalini artırabilir.",
-          "summary": ""
-        },
-        {
-          "datetime_raw": "Wednesday, September 30, 2026 08:30",
-          "date": "2026-09-30",
-          "time": "08:30",
-          "impact": 3,
-          "impact_label": "High",
-          "event": "Çekirdek PCE Fiyat Endeksi (Aylık)",
-          "actual": "",
-          "forecast": "",
-          "previous": "0.2",
-          "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
-          "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
           "summary": ""
         },
         {
@@ -688,6 +674,20 @@
           "previous": "0.2%",
           "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
           "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
+          "summary": ""
+        },
+        {
+          "datetime_raw": "Wednesday, September 30, 2026 08:30",
+          "date": "2026-09-30",
+          "time": "08:30",
+          "impact": 3,
+          "impact_label": "High",
+          "event": "Çekirdek PCE Fiyat Endeksi (Aylık)",
+          "actual": "",
+          "forecast": "",
+          "previous": "0.2",
+          "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
+          "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
           "summary": ""
         },
         {
