@@ -192,12 +192,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Fed Faiz Kararı",
-        "actual": "",
+        "actual": "4%",
         "forecast": "4%",
         "previous": "3.75%",
         "meaning": "FOMC'nin (Federal Açık Piyasa Komitesi) belirlediği, bankalar arası gecelik borçlanma faizi olan federal fon oranı hedef aralığını gösterir; ABD para politikasının temel aracıdır.",
         "market_impact": "Faiz artışı genellikle doları destekleyip riskli varlıklar üzerinde baskı yaratırken, faiz indirimi tam tersi yönde etki edebilir; faizin sabit tutulduğu durumlarda piyasa odağı genellikle karar metnindeki dile ve basın toplantısına kayar.",
-        "summary": ""
+        "summary": "Fed, politika faizini artırarak sıkılaştırıcı bir adım attı; bu genellikle kısa vadede doları destekleyip riskli varlıklar üzerinde baskı yaratabilir."
       },
       {
         "datetime_raw": "Wednesday, September 16, 2026 14:00",
@@ -564,12 +564,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Fed Faiz Kararı",
-          "actual": "",
+          "actual": "4%",
           "forecast": "4%",
           "previous": "3.75%",
           "meaning": "FOMC'nin (Federal Açık Piyasa Komitesi) belirlediği, bankalar arası gecelik borçlanma faizi olan federal fon oranı hedef aralığını gösterir; ABD para politikasının temel aracıdır.",
           "market_impact": "Faiz artışı genellikle doları destekleyip riskli varlıklar üzerinde baskı yaratırken, faiz indirimi tam tersi yönde etki edebilir; faizin sabit tutulduğu durumlarda piyasa odağı genellikle karar metnindeki dile ve basın toplantısına kayar.",
-          "summary": ""
+          "summary": "Fed, politika faizini artırarak sıkılaştırıcı bir adım attı; bu genellikle kısa vadede doları destekleyip riskli varlıklar üzerinde baskı yaratabilir."
         },
         {
           "datetime_raw": "Wednesday, September 16, 2026 14:00",
