@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20",
+  "generated_at": "2026-09-21",
   "country": "United States",
   "current_month": {
     "2026-09": [
@@ -277,7 +277,7 @@
         "impact_label": "High",
         "event": "Dayanıklı Mal Siparişleri (Aylık)",
         "actual": "",
-        "forecast": "-0.5%",
+        "forecast": "-0.3%",
         "previous": "1.1%",
         "meaning": "Otomobil, uçak, makine gibi 3 yıldan uzun kullanım ömrüne sahip dayanıklı malların yeni siparişlerindeki aylık değişimi gösterir; iş dünyası yatırım iştahının öncü göstergesidir.",
         "market_impact": "Beklentinin üzerinde gelmesi işletmelerin yatırım iştahının güçlü kaldığına işaret eder; bu kalem genellikle uçak siparişleri gibi tekil büyük işlemlerden dolayı oynak olabileceği için piyasa genellikle 'ulaşım hariç' alt kalemine de bakar.",
@@ -656,7 +656,7 @@
           "impact_label": "High",
           "event": "Dayanıklı Mal Siparişleri (Aylık)",
           "actual": "",
-          "forecast": "-0.5%",
+          "forecast": "-0.3%",
           "previous": "1.1%",
           "meaning": "Otomobil, uçak, makine gibi 3 yıldan uzun kullanım ömrüne sahip dayanıklı malların yeni siparişlerindeki aylık değişimi gösterir; iş dünyası yatırım iştahının öncü göstergesidir.",
           "market_impact": "Beklentinin üzerinde gelmesi işletmelerin yatırım iştahının güçlü kaldığına işaret eder; bu kalem genellikle uçak siparişleri gibi tekil büyük işlemlerden dolayı oynak olabileceği için piyasa genellikle 'ulaşım hariç' alt kalemine de bakar.",
