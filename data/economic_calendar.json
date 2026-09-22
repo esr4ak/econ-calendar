@@ -334,7 +334,7 @@
         "event": "Çekirdek PCE Fiyat Endeksi (Aylık)",
         "actual": "",
         "forecast": "",
-        "previous": "0.2",
+        "previous": "0.2%",
         "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
         "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
         "summary": ""
@@ -713,7 +713,7 @@
           "event": "Çekirdek PCE Fiyat Endeksi (Aylık)",
           "actual": "",
           "forecast": "",
-          "previous": "0.2",
+          "previous": "0.2%",
           "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
           "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
           "summary": ""
