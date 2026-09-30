@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29",
+  "generated_at": "2026-09-30",
   "country": "United States",
   "current_month": {
     "2026-09": [
@@ -304,26 +304,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "GSYH Büyümesi (Çeyreklik, Kesin)",
-        "actual": "",
+        "actual": "2.2%",
         "forecast": "1.5%",
-        "previous": "2.1%",
+        "previous": "2.5%",
         "meaning": "Çeyreklik GSYH büyümesinin en kapsamlı verilerle hesaplanan nihai (kesin) tahminidir.",
         "market_impact": "Öncül ve ikinci tahminden büyük sapma olmadıkça piyasa etkisi genellikle sınırlıdır; veri seri sonunda geldiği için tepkiler çoğunlukla önceki tahminlerde fiyatlanmış olur.",
-        "summary": ""
-      },
-      {
-        "datetime_raw": "Wednesday, September 30, 2026 08:30",
-        "date": "2026-09-30",
-        "time": "08:30",
-        "impact": 3,
-        "impact_label": "High",
-        "event": "Kişisel Harcamalar (Aylık)",
-        "actual": "",
-        "forecast": "0.8%",
-        "previous": "0.2%",
-        "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
-        "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
       },
       {
         "datetime_raw": "Wednesday, September 30, 2026 08:30",
@@ -332,12 +318,26 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Çekirdek PCE Fiyat Endeksi (Aylık)",
-        "actual": "",
+        "actual": "0.2%",
         "forecast": "0.3%",
-        "previous": "0.2%",
+        "previous": "0.1%",
         "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
         "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alandaki baskının öngörülenden zayıf olduğuna işaret etti; bu tür sürpriz düşük okumalar Fed'in gevşemeye daha yakın durabileceği ihtimalini güçlendirdiği için risk iştahını destekleyebilir."
+      },
+      {
+        "datetime_raw": "Wednesday, September 30, 2026 08:30",
+        "date": "2026-09-30",
+        "time": "08:30",
+        "impact": 3,
+        "impact_label": "High",
+        "event": "Kişisel Harcamalar (Aylık)",
+        "actual": "0.9%",
+        "forecast": "0.8%",
+        "previous": "0.1%",
+        "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
+        "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
+        "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
       },
       {
         "datetime_raw": "Wednesday, September 30, 2026 08:30",
@@ -346,12 +346,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Kişisel Gelir (Aylık)",
-        "actual": "",
+        "actual": "0.2%",
         "forecast": "0.4%",
-        "previous": "0.4%",
+        "previous": "0.3%",
         "meaning": "Hane halklarının bir ay içinde elde ettiği toplam gelirdeki yüzdesel değişimi gösterir; tüketici harcama kapasitesinin öncü göstergelerinden biridir.",
         "market_impact": "Beklentinin üzerinde gelmesi hane halkı gelirlerinin güçlü seyrettiğine işaret ederek tüketim harcamaları açısından olumlu okunabilir; zayıf gelmesi tüketici talebinde yavaşlama endişesi yaratabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alanda öngörülenden zayıf bir görünüme işaret etti; bu durum Fed'in gevşek para politikasına yönelme ihtimalini güçlendirebileceği için riskli varlıkları destekleyebilirken doları baskılayabilir."
       }
     ]
   },
@@ -683,26 +683,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "GSYH Büyümesi (Çeyreklik, Kesin)",
-          "actual": "",
+          "actual": "2.2%",
           "forecast": "1.5%",
-          "previous": "2.1%",
+          "previous": "2.5%",
           "meaning": "Çeyreklik GSYH büyümesinin en kapsamlı verilerle hesaplanan nihai (kesin) tahminidir.",
           "market_impact": "Öncül ve ikinci tahminden büyük sapma olmadıkça piyasa etkisi genellikle sınırlıdır; veri seri sonunda geldiği için tepkiler çoğunlukla önceki tahminlerde fiyatlanmış olur.",
-          "summary": ""
-        },
-        {
-          "datetime_raw": "Wednesday, September 30, 2026 08:30",
-          "date": "2026-09-30",
-          "time": "08:30",
-          "impact": 3,
-          "impact_label": "High",
-          "event": "Kişisel Harcamalar (Aylık)",
-          "actual": "",
-          "forecast": "0.8%",
-          "previous": "0.2%",
-          "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
-          "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
         },
         {
           "datetime_raw": "Wednesday, September 30, 2026 08:30",
@@ -711,12 +697,26 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Çekirdek PCE Fiyat Endeksi (Aylık)",
-          "actual": "",
+          "actual": "0.2%",
           "forecast": "0.3%",
-          "previous": "0.2%",
+          "previous": "0.1%",
           "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
           "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alandaki baskının öngörülenden zayıf olduğuna işaret etti; bu tür sürpriz düşük okumalar Fed'in gevşemeye daha yakın durabileceği ihtimalini güçlendirdiği için risk iştahını destekleyebilir."
+        },
+        {
+          "datetime_raw": "Wednesday, September 30, 2026 08:30",
+          "date": "2026-09-30",
+          "time": "08:30",
+          "impact": 3,
+          "impact_label": "High",
+          "event": "Kişisel Harcamalar (Aylık)",
+          "actual": "0.9%",
+          "forecast": "0.8%",
+          "previous": "0.1%",
+          "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
+          "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
+          "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
         },
         {
           "datetime_raw": "Wednesday, September 30, 2026 08:30",
@@ -725,12 +725,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Kişisel Gelir (Aylık)",
-          "actual": "",
+          "actual": "0.2%",
           "forecast": "0.4%",
-          "previous": "0.4%",
+          "previous": "0.3%",
           "meaning": "Hane halklarının bir ay içinde elde ettiği toplam gelirdeki yüzdesel değişimi gösterir; tüketici harcama kapasitesinin öncü göstergelerinden biridir.",
           "market_impact": "Beklentinin üzerinde gelmesi hane halkı gelirlerinin güçlü seyrettiğine işaret ederek tüketim harcamaları açısından olumlu okunabilir; zayıf gelmesi tüketici talebinde yavaşlama endişesi yaratabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alanda öngörülenden zayıf bir görünüme işaret etti; bu durum Fed'in gevşek para politikasına yönelme ihtimalini güçlendirebileceği için riskli varlıkları destekleyebilirken doları baskılayabilir."
         }
       ]
     }
