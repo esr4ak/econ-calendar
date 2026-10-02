@@ -24,12 +24,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Tarım Dışı İstihdam",
-        "actual": "",
+        "actual": "29K",
         "forecast": "90K",
-        "previous": "162K",
+        "previous": "133K",
         "meaning": "ABD'de tarım sektörü dışındaki işyerlerinde bir ay içinde eklenen net istihdam sayısını gösterir; ABD Çalışma Bakanlığı tarafından her ayın ilk Cuma günü yayınlanır ve işgücü piyasasının en çok izlenen göstergesidir.",
         "market_impact": "Beklentinin belirgin üzerinde gelmesi güçlü istihdam piyasasına işaret eder ve genellikle doları destekler; beklentinin altında kalması Fed'in faiz indirimine gidebileceği ihtimalini güçlendirdiği için riskli varlıkları (kripto, hisse senedi) destekleyebilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alanda öngörülenden zayıf bir görünüme işaret etti; bu durum Fed'in gevşek para politikasına yönelme ihtimalini güçlendirebileceği için riskli varlıkları destekleyebilirken doları baskılayabilir."
       },
       {
         "datetime_raw": "Friday, October 02, 2026 08:30",
@@ -38,12 +38,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "İşsizlik Oranı",
-        "actual": "",
+        "actual": "4.2%",
         "forecast": "4.1%",
         "previous": "4.1%",
         "meaning": "İşgücüne dahil olup aktif olarak iş arayan ancak istihdam edilemeyen kişilerin toplam işgücüne oranını gösterir; işgücü piyasasının genel sağlığının temel göstergesidir.",
         "market_impact": "Beklentinin üzerinde (daha yüksek) gelmesi işgücü piyasasında zayıflamaya işaret eder ve Fed'in faiz indirimine daha yakın durabileceği düşüncesiyle riskli varlıkları destekleyebilirken doları baskılayabilir; beklentinin altında kalması tam tersi yönde çalışabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
         "datetime_raw": "Monday, October 05, 2026 10:00",
@@ -53,7 +53,7 @@
         "impact_label": "High",
         "event": "ISM Hizmet PMI",
         "actual": "",
-        "forecast": "",
+        "forecast": "55.7",
         "previous": "55.4",
         "meaning": "ABD ekonomisinin büyük bölümünü oluşturan hizmet sektöründeki satın alma yöneticilerine yapılan ankete dayanır; 50 üzeri büyümeye, 50 altı daralmaya işaret eder.",
         "market_impact": "Hizmet sektörü ABD ekonomisinin en büyük bileşeni olduğu için bu veri genel büyüme görünümü açısından yakından izlenir; beklentinin üzerinde gelmesi genellikle doları ve risk iştahını destekler, altında kalması tam tersi etki yapabilir.",
@@ -340,12 +340,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Tarım Dışı İstihdam",
-          "actual": "",
+          "actual": "29K",
           "forecast": "90K",
-          "previous": "162K",
+          "previous": "133K",
           "meaning": "ABD'de tarım sektörü dışındaki işyerlerinde bir ay içinde eklenen net istihdam sayısını gösterir; ABD Çalışma Bakanlığı tarafından her ayın ilk Cuma günü yayınlanır ve işgücü piyasasının en çok izlenen göstergesidir.",
           "market_impact": "Beklentinin belirgin üzerinde gelmesi güçlü istihdam piyasasına işaret eder ve genellikle doları destekler; beklentinin altında kalması Fed'in faiz indirimine gidebileceği ihtimalini güçlendirdiği için riskli varlıkları (kripto, hisse senedi) destekleyebilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alanda öngörülenden zayıf bir görünüme işaret etti; bu durum Fed'in gevşek para politikasına yönelme ihtimalini güçlendirebileceği için riskli varlıkları destekleyebilirken doları baskılayabilir."
         },
         {
           "datetime_raw": "Friday, October 02, 2026 08:30",
@@ -354,12 +354,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "İşsizlik Oranı",
-          "actual": "",
+          "actual": "4.2%",
           "forecast": "4.1%",
           "previous": "4.1%",
           "meaning": "İşgücüne dahil olup aktif olarak iş arayan ancak istihdam edilemeyen kişilerin toplam işgücüne oranını gösterir; işgücü piyasasının genel sağlığının temel göstergesidir.",
           "market_impact": "Beklentinin üzerinde (daha yüksek) gelmesi işgücü piyasasında zayıflamaya işaret eder ve Fed'in faiz indirimine daha yakın durabileceği düşüncesiyle riskli varlıkları destekleyebilirken doları baskılayabilir; beklentinin altında kalması tam tersi yönde çalışabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         }
       ]
     },
@@ -376,7 +376,7 @@
           "impact_label": "High",
           "event": "ISM Hizmet PMI",
           "actual": "",
-          "forecast": "",
+          "forecast": "55.7",
           "previous": "55.4",
           "meaning": "ABD ekonomisinin büyük bölümünü oluşturan hizmet sektöründeki satın alma yöneticilerine yapılan ankete dayanır; 50 üzeri büyümeye, 50 altı daralmaya işaret eder.",
           "market_impact": "Hizmet sektörü ABD ekonomisinin en büyük bileşeni olduğu için bu veri genel büyüme görünümü açısından yakından izlenir; beklentinin üzerinde gelmesi genellikle doları ve risk iştahını destekler, altında kalması tam tersi etki yapabilir.",
