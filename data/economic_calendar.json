@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02",
+  "generated_at": "2026-10-03",
   "country": "United States",
   "current_month": {
     "2026-10": [
@@ -81,7 +81,7 @@
         "impact_label": "High",
         "event": "Michigan Tüketici Güveni (Öncül)",
         "actual": "",
-        "forecast": "",
+        "forecast": "48.1",
         "previous": "48.1",
         "meaning": "Michigan Üniversitesi'nin tüketicilerin kişisel finansal durumları ve genel ekonomiye ilişkin algısını ölçen anketinin öncül (ay ortası) sonucudur.",
         "market_impact": "Beklentinin üzerinde gelmesi tüketici güveninin güçlendiğine ve harcama iştahının sürebileceğine işaret eder; zayıf gelmesi tüketici davranışında temkinliliğe işaret edebilir.",
@@ -404,7 +404,7 @@
           "impact_label": "High",
           "event": "Michigan Tüketici Güveni (Öncül)",
           "actual": "",
-          "forecast": "",
+          "forecast": "48.1",
           "previous": "48.1",
           "meaning": "Michigan Üniversitesi'nin tüketicilerin kişisel finansal durumları ve genel ekonomiye ilişkin algısını ölçen anketinin öncül (ay ortası) sonucudur.",
           "market_impact": "Beklentinin üzerinde gelmesi tüketici güveninin güçlendiğine ve harcama iştahının sürebileceğine işaret eder; zayıf gelmesi tüketici davranışında temkinliliğe işaret edebilir.",
