@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04",
+  "generated_at": "2026-10-05",
   "country": "United States",
   "current_month": {
     "2026-10": [
@@ -52,12 +52,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "ISM Hizmet PMI",
-        "actual": "",
-        "forecast": "55.7",
+        "actual": "54.9",
+        "forecast": "55",
         "previous": "55.4",
         "meaning": "ABD ekonomisinin büyük bölümünü oluşturan hizmet sektöründeki satın alma yöneticilerine yapılan ankete dayanır; 50 üzeri büyümeye, 50 altı daralmaya işaret eder.",
         "market_impact": "Hizmet sektörü ABD ekonomisinin en büyük bileşeni olduğu için bu veri genel büyüme görünümü açısından yakından izlenir; beklentinin üzerinde gelmesi genellikle doları ve risk iştahını destekler, altında kalması tam tersi etki yapabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
         "datetime_raw": "Wednesday, October 07, 2026 14:00",
@@ -81,7 +81,7 @@
         "impact_label": "High",
         "event": "Michigan Tüketici Güveni (Öncül)",
         "actual": "",
-        "forecast": "48.1",
+        "forecast": "47.6",
         "previous": "48.1",
         "meaning": "Michigan Üniversitesi'nin tüketicilerin kişisel finansal durumları ve genel ekonomiye ilişkin algısını ölçen anketinin öncül (ay ortası) sonucudur.",
         "market_impact": "Beklentinin üzerinde gelmesi tüketici güveninin güçlendiğine ve harcama iştahının sürebileceğine işaret eder; zayıf gelmesi tüketici davranışında temkinliliğe işaret edebilir.",
@@ -375,12 +375,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "ISM Hizmet PMI",
-          "actual": "",
-          "forecast": "55.7",
+          "actual": "54.9",
+          "forecast": "55",
           "previous": "55.4",
           "meaning": "ABD ekonomisinin büyük bölümünü oluşturan hizmet sektöründeki satın alma yöneticilerine yapılan ankete dayanır; 50 üzeri büyümeye, 50 altı daralmaya işaret eder.",
           "market_impact": "Hizmet sektörü ABD ekonomisinin en büyük bileşeni olduğu için bu veri genel büyüme görünümü açısından yakından izlenir; beklentinin üzerinde gelmesi genellikle doları ve risk iştahını destekler, altında kalması tam tersi etki yapabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         },
         {
           "datetime_raw": "Wednesday, October 07, 2026 14:00",
@@ -404,7 +404,7 @@
           "impact_label": "High",
           "event": "Michigan Tüketici Güveni (Öncül)",
           "actual": "",
-          "forecast": "48.1",
+          "forecast": "47.6",
           "previous": "48.1",
           "meaning": "Michigan Üniversitesi'nin tüketicilerin kişisel finansal durumları ve genel ekonomiye ilişkin algısını ölçen anketinin öncül (ay ortası) sonucudur.",
           "market_impact": "Beklentinin üzerinde gelmesi tüketici güveninin güçlendiğine ve harcama iştahının sürebileceğine işaret eder; zayıf gelmesi tüketici davranışında temkinliliğe işaret edebilir.",
