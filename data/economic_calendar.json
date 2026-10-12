@@ -172,9 +172,9 @@
         "summary": ""
       },
       {
-        "datetime_raw": "Thursday, October 15, 2026 09:30",
+        "datetime_raw": "Thursday, October 15, 2026 08:30",
         "date": "2026-10-15",
-        "time": "09:30",
+        "time": "08:30",
         "impact": 3,
         "impact_label": "High",
         "event": "Perakende Satışlar (Aylık)",
@@ -208,7 +208,7 @@
         "event": "İnşaat İzinleri (Öncül)",
         "actual": "",
         "forecast": "",
-        "previous": "",
+        "previous": "1.403M",
         "meaning": "Gelecekte başlanacak konut inşaatları için alınan izin sayısının öncül verisini gösterir; konut başlangıçlarına göre birkaç ay önden öncü bir sinyaldir.",
         "market_impact": "Konut sektöründeki gelecek aktiviteye dair öncü bir gösterge olduğu için beklentiden sapmalar inşaat/emlak sektörüne yönelik beklentileri etkileyebilir; genel piyasa etkisi konut başlangıçlarına göre daha sınırlıdır.",
         "summary": ""
@@ -516,9 +516,9 @@
           "summary": ""
         },
         {
-          "datetime_raw": "Thursday, October 15, 2026 09:30",
+          "datetime_raw": "Thursday, October 15, 2026 08:30",
           "date": "2026-10-15",
-          "time": "09:30",
+          "time": "08:30",
           "impact": 3,
           "impact_label": "High",
           "event": "Perakende Satışlar (Aylık)",
@@ -559,7 +559,7 @@
           "event": "İnşaat İzinleri (Öncül)",
           "actual": "",
           "forecast": "",
-          "previous": "",
+          "previous": "1.403M",
           "meaning": "Gelecekte başlanacak konut inşaatları için alınan izin sayısının öncül verisini gösterir; konut başlangıçlarına göre birkaç ay önden öncü bir sinyaldir.",
           "market_impact": "Konut sektöründeki gelecek aktiviteye dair öncü bir gösterge olduğu için beklentiden sapmalar inşaat/emlak sektörüne yönelik beklentileri etkileyebilir; genel piyasa etkisi konut başlangıçlarına göre daha sınırlıdır.",
           "summary": ""
