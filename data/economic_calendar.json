@@ -94,12 +94,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "İkinci El Konut Satışları",
-        "actual": "",
-        "forecast": "3.96M",
-        "previous": "3.98M",
+        "actual": "3.99M",
+        "forecast": "3.95M",
+        "previous": "3.93M",
         "meaning": "Bir ay içinde el değiştiren ikinci el konut sayısını gösterir; ABD konut piyasasının büyük bölümünü (yeni konutlardan çok daha fazlasını) oluşturur.",
         "market_impact": "Beklentinin üzerinde gelmesi konut piyasasında ve tüketici güveninde canlılığa işaret eder; mortgage faizlerine oldukça duyarlı olduğu için beklenenden zayıf veri yüksek faiz ortamının etkisini yansıtıyor olabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
         "datetime_raw": "Wednesday, October 14, 2026 08:30",
@@ -123,7 +123,7 @@
         "impact_label": "High",
         "event": "TÜFE (Yıllık)",
         "actual": "",
-        "forecast": "3.7%",
+        "forecast": "3.6%",
         "previous": "3.4%",
         "meaning": "Tüketici fiyatlarının bir önceki yılın aynı dönemine göre yüzdesel değişimini gösterir; Fed'in enflasyon hedefiyle (%2) karşılaştırdığı temel yıllık göstergedir.",
         "market_impact": "Beklentinin üzerinde gelmesi enflasyonun hedeften uzaklaştığına işaret ederek Fed'in sıkı duruşunu koruma ihtimalini artırır; beklentinin altında kalması Fed'in gevşeme alanını genişletebileceği için risk iştahını destekleyebilir.",
@@ -289,20 +289,6 @@
         "time": "08:30",
         "impact": 3,
         "impact_label": "High",
-        "event": "Kişisel Harcamalar (Aylık)",
-        "actual": "",
-        "forecast": "",
-        "previous": "0.9",
-        "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
-        "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
-        "summary": ""
-      },
-      {
-        "datetime_raw": "Thursday, October 29, 2026 08:30",
-        "date": "2026-10-29",
-        "time": "08:30",
-        "impact": 3,
-        "impact_label": "High",
         "event": "GSYH Büyümesi (Çeyreklik, Öncül)",
         "actual": "",
         "forecast": "",
@@ -323,6 +309,20 @@
         "previous": "0.2",
         "meaning": "Hane halklarının bir ay içinde elde ettiği toplam gelirdeki yüzdesel değişimi gösterir; tüketici harcama kapasitesinin öncü göstergelerinden biridir.",
         "market_impact": "Beklentinin üzerinde gelmesi hane halkı gelirlerinin güçlü seyrettiğine işaret ederek tüketim harcamaları açısından olumlu okunabilir; zayıf gelmesi tüketici talebinde yavaşlama endişesi yaratabilir.",
+        "summary": ""
+      },
+      {
+        "datetime_raw": "Thursday, October 29, 2026 08:30",
+        "date": "2026-10-29",
+        "time": "08:30",
+        "impact": 3,
+        "impact_label": "High",
+        "event": "Kişisel Harcamalar (Aylık)",
+        "actual": "",
+        "forecast": "",
+        "previous": "0.9",
+        "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
+        "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
         "summary": ""
       }
     ]
@@ -438,12 +438,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "İkinci El Konut Satışları",
-          "actual": "",
-          "forecast": "3.96M",
-          "previous": "3.98M",
+          "actual": "3.99M",
+          "forecast": "3.95M",
+          "previous": "3.93M",
           "meaning": "Bir ay içinde el değiştiren ikinci el konut sayısını gösterir; ABD konut piyasasının büyük bölümünü (yeni konutlardan çok daha fazlasını) oluşturur.",
           "market_impact": "Beklentinin üzerinde gelmesi konut piyasasında ve tüketici güveninde canlılığa işaret eder; mortgage faizlerine oldukça duyarlı olduğu için beklenenden zayıf veri yüksek faiz ortamının etkisini yansıtıyor olabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         },
         {
           "datetime_raw": "Wednesday, October 14, 2026 08:30",
@@ -467,7 +467,7 @@
           "impact_label": "High",
           "event": "TÜFE (Yıllık)",
           "actual": "",
-          "forecast": "3.7%",
+          "forecast": "3.6%",
           "previous": "3.4%",
           "meaning": "Tüketici fiyatlarının bir önceki yılın aynı dönemine göre yüzdesel değişimini gösterir; Fed'in enflasyon hedefiyle (%2) karşılaştırdığı temel yıllık göstergedir.",
           "market_impact": "Beklentinin üzerinde gelmesi enflasyonun hedeften uzaklaştığına işaret ederek Fed'in sıkı duruşunu koruma ihtimalini artırır; beklentinin altında kalması Fed'in gevşeme alanını genişletebileceği için risk iştahını destekleyebilir.",
@@ -647,20 +647,6 @@
           "time": "08:30",
           "impact": 3,
           "impact_label": "High",
-          "event": "Kişisel Harcamalar (Aylık)",
-          "actual": "",
-          "forecast": "",
-          "previous": "0.9",
-          "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
-          "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
-          "summary": ""
-        },
-        {
-          "datetime_raw": "Thursday, October 29, 2026 08:30",
-          "date": "2026-10-29",
-          "time": "08:30",
-          "impact": 3,
-          "impact_label": "High",
           "event": "GSYH Büyümesi (Çeyreklik, Öncül)",
           "actual": "",
           "forecast": "",
@@ -681,6 +667,20 @@
           "previous": "0.2",
           "meaning": "Hane halklarının bir ay içinde elde ettiği toplam gelirdeki yüzdesel değişimi gösterir; tüketici harcama kapasitesinin öncü göstergelerinden biridir.",
           "market_impact": "Beklentinin üzerinde gelmesi hane halkı gelirlerinin güçlü seyrettiğine işaret ederek tüketim harcamaları açısından olumlu okunabilir; zayıf gelmesi tüketici talebinde yavaşlama endişesi yaratabilir.",
+          "summary": ""
+        },
+        {
+          "datetime_raw": "Thursday, October 29, 2026 08:30",
+          "date": "2026-10-29",
+          "time": "08:30",
+          "impact": 3,
+          "impact_label": "High",
+          "event": "Kişisel Harcamalar (Aylık)",
+          "actual": "",
+          "forecast": "",
+          "previous": "0.9",
+          "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
+          "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
           "summary": ""
         }
       ]
