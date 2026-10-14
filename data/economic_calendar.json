@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13",
+  "generated_at": "2026-10-14",
   "country": "United States",
   "current_month": {
     "2026-10": [
@@ -250,7 +250,7 @@
         "event": "Fed Faiz Kararı",
         "actual": "",
         "forecast": "",
-        "previous": "4",
+        "previous": "4%",
         "meaning": "FOMC'nin (Federal Açık Piyasa Komitesi) belirlediği, bankalar arası gecelik borçlanma faizi olan federal fon oranı hedef aralığını gösterir; ABD para politikasının temel aracıdır.",
         "market_impact": "Faiz artışı genellikle doları destekleyip riskli varlıklar üzerinde baskı yaratırken, faiz indirimi tam tersi yönde etki edebilir; faizin sabit tutulduğu durumlarda piyasa odağı genellikle karar metnindeki dile ve basın toplantısına kayar.",
         "summary": ""
@@ -267,20 +267,6 @@
         "previous": "",
         "meaning": "Fed Başkanı'nın faiz kararı sonrası düzenlediği, komitenin ekonomik görünüme ve gelecekteki politika patikasına dair sinyaller verdiği basın toplantısıdır.",
         "market_impact": "Faiz kararının kendisinden çok, toplantıda kullanılan dilin şahin ya da güvercin algılanması piyasalarda daha güçlü ve ani hareketlere yol açabilir.",
-        "summary": ""
-      },
-      {
-        "datetime_raw": "Thursday, October 29, 2026 08:30",
-        "date": "2026-10-29",
-        "time": "08:30",
-        "impact": 3,
-        "impact_label": "High",
-        "event": "Çekirdek PCE Fiyat Endeksi (Aylık)",
-        "actual": "",
-        "forecast": "",
-        "previous": "0.2",
-        "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
-        "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
         "summary": ""
       },
       {
@@ -323,6 +309,20 @@
         "previous": "0.9",
         "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
         "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
+        "summary": ""
+      },
+      {
+        "datetime_raw": "Thursday, October 29, 2026 08:30",
+        "date": "2026-10-29",
+        "time": "08:30",
+        "impact": 3,
+        "impact_label": "High",
+        "event": "Çekirdek PCE Fiyat Endeksi (Aylık)",
+        "actual": "",
+        "forecast": "",
+        "previous": "0.2",
+        "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
+        "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
         "summary": ""
       }
     ]
@@ -608,7 +608,7 @@
           "event": "Fed Faiz Kararı",
           "actual": "",
           "forecast": "",
-          "previous": "4",
+          "previous": "4%",
           "meaning": "FOMC'nin (Federal Açık Piyasa Komitesi) belirlediği, bankalar arası gecelik borçlanma faizi olan federal fon oranı hedef aralığını gösterir; ABD para politikasının temel aracıdır.",
           "market_impact": "Faiz artışı genellikle doları destekleyip riskli varlıklar üzerinde baskı yaratırken, faiz indirimi tam tersi yönde etki edebilir; faizin sabit tutulduğu durumlarda piyasa odağı genellikle karar metnindeki dile ve basın toplantısına kayar.",
           "summary": ""
@@ -625,20 +625,6 @@
           "previous": "",
           "meaning": "Fed Başkanı'nın faiz kararı sonrası düzenlediği, komitenin ekonomik görünüme ve gelecekteki politika patikasına dair sinyaller verdiği basın toplantısıdır.",
           "market_impact": "Faiz kararının kendisinden çok, toplantıda kullanılan dilin şahin ya da güvercin algılanması piyasalarda daha güçlü ve ani hareketlere yol açabilir.",
-          "summary": ""
-        },
-        {
-          "datetime_raw": "Thursday, October 29, 2026 08:30",
-          "date": "2026-10-29",
-          "time": "08:30",
-          "impact": 3,
-          "impact_label": "High",
-          "event": "Çekirdek PCE Fiyat Endeksi (Aylık)",
-          "actual": "",
-          "forecast": "",
-          "previous": "0.2",
-          "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
-          "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
           "summary": ""
         },
         {
@@ -681,6 +667,20 @@
           "previous": "0.9",
           "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
           "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
+          "summary": ""
+        },
+        {
+          "datetime_raw": "Thursday, October 29, 2026 08:30",
+          "date": "2026-10-29",
+          "time": "08:30",
+          "impact": 3,
+          "impact_label": "High",
+          "event": "Çekirdek PCE Fiyat Endeksi (Aylık)",
+          "actual": "",
+          "forecast": "",
+          "previous": "0.2",
+          "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
+          "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
           "summary": ""
         }
       ]
