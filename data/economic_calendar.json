@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14",
+  "generated_at": "2026-10-15",
   "country": "United States",
   "current_month": {
     "2026-10": [
@@ -164,12 +164,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "ÜFE (Aylık)",
-        "actual": "",
+        "actual": "1.3%",
         "forecast": "0.5%",
-        "previous": "0.4%",
+        "previous": "0.5%",
         "meaning": "Üreticilerin sattığı mal ve hizmetlerin toptan fiyatlarındaki aylık değişimi gösterir; tüketici enflasyonuna (TÜFE) birkaç ay önden öncü bir sinyal olarak izlenir.",
         "market_impact": "Beklentinin üzerinde gelmesi üretici maliyetlerindeki artışın ileride tüketici fiyatlarına yansıyabileceğine işaret ederek enflasyon endişesini artırabilir; altında kalması tam tersi yönde rahatlatıcı olabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alandaki baskının öngörülenden güçlü olduğuna işaret etti; bu tür sürpriz yüksek okumalar Fed'in şahin duruşunu sürdürme ihtimalini artırdığı için riskli varlıklar üzerinde baskı yaratabilir."
       },
       {
         "datetime_raw": "Thursday, October 15, 2026 08:30",
@@ -178,12 +178,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Perakende Satışlar (Aylık)",
-        "actual": "",
+        "actual": "0.8%",
         "forecast": "0.3%",
-        "previous": "1.2%",
+        "previous": "1.3%",
         "meaning": "Perakende mağazalardaki toplam satışların bir önceki aya göre yüzdesel değişimini gösterir; tüketici harcamalarının ve iç talebin en güncel göstergelerinden biridir.",
         "market_impact": "Beklentinin üzerinde gelmesi tüketici harcamalarının güçlü kaldığına işaret ederek riskli varlıkları ve doları destekleyebilir; beklentinin altında kalması tüketici talebinde yavaşlamaya işaret edebilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
       },
       {
         "datetime_raw": "Thursday, October 15, 2026 23:30",
@@ -508,12 +508,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "ÜFE (Aylık)",
-          "actual": "",
+          "actual": "1.3%",
           "forecast": "0.5%",
-          "previous": "0.4%",
+          "previous": "0.5%",
           "meaning": "Üreticilerin sattığı mal ve hizmetlerin toptan fiyatlarındaki aylık değişimi gösterir; tüketici enflasyonuna (TÜFE) birkaç ay önden öncü bir sinyal olarak izlenir.",
           "market_impact": "Beklentinin üzerinde gelmesi üretici maliyetlerindeki artışın ileride tüketici fiyatlarına yansıyabileceğine işaret ederek enflasyon endişesini artırabilir; altında kalması tam tersi yönde rahatlatıcı olabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alandaki baskının öngörülenden güçlü olduğuna işaret etti; bu tür sürpriz yüksek okumalar Fed'in şahin duruşunu sürdürme ihtimalini artırdığı için riskli varlıklar üzerinde baskı yaratabilir."
         },
         {
           "datetime_raw": "Thursday, October 15, 2026 08:30",
@@ -522,12 +522,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Perakende Satışlar (Aylık)",
-          "actual": "",
+          "actual": "0.8%",
           "forecast": "0.3%",
-          "previous": "1.2%",
+          "previous": "1.3%",
           "meaning": "Perakende mağazalardaki toplam satışların bir önceki aya göre yüzdesel değişimini gösterir; tüketici harcamalarının ve iç talebin en güncel göstergelerinden biridir.",
           "market_impact": "Beklentinin üzerinde gelmesi tüketici harcamalarının güçlü kaldığına işaret ederek riskli varlıkları ve doları destekleyebilir; beklentinin altında kalması tüketici talebinde yavaşlamaya işaret edebilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
         },
         {
           "datetime_raw": "Thursday, October 15, 2026 23:30",
