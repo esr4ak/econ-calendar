@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15",
+  "generated_at": "2026-10-16",
   "country": "United States",
   "current_month": {
     "2026-10": [
@@ -207,7 +207,7 @@
         "impact_label": "High",
         "event": "İnşaat İzinleri (Öncül)",
         "actual": "",
-        "forecast": "",
+        "forecast": "1.4M",
         "previous": "1.403M",
         "meaning": "Gelecekte başlanacak konut inşaatları için alınan izin sayısının öncül verisini gösterir; konut başlangıçlarına göre birkaç ay önden öncü bir sinyaldir.",
         "market_impact": "Konut sektöründeki gelecek aktiviteye dair öncü bir gösterge olduğu için beklentiden sapmalar inşaat/emlak sektörüne yönelik beklentileri etkileyebilir; genel piyasa etkisi konut başlangıçlarına göre daha sınırlıdır.",
@@ -221,8 +221,8 @@
         "impact_label": "High",
         "event": "Konut Başlangıçları",
         "actual": "",
-        "forecast": "",
-        "previous": "1.275",
+        "forecast": "1.3M",
+        "previous": "1.275M",
         "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
         "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
         "summary": ""
@@ -558,7 +558,7 @@
           "impact_label": "High",
           "event": "İnşaat İzinleri (Öncül)",
           "actual": "",
-          "forecast": "",
+          "forecast": "1.4M",
           "previous": "1.403M",
           "meaning": "Gelecekte başlanacak konut inşaatları için alınan izin sayısının öncül verisini gösterir; konut başlangıçlarına göre birkaç ay önden öncü bir sinyaldir.",
           "market_impact": "Konut sektöründeki gelecek aktiviteye dair öncü bir gösterge olduğu için beklentiden sapmalar inşaat/emlak sektörüne yönelik beklentileri etkileyebilir; genel piyasa etkisi konut başlangıçlarına göre daha sınırlıdır.",
@@ -572,8 +572,8 @@
           "impact_label": "High",
           "event": "Konut Başlangıçları",
           "actual": "",
-          "forecast": "",
-          "previous": "1.275",
+          "forecast": "1.3M",
+          "previous": "1.275M",
           "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
           "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
           "summary": ""
