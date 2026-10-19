@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18",
+  "generated_at": "2026-10-19",
   "country": "United States",
   "current_month": {
     "2026-10": [
@@ -221,7 +221,7 @@
         "impact_label": "High",
         "event": "Konut Başlangıçları",
         "actual": "",
-        "forecast": "1.3M",
+        "forecast": "1.31M",
         "previous": "1.275M",
         "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
         "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
@@ -572,7 +572,7 @@
           "impact_label": "High",
           "event": "Konut Başlangıçları",
           "actual": "",
-          "forecast": "1.3M",
+          "forecast": "1.31M",
           "previous": "1.275M",
           "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
           "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
