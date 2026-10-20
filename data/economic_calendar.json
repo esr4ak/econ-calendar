@@ -206,12 +206,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "İnşaat İzinleri (Öncül)",
-        "actual": "",
-        "forecast": "1.4M",
+        "actual": "1.4M",
+        "forecast": "1.39M",
         "previous": "1.403M",
         "meaning": "Gelecekte başlanacak konut inşaatları için alınan izin sayısının öncül verisini gösterir; konut başlangıçlarına göre birkaç ay önden öncü bir sinyaldir.",
         "market_impact": "Konut sektöründeki gelecek aktiviteye dair öncü bir gösterge olduğu için beklentiden sapmalar inşaat/emlak sektörüne yönelik beklentileri etkileyebilir; genel piyasa etkisi konut başlangıçlarına göre daha sınırlıdır.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
         "datetime_raw": "Tuesday, October 20, 2026 08:30",
@@ -220,12 +220,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Konut Başlangıçları",
-        "actual": "",
-        "forecast": "1.31M",
-        "previous": "1.275M",
+        "actual": "1.221M",
+        "forecast": "1.3M",
+        "previous": "1.288M",
         "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
         "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alanda öngörülenden zayıf bir görünüme işaret etti; bu durum Fed'in gevşek para politikasına yönelme ihtimalini güçlendirebileceği için riskli varlıkları destekleyebilirken doları baskılayabilir."
       },
       {
         "datetime_raw": "Tuesday, October 27, 2026 08:30",
@@ -236,7 +236,7 @@
         "event": "Dayanıklı Mal Siparişleri (Aylık)",
         "actual": "",
         "forecast": "",
-        "previous": "0",
+        "previous": "0%",
         "meaning": "Otomobil, uçak, makine gibi 3 yıldan uzun kullanım ömrüne sahip dayanıklı malların yeni siparişlerindeki aylık değişimi gösterir; iş dünyası yatırım iştahının öncü göstergesidir.",
         "market_impact": "Beklentinin üzerinde gelmesi işletmelerin yatırım iştahının güçlü kaldığına işaret eder; bu kalem genellikle uçak siparişleri gibi tekil büyük işlemlerden dolayı oynak olabileceği için piyasa genellikle 'ulaşım hariç' alt kalemine de bakar.",
         "summary": ""
@@ -249,7 +249,7 @@
         "impact_label": "High",
         "event": "Fed Faiz Kararı",
         "actual": "",
-        "forecast": "",
+        "forecast": "4%",
         "previous": "4%",
         "meaning": "FOMC'nin (Federal Açık Piyasa Komitesi) belirlediği, bankalar arası gecelik borçlanma faizi olan federal fon oranı hedef aralığını gösterir; ABD para politikasının temel aracıdır.",
         "market_impact": "Faiz artışı genellikle doları destekleyip riskli varlıklar üzerinde baskı yaratırken, faiz indirimi tam tersi yönde etki edebilir; faizin sabit tutulduğu durumlarda piyasa odağı genellikle karar metnindeki dile ve basın toplantısına kayar.",
@@ -306,7 +306,7 @@
         "event": "Kişisel Harcamalar (Aylık)",
         "actual": "",
         "forecast": "",
-        "previous": "0.9",
+        "previous": "0.9%",
         "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
         "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
         "summary": ""
@@ -320,7 +320,7 @@
         "event": "Çekirdek PCE Fiyat Endeksi (Aylık)",
         "actual": "",
         "forecast": "",
-        "previous": "0.2",
+        "previous": "0.2%",
         "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
         "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
         "summary": ""
@@ -557,12 +557,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "İnşaat İzinleri (Öncül)",
-          "actual": "",
-          "forecast": "1.4M",
+          "actual": "1.4M",
+          "forecast": "1.39M",
           "previous": "1.403M",
           "meaning": "Gelecekte başlanacak konut inşaatları için alınan izin sayısının öncül verisini gösterir; konut başlangıçlarına göre birkaç ay önden öncü bir sinyaldir.",
           "market_impact": "Konut sektöründeki gelecek aktiviteye dair öncü bir gösterge olduğu için beklentiden sapmalar inşaat/emlak sektörüne yönelik beklentileri etkileyebilir; genel piyasa etkisi konut başlangıçlarına göre daha sınırlıdır.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         },
         {
           "datetime_raw": "Tuesday, October 20, 2026 08:30",
@@ -571,12 +571,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Konut Başlangıçları",
-          "actual": "",
-          "forecast": "1.31M",
-          "previous": "1.275M",
+          "actual": "1.221M",
+          "forecast": "1.3M",
+          "previous": "1.288M",
           "meaning": "Bir ay içinde inşaatına başlanan yeni konut sayısını gösterir; inşaat sektörü ve faiz oranlarına duyarlı ekonomik aktivitenin öncü göstergesidir.",
           "market_impact": "Beklentinin üzerinde gelmesi konut/inşaat sektöründe canlılığa işaret eder; yüksek faiz ortamında beklenenden zayıf gelmesi faizlerin ekonomiyi yavaşlattığının bir işareti olarak okunabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin altında kalarak bu alanda öngörülenden zayıf bir görünüme işaret etti; bu durum Fed'in gevşek para politikasına yönelme ihtimalini güçlendirebileceği için riskli varlıkları destekleyebilirken doları baskılayabilir."
         }
       ]
     },
@@ -594,7 +594,7 @@
           "event": "Dayanıklı Mal Siparişleri (Aylık)",
           "actual": "",
           "forecast": "",
-          "previous": "0",
+          "previous": "0%",
           "meaning": "Otomobil, uçak, makine gibi 3 yıldan uzun kullanım ömrüne sahip dayanıklı malların yeni siparişlerindeki aylık değişimi gösterir; iş dünyası yatırım iştahının öncü göstergesidir.",
           "market_impact": "Beklentinin üzerinde gelmesi işletmelerin yatırım iştahının güçlü kaldığına işaret eder; bu kalem genellikle uçak siparişleri gibi tekil büyük işlemlerden dolayı oynak olabileceği için piyasa genellikle 'ulaşım hariç' alt kalemine de bakar.",
           "summary": ""
@@ -607,7 +607,7 @@
           "impact_label": "High",
           "event": "Fed Faiz Kararı",
           "actual": "",
-          "forecast": "",
+          "forecast": "4%",
           "previous": "4%",
           "meaning": "FOMC'nin (Federal Açık Piyasa Komitesi) belirlediği, bankalar arası gecelik borçlanma faizi olan federal fon oranı hedef aralığını gösterir; ABD para politikasının temel aracıdır.",
           "market_impact": "Faiz artışı genellikle doları destekleyip riskli varlıklar üzerinde baskı yaratırken, faiz indirimi tam tersi yönde etki edebilir; faizin sabit tutulduğu durumlarda piyasa odağı genellikle karar metnindeki dile ve basın toplantısına kayar.",
@@ -664,7 +664,7 @@
           "event": "Kişisel Harcamalar (Aylık)",
           "actual": "",
           "forecast": "",
-          "previous": "0.9",
+          "previous": "0.9%",
           "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
           "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
           "summary": ""
@@ -678,7 +678,7 @@
           "event": "Çekirdek PCE Fiyat Endeksi (Aylık)",
           "actual": "",
           "forecast": "",
-          "previous": "0.2",
+          "previous": "0.2%",
           "meaning": "Fed'in enflasyon hedeflemesinde resmi olarak esas aldığı, gıda ve enerji hariç kişisel tüketim harcamaları fiyat endeksinin aylık değişimidir.",
           "market_impact": "Fed'in en çok önem verdiği enflasyon göstergesi olduğu için piyasa tepkisi genellikle güçlüdür; beklentinin üzerinde gelmesi şahin, altında kalması güvercin bir sinyal olarak okunur.",
           "summary": ""
