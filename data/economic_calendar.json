@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22",
+  "generated_at": "2026-10-23",
   "country": "United States",
   "current_month": {
     "2026-10": [
@@ -277,8 +277,8 @@
         "impact_label": "High",
         "event": "Kişisel Gelir (Aylık)",
         "actual": "",
-        "forecast": "",
-        "previous": "0.2",
+        "forecast": "0.3%",
+        "previous": "0.2%",
         "meaning": "Hane halklarının bir ay içinde elde ettiği toplam gelirdeki yüzdesel değişimi gösterir; tüketici harcama kapasitesinin öncü göstergelerinden biridir.",
         "market_impact": "Beklentinin üzerinde gelmesi hane halkı gelirlerinin güçlü seyrettiğine işaret ederek tüketim harcamaları açısından olumlu okunabilir; zayıf gelmesi tüketici talebinde yavaşlama endişesi yaratabilir.",
         "summary": ""
@@ -291,7 +291,7 @@
         "impact_label": "High",
         "event": "GSYH Büyümesi (Çeyreklik, Öncül)",
         "actual": "",
-        "forecast": "",
+        "forecast": "3%",
         "previous": "2.2%",
         "meaning": "ABD ekonomisinin bir önceki çeyreğe göre yıllıklandırılmış büyüme oranının ilk (öncül) tahminini gösterir; ekonominin genel sağlığının en geniş kapsamlı ölçütüdür.",
         "market_impact": "Beklentinin üzerinde güçlü büyüme resesyon endişelerini azaltarak riskli varlıkları destekleyebilir; ancak aşırı güçlü veri enflasyonist baskı endişesiyle Fed'in şahin kalmasına da yol açabilir. Beklentinin belirgin altında kalması resesyon endişesini artırabilir.",
@@ -635,8 +635,8 @@
           "impact_label": "High",
           "event": "Kişisel Gelir (Aylık)",
           "actual": "",
-          "forecast": "",
-          "previous": "0.2",
+          "forecast": "0.3%",
+          "previous": "0.2%",
           "meaning": "Hane halklarının bir ay içinde elde ettiği toplam gelirdeki yüzdesel değişimi gösterir; tüketici harcama kapasitesinin öncü göstergelerinden biridir.",
           "market_impact": "Beklentinin üzerinde gelmesi hane halkı gelirlerinin güçlü seyrettiğine işaret ederek tüketim harcamaları açısından olumlu okunabilir; zayıf gelmesi tüketici talebinde yavaşlama endişesi yaratabilir.",
           "summary": ""
@@ -649,7 +649,7 @@
           "impact_label": "High",
           "event": "GSYH Büyümesi (Çeyreklik, Öncül)",
           "actual": "",
-          "forecast": "",
+          "forecast": "3%",
           "previous": "2.2%",
           "meaning": "ABD ekonomisinin bir önceki çeyreğe göre yıllıklandırılmış büyüme oranının ilk (öncül) tahminini gösterir; ekonominin genel sağlığının en geniş kapsamlı ölçütüdür.",
           "market_impact": "Beklentinin üzerinde güçlü büyüme resesyon endişelerini azaltarak riskli varlıkları destekleyebilir; ancak aşırı güçlü veri enflasyonist baskı endişesiyle Fed'in şahin kalmasına da yol açabilir. Beklentinin belirgin altında kalması resesyon endişesini artırabilir.",
