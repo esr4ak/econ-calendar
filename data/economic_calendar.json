@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25",
+  "generated_at": "2026-10-26",
   "country": "United States",
   "current_month": {
     "2026-10": [
@@ -235,10 +235,24 @@
         "impact_label": "High",
         "event": "Dayanıklı Mal Siparişleri (Aylık)",
         "actual": "",
-        "forecast": "0.6%",
+        "forecast": "1.5%",
         "previous": "0%",
         "meaning": "Otomobil, uçak, makine gibi 3 yıldan uzun kullanım ömrüne sahip dayanıklı malların yeni siparişlerindeki aylık değişimi gösterir; iş dünyası yatırım iştahının öncü göstergesidir.",
         "market_impact": "Beklentinin üzerinde gelmesi işletmelerin yatırım iştahının güçlü kaldığına işaret eder; bu kalem genellikle uçak siparişleri gibi tekil büyük işlemlerden dolayı oynak olabileceği için piyasa genellikle 'ulaşım hariç' alt kalemine de bakar.",
+        "summary": ""
+      },
+      {
+        "datetime_raw": "Wednesday, October 28, 2026 14:00",
+        "date": "2026-10-28",
+        "time": "14:00",
+        "impact": 3,
+        "impact_label": "High",
+        "event": "FOMC Statement",
+        "actual": "",
+        "forecast": "",
+        "previous": "",
+        "meaning": "",
+        "market_impact": "",
         "summary": ""
       },
       {
@@ -305,7 +319,7 @@
         "impact_label": "High",
         "event": "Kişisel Harcamalar (Aylık)",
         "actual": "",
-        "forecast": "0.3%",
+        "forecast": "0.5%",
         "previous": "0.9%",
         "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
         "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
@@ -593,10 +607,24 @@
           "impact_label": "High",
           "event": "Dayanıklı Mal Siparişleri (Aylık)",
           "actual": "",
-          "forecast": "0.6%",
+          "forecast": "1.5%",
           "previous": "0%",
           "meaning": "Otomobil, uçak, makine gibi 3 yıldan uzun kullanım ömrüne sahip dayanıklı malların yeni siparişlerindeki aylık değişimi gösterir; iş dünyası yatırım iştahının öncü göstergesidir.",
           "market_impact": "Beklentinin üzerinde gelmesi işletmelerin yatırım iştahının güçlü kaldığına işaret eder; bu kalem genellikle uçak siparişleri gibi tekil büyük işlemlerden dolayı oynak olabileceği için piyasa genellikle 'ulaşım hariç' alt kalemine de bakar.",
+          "summary": ""
+        },
+        {
+          "datetime_raw": "Wednesday, October 28, 2026 14:00",
+          "date": "2026-10-28",
+          "time": "14:00",
+          "impact": 3,
+          "impact_label": "High",
+          "event": "FOMC Statement",
+          "actual": "",
+          "forecast": "",
+          "previous": "",
+          "meaning": "",
+          "market_impact": "",
           "summary": ""
         },
         {
@@ -663,7 +691,7 @@
           "impact_label": "High",
           "event": "Kişisel Harcamalar (Aylık)",
           "actual": "",
-          "forecast": "0.3%",
+          "forecast": "0.5%",
           "previous": "0.9%",
           "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
           "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
