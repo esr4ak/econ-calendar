@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27",
+  "generated_at": "2026-10-28",
   "country": "United States",
   "current_month": {
     "2026-10": [
@@ -303,6 +303,20 @@
         "time": "08:30",
         "impact": 3,
         "impact_label": "High",
+        "event": "Kişisel Harcamalar (Aylık)",
+        "actual": "",
+        "forecast": "0.6%",
+        "previous": "0.9%",
+        "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
+        "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
+        "summary": ""
+      },
+      {
+        "datetime_raw": "Thursday, October 29, 2026 08:30",
+        "date": "2026-10-29",
+        "time": "08:30",
+        "impact": 3,
+        "impact_label": "High",
         "event": "GSYH Büyümesi (Çeyreklik, Öncül)",
         "actual": "",
         "forecast": "3.2%",
@@ -323,20 +337,6 @@
         "previous": "0.2%",
         "meaning": "Hane halklarının bir ay içinde elde ettiği toplam gelirdeki yüzdesel değişimi gösterir; tüketici harcama kapasitesinin öncü göstergelerinden biridir.",
         "market_impact": "Beklentinin üzerinde gelmesi hane halkı gelirlerinin güçlü seyrettiğine işaret ederek tüketim harcamaları açısından olumlu okunabilir; zayıf gelmesi tüketici talebinde yavaşlama endişesi yaratabilir.",
-        "summary": ""
-      },
-      {
-        "datetime_raw": "Thursday, October 29, 2026 08:30",
-        "date": "2026-10-29",
-        "time": "08:30",
-        "impact": 3,
-        "impact_label": "High",
-        "event": "Kişisel Harcamalar (Aylık)",
-        "actual": "",
-        "forecast": "0.5%",
-        "previous": "0.9%",
-        "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
-        "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
         "summary": ""
       }
     ]
@@ -675,6 +675,20 @@
           "time": "08:30",
           "impact": 3,
           "impact_label": "High",
+          "event": "Kişisel Harcamalar (Aylık)",
+          "actual": "",
+          "forecast": "0.6%",
+          "previous": "0.9%",
+          "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
+          "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
+          "summary": ""
+        },
+        {
+          "datetime_raw": "Thursday, October 29, 2026 08:30",
+          "date": "2026-10-29",
+          "time": "08:30",
+          "impact": 3,
+          "impact_label": "High",
           "event": "GSYH Büyümesi (Çeyreklik, Öncül)",
           "actual": "",
           "forecast": "3.2%",
@@ -695,20 +709,6 @@
           "previous": "0.2%",
           "meaning": "Hane halklarının bir ay içinde elde ettiği toplam gelirdeki yüzdesel değişimi gösterir; tüketici harcama kapasitesinin öncü göstergelerinden biridir.",
           "market_impact": "Beklentinin üzerinde gelmesi hane halkı gelirlerinin güçlü seyrettiğine işaret ederek tüketim harcamaları açısından olumlu okunabilir; zayıf gelmesi tüketici talebinde yavaşlama endişesi yaratabilir.",
-          "summary": ""
-        },
-        {
-          "datetime_raw": "Thursday, October 29, 2026 08:30",
-          "date": "2026-10-29",
-          "time": "08:30",
-          "impact": 3,
-          "impact_label": "High",
-          "event": "Kişisel Harcamalar (Aylık)",
-          "actual": "",
-          "forecast": "0.5%",
-          "previous": "0.9%",
-          "meaning": "Hane halklarının bir ay içindeki toplam tüketim harcamalarındaki yüzdesel değişimi gösterir; ABD GSYH'sinin en büyük bileşeni olan tüketici harcamalarını doğrudan ölçer.",
-          "market_impact": "Beklentinin üzerinde gelmesi güçlü tüketici talebine işaret ederek riskli varlıkları destekleyebilir; ancak aşırı güçlü harcama verisi enflasyon endişesiyle de ilişkilendirilebilir.",
           "summary": ""
         }
       ]
