@@ -38,12 +38,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "ISM Hizmet PMI",
-        "actual": "",
+        "actual": "54.5",
         "forecast": "54.8",
         "previous": "54.9",
         "meaning": "ABD ekonomisinin büyük bölümünü oluşturan hizmet sektöründeki satın alma yöneticilerine yapılan ankete dayanır; 50 üzeri büyümeye, 50 altı daralmaya işaret eder.",
         "market_impact": "Hizmet sektörü ABD ekonomisinin en büyük bileşeni olduğu için bu veri genel büyüme görünümü açısından yakından izlenir; beklentinin üzerinde gelmesi genellikle doları ve risk iştahını destekler, altında kalması tam tersi etki yapabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
         "datetime_raw": "Friday, November 06, 2026 08:30",
@@ -326,12 +326,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "ISM Hizmet PMI",
-          "actual": "",
+          "actual": "54.5",
           "forecast": "54.8",
           "previous": "54.9",
           "meaning": "ABD ekonomisinin büyük bölümünü oluşturan hizmet sektöründeki satın alma yöneticilerine yapılan ankete dayanır; 50 üzeri büyümeye, 50 altı daralmaya işaret eder.",
           "market_impact": "Hizmet sektörü ABD ekonomisinin en büyük bileşeni olduğu için bu veri genel büyüme görünümü açısından yakından izlenir; beklentinin üzerinde gelmesi genellikle doları ve risk iştahını destekler, altında kalması tam tersi etki yapabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         },
         {
           "datetime_raw": "Friday, November 06, 2026 08:30",
@@ -1124,7 +1124,7 @@
         "impact": 3,
         "impact_label": "High",
         "event": "JOLTs Açık İş Sayısı",
-        "actual": "7.079M",
+        "actual": "7.19M",
         "forecast": "7.225M",
         "previous": "7.335M",
         "meaning": "ABD'de ay sonu itibarıyla doldurulmayı bekleyen açık iş pozisyonu sayısını gösterir; işgücü talebinin ve piyasadaki gerginliğin öncü bir göstergesidir.",
