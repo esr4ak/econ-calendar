@@ -52,12 +52,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Tarım Dışı İstihdam",
-        "actual": "",
+        "actual": "165K",
         "forecast": "65K",
-        "previous": "29K",
+        "previous": "60K",
         "meaning": "ABD'de tarım sektörü dışındaki işyerlerinde bir ay içinde eklenen net istihdam sayısını gösterir; ABD Çalışma Bakanlığı tarafından her ayın ilk Cuma günü yayınlanır ve işgücü piyasasının en çok izlenen göstergesidir.",
         "market_impact": "Beklentinin belirgin üzerinde gelmesi güçlü istihdam piyasasına işaret eder ve genellikle doları destekler; beklentinin altında kalması Fed'in faiz indirimine gidebileceği ihtimalini güçlendirdiği için riskli varlıkları (kripto, hisse senedi) destekleyebilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
       },
       {
         "datetime_raw": "Friday, November 06, 2026 08:30",
@@ -66,12 +66,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "İşsizlik Oranı",
-        "actual": "",
+        "actual": "4.1%",
         "forecast": "4.2%",
         "previous": "4.2%",
         "meaning": "İşgücüne dahil olup aktif olarak iş arayan ancak istihdam edilemeyen kişilerin toplam işgücüne oranını gösterir; işgücü piyasasının genel sağlığının temel göstergesidir.",
         "market_impact": "Beklentinin üzerinde (daha yüksek) gelmesi işgücü piyasasında zayıflamaya işaret eder ve Fed'in faiz indirimine daha yakın durabileceği düşüncesiyle riskli varlıkları destekleyebilirken doları baskılayabilir; beklentinin altında kalması tam tersi yönde çalışabilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
         "datetime_raw": "Friday, November 06, 2026 10:00",
@@ -80,12 +80,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "Michigan Tüketici Güveni (Öncül)",
-        "actual": "",
+        "actual": "51",
         "forecast": "48",
         "previous": "46.3",
         "meaning": "Michigan Üniversitesi'nin tüketicilerin kişisel finansal durumları ve genel ekonomiye ilişkin algısını ölçen anketinin öncül (ay ortası) sonucudur.",
         "market_impact": "Beklentinin üzerinde gelmesi tüketici güveninin güçlendiğine ve harcama iştahının sürebileceğine işaret eder; zayıf gelmesi tüketici davranışında temkinliliğe işaret edebilir.",
-        "summary": ""
+        "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
       },
       {
         "datetime_raw": "Tuesday, November 10, 2026 08:30",
@@ -109,7 +109,7 @@
         "impact_label": "High",
         "event": "Çekirdek TÜFE (Yıllık)",
         "actual": "",
-        "forecast": "",
+        "forecast": "2.8%",
         "previous": "2.6%",
         "meaning": "Gıda ve enerji hariç tutularak hesaplanan TÜFE'nin yıllık değişimini gösterir; Fed'in politika kararlarında en çok referans aldığı enflasyon ölçütlerinden biridir.",
         "market_impact": "Beklentinin üzerinde gelmesi çekirdek enflasyonun inatçı kaldığına işaret ederek Fed'in şahin duruşunu destekler; beklentinin altında kalması gevşeme ihtimalini güçlendirebilir.",
@@ -151,7 +151,7 @@
         "impact_label": "High",
         "event": "İkinci El Konut Satışları",
         "actual": "",
-        "forecast": "3.98M",
+        "forecast": "3.86M",
         "previous": "3.99M",
         "meaning": "Bir ay içinde el değiştiren ikinci el konut sayısını gösterir; ABD konut piyasasının büyük bölümünü (yeni konutlardan çok daha fazlasını) oluşturur.",
         "market_impact": "Beklentinin üzerinde gelmesi konut piyasasında ve tüketici güveninde canlılığa işaret eder; mortgage faizlerine oldukça duyarlı olduğu için beklenenden zayıf veri yüksek faiz ortamının etkisini yansıtıyor olabilir.",
@@ -340,12 +340,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Tarım Dışı İstihdam",
-          "actual": "",
+          "actual": "165K",
           "forecast": "65K",
-          "previous": "29K",
+          "previous": "60K",
           "meaning": "ABD'de tarım sektörü dışındaki işyerlerinde bir ay içinde eklenen net istihdam sayısını gösterir; ABD Çalışma Bakanlığı tarafından her ayın ilk Cuma günü yayınlanır ve işgücü piyasasının en çok izlenen göstergesidir.",
           "market_impact": "Beklentinin belirgin üzerinde gelmesi güçlü istihdam piyasasına işaret eder ve genellikle doları destekler; beklentinin altında kalması Fed'in faiz indirimine gidebileceği ihtimalini güçlendirdiği için riskli varlıkları (kripto, hisse senedi) destekleyebilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
         },
         {
           "datetime_raw": "Friday, November 06, 2026 08:30",
@@ -354,12 +354,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "İşsizlik Oranı",
-          "actual": "",
+          "actual": "4.1%",
           "forecast": "4.2%",
           "previous": "4.2%",
           "meaning": "İşgücüne dahil olup aktif olarak iş arayan ancak istihdam edilemeyen kişilerin toplam işgücüne oranını gösterir; işgücü piyasasının genel sağlığının temel göstergesidir.",
           "market_impact": "Beklentinin üzerinde (daha yüksek) gelmesi işgücü piyasasında zayıflamaya işaret eder ve Fed'in faiz indirimine daha yakın durabileceği düşüncesiyle riskli varlıkları destekleyebilirken doları baskılayabilir; beklentinin altında kalması tam tersi yönde çalışabilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
         },
         {
           "datetime_raw": "Friday, November 06, 2026 10:00",
@@ -368,12 +368,12 @@
           "impact": 3,
           "impact_label": "High",
           "event": "Michigan Tüketici Güveni (Öncül)",
-          "actual": "",
+          "actual": "51",
           "forecast": "48",
           "previous": "46.3",
           "meaning": "Michigan Üniversitesi'nin tüketicilerin kişisel finansal durumları ve genel ekonomiye ilişkin algısını ölçen anketinin öncül (ay ortası) sonucudur.",
           "market_impact": "Beklentinin üzerinde gelmesi tüketici güveninin güçlendiğine ve harcama iştahının sürebileceğine işaret eder; zayıf gelmesi tüketici davranışında temkinliliğe işaret edebilir.",
-          "summary": ""
+          "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alanda öngörülenden güçlü bir görünüme işaret etti; bu tür sürpriz güçlü veriler genellikle risk iştahını ve doları destekler."
         }
       ]
     },
@@ -404,7 +404,7 @@
           "impact_label": "High",
           "event": "Çekirdek TÜFE (Yıllık)",
           "actual": "",
-          "forecast": "",
+          "forecast": "2.8%",
           "previous": "2.6%",
           "meaning": "Gıda ve enerji hariç tutularak hesaplanan TÜFE'nin yıllık değişimini gösterir; Fed'in politika kararlarında en çok referans aldığı enflasyon ölçütlerinden biridir.",
           "market_impact": "Beklentinin üzerinde gelmesi çekirdek enflasyonun inatçı kaldığına işaret ederek Fed'in şahin duruşunu destekler; beklentinin altında kalması gevşeme ihtimalini güçlendirebilir.",
@@ -446,7 +446,7 @@
           "impact_label": "High",
           "event": "İkinci El Konut Satışları",
           "actual": "",
-          "forecast": "3.98M",
+          "forecast": "3.86M",
           "previous": "3.99M",
           "meaning": "Bir ay içinde el değiştiren ikinci el konut sayısını gösterir; ABD konut piyasasının büyük bölümünü (yeni konutlardan çok daha fazlasını) oluşturur.",
           "market_impact": "Beklentinin üzerinde gelmesi konut piyasasında ve tüketici güveninde canlılığa işaret eder; mortgage faizlerine oldukça duyarlı olduğu için beklenenden zayıf veri yüksek faiz ortamının etkisini yansıtıyor olabilir.",
