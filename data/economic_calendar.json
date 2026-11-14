@@ -688,9 +688,9 @@
         "impact": 3,
         "impact_label": "High",
         "event": "ÜFE (Aylık)",
-        "actual": "1.3%",
+        "actual": "1.4%",
         "forecast": "0.5%",
-        "previous": "0.5%",
+        "previous": "0.4%",
         "meaning": "Üreticilerin sattığı mal ve hizmetlerin toptan fiyatlarındaki aylık değişimi gösterir; tüketici enflasyonuna (TÜFE) birkaç ay önden öncü bir sinyal olarak izlenir.",
         "market_impact": "Beklentinin üzerinde gelmesi üretici maliyetlerindeki artışın ileride tüketici fiyatlarına yansıyabileceğine işaret ederek enflasyon endişesini artırabilir; altında kalması tam tersi yönde rahatlatıcı olabilir.",
         "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alandaki baskının öngörülenden güçlü olduğuna işaret etti; bu tür sürpriz yüksek okumalar Fed'in şahin duruşunu sürdürme ihtimalini artırdığı için riskli varlıklar üzerinde baskı yaratabilir."
@@ -900,12 +900,12 @@
         "impact": 3,
         "impact_label": "High",
         "event": "ÜFE (Aylık)",
-        "actual": "0.5%",
+        "actual": "0.4%",
         "forecast": "0.4%",
-        "previous": "0.2%",
+        "previous": "0.1%",
         "meaning": "Üreticilerin sattığı mal ve hizmetlerin toptan fiyatlarındaki aylık değişimi gösterir; tüketici enflasyonuna (TÜFE) birkaç ay önden öncü bir sinyal olarak izlenir.",
         "market_impact": "Beklentinin üzerinde gelmesi üretici maliyetlerindeki artışın ileride tüketici fiyatlarına yansıyabileceğine işaret ederek enflasyon endişesini artırabilir; altında kalması tam tersi yönde rahatlatıcı olabilir.",
-        "summary": "Açıklanan veri, piyasa beklentisinin üzerinde gelerek bu alandaki baskının öngörülenden güçlü olduğuna işaret etti; bu tür sürpriz yüksek okumalar Fed'in şahin duruşunu sürdürme ihtimalini artırdığı için riskli varlıklar üzerinde baskı yaratabilir."
+        "summary": "Açıklanan veri, piyasa beklentisiyle büyük ölçüde uyumlu geldi; belirgin bir sürpriz olmadığı için piyasa tepkisinin sınırlı kalması bekleniyor."
       },
       {
         "datetime_raw": "Thursday, September 10, 2026 10:00",
